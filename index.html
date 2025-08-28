@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Exam System with SBERT</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.10.0/dist/tf.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder@1.3.3/dist/universal-sentence-encoder.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>Engineering Exam System</h2>
+            </div>
+            <div class="nav-links">
+                <button id="homeBtn" class="btn btn--outline">Home</button>
+                <button id="loginBtn" class="btn btn--primary">Login</button>
+                <button id="logoutBtn" class="btn btn--secondary hidden">Logout</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="sbertLoadingStatus" class="hidden"></div>
+    <div id="sbertStatus"></div>
+
+    <div id="homeScreen" class="screen">
+        <div class="container">
+            <div class="hero-section">
+                <h1>Comprehensive Engineering Examination Platform</h1>
+                <p>Advanced assessment system with AI-powered descriptive answer evaluation using SBERT</p>
+                <div class="hero-actions">
+                    <button id="adminLoginBtn" class="btn btn--primary btn--lg">Admin Login</button>
+                    <button id="studentLoginBtn" class="btn btn--primary btn--lg">Student Login</button>
+                </div>
+            </div>
+
+            <div class="features-grid stats-grid">
+                <div class="card">
+                    <div class="card__body">
+                        <h3>750+ Questions</h3>
+                        <p>Comprehensive question bank across core engineering subjects covering CSE, EEE, ECE, Civil, and Mechanical Engineering</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__body">
+                        <h3>🤖 AI-Powered Evaluation</h3>
+                        <p>Automatic evaluation of descriptive answers using SBERT semantic similarity analysis with manual fallback</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__body">
+                        <h3>📝 Manual Evaluation</h3>
+                        <p>Keyword-based manual evaluation system ensures all answers are scored even when AI is unavailable</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__body">
+                        <h3>🔒 Secure Environment</h3>
+                        <p>Distraction-free examination environment with fullscreen mode and browser monitoring</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="loginScreen" class="screen hidden">
+        <div class="container">
+            <div class="login-container">
+                <div class="card">
+                    <div class="card__body">
+                        <h2 id="loginTitle" class="text-center">Login</h2>
+                        <form id="loginForm">
+                            <div class="form-group">
+                                <label class="form-label" for="loginEmail">Email</label>
+                                <input type="email" id="loginEmail" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="loginPassword">Password</label>
+                                <input type="password" id="loginPassword" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="rememberMe">
+                                    Remember me
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--full-width">Login</button>
+                        </form>
+                        <div id="registerLink" class="text-center mt-16">
+                            <p>Don't have an account? <a href="#" id="showRegister">Register here</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="registerScreen" class="screen hidden">
+        <div class="container">
+            <div class="login-container">
+                <div class="card">
+                    <div class="card__body">
+                        <h2 class="text-center">Register</h2>
+                        <form id="registerForm">
+                            <div class="form-group">
+                                <label class="form-label" for="registerName">Full Name</label>
+                                <input type="text" id="registerName" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="registerEmail">Email</label>
+                                <input type="email" id="registerEmail" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="registerPassword">Password</label>
+                                <input type="password" id="registerPassword" class="form-control" required>
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--full-width">Register</button>
+                        </form>
+                        <div class="text-center mt-16">
+                            <p>Already have an account? <a href="#" id="showLogin">Login here</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="adminDashboard" class="screen hidden">
+        <div class="container">
+            <div class="dashboard-header">
+                <h1 id="adminWelcome">Welcome, Admin</h1>
+                <nav class="admin-nav">
+                    <button id="adminStatsTabBtn" class="btn btn--primary">Statistics</button>
+                    <button id="adminQuestionsTabBtn" class="btn btn--secondary">Questions</button>
+                    <button id="adminResultsTabBtn" class="btn btn--secondary">Results</button>
+                    <button id="adminUsersTabBtn" class="btn btn--secondary">Users</button>
+                    <button id="adminSBERTTabBtn" class="btn btn--secondary">SBERT Config</button>
+                </nav>
+            </div>
+
+
+            <div id="adminStatsTab" class="tab-content">
+                <div class="stats-grid">
+                    <div class="stat-card card">
+                        <div class="card__body">
+                            <h3>Total Questions</h3>
+                            <div id="totalQuestionsCount" class="stat-number">750</div>
+                        </div>
+                    </div>
+                    <div class="stat-card card">
+                        <div class="card__body">
+                            <h3>Registered Students</h3>
+                            <div id="totalStudentsCount" class="stat-number">0</div>
+                        </div>
+                    </div>
+                    <div class="stat-card card">
+                        <div class="card__body">
+                            <h3>Exams Taken</h3>
+                            <div id="totalExamsCount" class="stat-number">0</div>
+                        </div>
+                    </div>
+                    <div class="stat-card card">
+                        <div class="card__body">
+                            <h3>Average Score</h3>
+                            <div id="averageScorePercent" class="stat-number">N/A</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="disciplineBreakdown"></div>
+            </div>
+
+
+            <div id="adminQuestionsTab" class="tab-content hidden">
+                <div class="section-header">
+                    <h2>Question Bank Management</h2>
+                </div>
+                <div id="questionsList"></div>
+            </div>
+
+            <div id="adminResultsTab" class="tab-content hidden">
+                <div class="section-header">
+                    <h2>Exam Results</h2>
+                </div>
+                <div id="allResultsList"></div>
+            </div>
+
+            <div id="adminUsersTab" class="tab-content hidden">
+                <div class="section-header">
+                    <h2>User Management</h2>
+                </div>
+                <div id="usersList"></div>
+            </div>
+
+            <div id="adminSBERTTab" class="tab-content hidden">
+                <div class="section-header">
+                    <h2>SBERT Auto-Evaluation Configuration</h2>
+                    <p>Configure AI and manual evaluation settings for descriptive answers</p>
+                </div>
+                <div id="sbertConfigContainer"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="studentDashboard" class="screen hidden">
+        <div class="container">
+            <div class="dashboard-header">
+                <h1 id="studentWelcome">Welcome, Student</h1>
+                <nav class="student-nav">
+                    <button id="examTabBtn" class="btn btn--primary">Take Exam</button>
+                    <button id="myResultsTabBtn" class="btn btn--secondary">My Results</button>
+                </nav>
+            </div>
+
+
+            <div id="examTab" class="tab-content">
+                <div class="section-header">
+                    <h2>Available Subjects</h2>
+                    <p>Select a subject to begin your examination. Each exam contains 8 MCQs + 2 descriptive questions.</p>
+                </div>
+                <div id="availableSubjects" class="subjects-grid"></div>
+            </div>
+
+            <div id="myResultsTab" class="tab-content hidden">
+                <div class="section-header">
+                    <h2>My Exam Results</h2>
+                    <p>View your examination history and detailed performance analysis</p>
+                </div>
+                <div id="studentResultsList"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="examScreen" class="screen hidden">
+        <div class="exam-header">
+            <div class="container">
+                <div class="exam-info">
+                    <div>
+                        <h3 id="examSubjectName">Subject Name</h3>
+                        <div class="exam-progress">
+                            Question <span id="currentQuestionNum">1</span> of <span id="totalQuestions">10</span>
+                        </div>
+                    </div>
+                    <div class="exam-timer" id="examTimer">30:00</div>
+                    <button id="exitFullscreenBtn" class="btn btn--secondary btn--sm">Exit Fullscreen</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="exam-content">
+            <div class="container">
+                <div id="questionContainer" class="question-container"></div>
+                <div class="exam-navigation">
+                    <button id="prevQuestionBtn" class="btn btn--secondary">Previous</button>
+                    <div class="flex gap-16">
+                        <button id="submitExamBtn" class="btn btn--primary">Submit Exam</button>
+                    </div>
+                    <button id="nextQuestionBtn" class="btn btn--secondary">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="resultsScreen" class="screen hidden">
+        <div class="container">
+            <div id="resultsContent"></div>
+            <div class="text-center mt-16">
+                <button id="backToDashboardBtn" class="btn btn--primary">Back to Dashboard</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="loadingModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <div class="loading-spinner"></div>
+                <p>Loading question bank...</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="fullscreenWarningModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Fullscreen Required</h3>
+            </div>
+            <div class="modal-body">
+                <p>You have exited fullscreen mode. Please return to fullscreen to continue your exam.</p>
+                <div class="modal-actions">
+                    <button id="returnFullscreenBtn" class="btn btn--primary">Return to Fullscreen</button>
+                    <button id="exitExamBtn" class="btn btn--secondary">Exit Exam</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="sbert-evaluator.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "engineering-exam-system-sbert-fixed",
+  "version": "2.1.0",
+  "description": "Engineering examination platform with SBERT AI evaluation and manual evaluation fallback",
+  "main": "app.js",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.10.0",
+    "@tensorflow-models/universal-sentence-encoder": "^1.3.3"
+  },
+  "keywords": [
+    "examination-system",
+    "sbert",
+    "manual-evaluation",
+    "semantic-similarity",
+    "nlp",
+    "tensorflow-js",
+    "education",
+    "ai-evaluation",
+    "descriptive-answers"
+  ],
+  "author": "Engineering Exam System Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

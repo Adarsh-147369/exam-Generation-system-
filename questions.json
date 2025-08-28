@@ -1,0 +1,486 @@
+{
+  "CSE": {
+    "Programming Languages & Programming Fundamentals": [
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "Which of the following is the correct way to declare a variable in C++?",
+        "answer": "int variable2;",
+        "explanation": "Variable names cannot start with a digit in C++. They must start with a letter or underscore.",
+        "options": [
+          "int 2variable;",
+          "int variable2;",
+          "2int variable;",
+          "variable int;"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "What is the output of the following C code?\n```c\nint x = 5;\nprintf(\"%d\", ++x);\n```",
+        "answer": "6",
+        "explanation": "++x is pre-increment operator which increments x first then uses its value.",
+        "options": [
+          "5",
+          "6",
+          "Error",
+          "Undefined"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Medium",
+        "question": "What is the size of a pointer in a 64-bit system?",
+        "answer": "8 bytes",
+        "explanation": "In a 64-bit system, pointers are 8 bytes (64 bits) regardless of the data type they point to.",
+        "options": [
+          "4 bytes",
+          "8 bytes",
+          "16 bytes",
+          "Depends on data type"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Hard",
+        "question": "What is the time complexity of accessing an element in an array by index?",
+        "answer": "O(1)",
+        "explanation": "Array elements can be accessed directly using index calculation, making it constant time O(1).",
+        "options": [
+          "O(1)",
+          "O(n)",
+          "O(log n)",
+          "O(n²)"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "What does the term \"syntax\" refer to in programming?",
+        "answer": "The rules for writing code correctly",
+        "explanation": "Syntax defines the structure and rules for writing valid programs in a language.",
+        "options": [
+          "The style of programming",
+          "The rules for writing code correctly",
+          "The output of a program",
+          "The hardware on which code runs"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "What is the purpose of a compiler?",
+        "answer": "To convert source code into machine code",
+        "explanation": "A compiler translates human-readable source code into machine code.",
+        "options": [
+          "To execute the code directly",
+          "To convert source code into machine code",
+          "To debug programs",
+          "To store variables"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "Which of these is a primitive data type in most languages?",
+        "answer": "Integer",
+        "explanation": "Integers are basic primitive data types representing whole numbers.",
+        "options": [
+          "String",
+          "List",
+          "Integer",
+          "Object"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "Which loop executes at least once regardless of the condition?",
+        "answer": "do-while loop",
+        "explanation": "The do-while loop runs the loop body once before testing the condition.",
+        "options": [
+          "for loop",
+          "while loop",
+          "do-while loop",
+          "none of these"
+        ]
+      },
+      {
+        "type": "Descriptive",
+        "difficulty": "Basic",
+        "question": "Explain the concept of variables in programming. Include their purpose, types, and scope with examples.",
+        "answer": "Variables are memory locations that hold data values during program execution. They have specific types like int for integers, float for decimal numbers, and char for characters. Variables have scope which determines where they can be accessed - local variables exist within functions while global variables are accessible throughout the program. For example, declaring 'int age = 25;' creates an integer variable named age with value 25.",
+        "explanation": "Variables are fundamental programming constructs for storing and manipulating data."
+      },
+      {
+        "type": "Descriptive",
+        "difficulty": "Basic",
+        "question": "Describe the difference between compiled and interpreted programming languages. Provide examples.",
+        "answer": "Compiled languages like C++ and Java transform source code into machine code before execution using a compiler. This results in faster runtime performance but requires compilation step. Interpreted languages like Python and JavaScript execute code line-by-line at runtime using an interpreter. This enables dynamic execution and easier debugging but slower performance compared to compiled languages.",
+        "explanation": "The key difference lies in when source code is translated to executable form."
+      }
+    ],
+    "Data Structures & Algorithms": [
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "What is the time complexity of inserting an element at the end of an array?",
+        "answer": "O(1)",
+        "explanation": "Inserting at the end of an array takes constant time as we directly access the last position.",
+        "options": [
+          "O(1)",
+          "O(n)",
+          "O(log n)",
+          "O(n²)"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Medium",
+        "question": "Which data structure follows Last In First Out (LIFO) principle?",
+        "answer": "Stack",
+        "explanation": "Stack follows LIFO principle where the last element added is the first to be removed.",
+        "options": [
+          "Queue",
+          "Stack",
+          "Linked List",
+          "Array"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Medium",
+        "question": "What is the worst-case time complexity of Quick Sort?",
+        "answer": "O(n²)",
+        "explanation": "Quick Sort has O(n²) worst-case complexity when the pivot is always the smallest or largest element.",
+        "options": [
+          "O(n log n)",
+          "O(n²)",
+          "O(n)",
+          "O(log n)"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Hard",
+        "question": "In a binary search tree, what is the time complexity for searching an element in the worst case?",
+        "answer": "O(n)",
+        "explanation": "In the worst case (skewed tree), BST degenerates to a linked list with O(n) search time.",
+        "options": [
+          "O(1)",
+          "O(log n)",
+          "O(n)",
+          "O(n log n)"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "Which of the following is NOT a linear data structure?",
+        "answer": "Tree",
+        "explanation": "Trees are hierarchical non-linear data structures, while others are linear.",
+        "options": [
+          "Array",
+          "Stack",
+          "Queue",
+          "Tree"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Medium",
+        "question": "What is the space complexity of merge sort algorithm?",
+        "answer": "O(n)",
+        "explanation": "Merge sort requires additional O(n) space for temporary arrays during merging.",
+        "options": [
+          "O(1)",
+          "O(n)",
+          "O(log n)",
+          "O(n log n)"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "Which operation is NOT typically associated with a stack?",
+        "answer": "Dequeue",
+        "explanation": "Dequeue is a queue operation. Stack operations are push, pop, and peek/top.",
+        "options": [
+          "Push",
+          "Pop",
+          "Peek",
+          "Dequeue"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Medium",
+        "question": "In a hash table with chaining, what happens when two keys hash to the same index?",
+        "answer": "Both values are stored in a linked list at that index",
+        "explanation": "Chaining handles collisions by storing multiple values in a linked list at the same index.",
+        "options": [
+          "The second value overwrites the first",
+          "Both values are stored in a linked list at that index",
+          "The second value is discarded",
+          "An error occurs"
+        ]
+      },
+      {
+        "type": "Descriptive",
+        "difficulty": "Medium",
+        "question": "Explain the concept of Big O notation and its importance in algorithm analysis. Give examples.",
+        "answer": "Big O notation describes the upper bound of an algorithm's time or space complexity as input size grows. It helps compare algorithmic efficiency by focusing on growth rates rather than exact execution times. Examples include O(1) for constant time operations like array access, O(n) for linear operations like searching unsorted arrays, O(log n) for binary search, and O(n²) for nested loops. This notation is crucial for selecting optimal algorithms for large datasets.",
+        "explanation": "Big O notation is fundamental for analyzing and comparing algorithm performance."
+      },
+      {
+        "type": "Descriptive",
+        "difficulty": "Medium",
+        "question": "Compare and contrast arrays and linked lists. Discuss their advantages and disadvantages.",
+        "answer": "Arrays store elements in contiguous memory locations with fixed size and direct index access in O(1) time. They offer memory efficiency and cache locality but have fixed size and expensive insertion/deletion operations. Linked lists store elements in nodes with pointers, allowing dynamic size and O(1) insertion/deletion at known positions. However, they require extra memory for pointers and have O(n) sequential access time. Arrays are better for frequent random access while linked lists excel at frequent insertions and deletions.",
+        "explanation": "Both data structures have specific use cases based on required operations and memory constraints."
+      }
+    ]
+  },
+  "EEE": {
+    "Circuit Theory": [
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "What is a closed circuit?",
+        "answer": "A circuit where current has a complete path to flow",
+        "explanation": "In a closed circuit, the current flows uninterruptedly through a continuous loop.",
+        "options": [
+          "A circuit with no current",
+          "A circuit where current has a complete path to flow",
+          "A broken circuit",
+          "An open circuit"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "Ohm's law states that:",
+        "answer": "V = IR",
+        "explanation": "Ohm's law defines the relationship between voltage (V), current (I), and resistance (R).",
+        "options": [
+          "Current is proportional to resistance",
+          "V = IR",
+          "Power equals voltage squared",
+          "Resistance equals current times voltage"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Medium",
+        "question": "What is the equivalent resistance of two resistors 4Ω and 6Ω in series?",
+        "answer": "10Ω",
+        "explanation": "In series, resistances add: 4 + 6 = 10Ω.",
+        "options": [
+          "2.4Ω",
+          "10Ω",
+          "24Ω",
+          "0.6Ω"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Medium",
+        "question": "Which law states that the algebraic sum of currents entering a node is zero?",
+        "answer": "Kirchhoff's Current Law",
+        "explanation": "KCL defines conservation of charge at junctions.",
+        "options": [
+          "Kirchhoff's Voltage Law",
+          "Ohm's Law",
+          "Kirchhoff's Current Law",
+          "Faraday's Law"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Hard",
+        "question": "What is the time constant of an RC circuit?",
+        "answer": "τ = RC",
+        "explanation": "Time constant τ determines the charging/discharging rate of capacitor.",
+        "options": [
+          "R + C",
+          "τ = RC",
+          "R/C",
+          "C/R"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Medium",
+        "question": "In an AC circuit, the current leads the voltage in a:",
+        "answer": "Capacitive circuit",
+        "explanation": "In capacitive circuits, current leads voltage due to capacitive reactance.",
+        "options": [
+          "Resistive circuit",
+          "Inductive circuit",
+          "Capacitive circuit",
+          "None of these"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "What unit is used to measure resistance?",
+        "answer": "Ohm",
+        "explanation": "Resistance is measured in ohms (Ω).",
+        "options": [
+          "Volt",
+          "Ohm",
+          "Ampere",
+          "Watt"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Medium",
+        "question": "The power factor of an ideal resistive circuit is:",
+        "answer": "1",
+        "explanation": "In resistive circuits voltage and current are in phase, so power factor is 1.",
+        "options": [
+          "0",
+          "0.5",
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "type": "Descriptive",
+        "difficulty": "Basic",
+        "question": "Explain Kirchhoff's Current Law and its application in circuit analysis.",
+        "answer": "Kirchhoff's Current Law states that the algebraic sum of currents entering any node in a circuit equals zero. This is based on the conservation of electric charge principle. At any junction, the total current flowing into the node must equal the total current flowing out. This law is fundamental for analyzing complex circuits using nodal analysis method. It helps determine unknown currents in network analysis and forms the basis for writing equations to solve circuit problems.",
+        "explanation": "KCL is essential for systematic circuit analysis based on charge conservation."
+      },
+      {
+        "type": "Descriptive",
+        "difficulty": "Medium",
+        "question": "Explain the difference between series and parallel circuits with examples and their characteristics.",
+        "answer": "In series circuits, components are connected end-to-end in a single path, sharing the same current while voltage divides across components. Total resistance equals the sum of individual resistances. If one component fails, the entire circuit breaks. In parallel circuits, components are connected across common points, sharing the same voltage while current divides through different paths. Total resistance is less than the smallest individual resistance. Each component can operate independently. Series circuits are used in Christmas lights, while parallel circuits are used in household wiring.",
+        "explanation": "Series and parallel configurations have distinct voltage, current, and resistance characteristics."
+      }
+    ],
+    "Electrical Machines": [
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "What is the main function of a transformer?",
+        "answer": "To change voltage levels",
+        "explanation": "Transformers are used to step up or step down AC voltage levels.",
+        "options": [
+          "To convert AC to DC",
+          "To change voltage levels",
+          "To generate electricity",
+          "To store electrical energy"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Medium",
+        "question": "In a DC motor, the direction of rotation can be reversed by:",
+        "answer": "Reversing either field or armature current",
+        "explanation": "Reversing either field or armature current (but not both) will reverse the motor direction.",
+        "options": [
+          "Reversing both field and armature current",
+          "Reversing either field or armature current",
+          "Changing the supply voltage",
+          "Adding more resistance"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Hard",
+        "question": "The efficiency of a transformer is maximum when:",
+        "answer": "Copper losses equal iron losses",
+        "explanation": "Maximum efficiency occurs when variable losses equal constant losses.",
+        "options": [
+          "Load is minimum",
+          "Load is maximum",
+          "Copper losses equal iron losses",
+          "Input power is maximum"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Medium",
+        "question": "What type of motor is preferred for constant speed applications?",
+        "answer": "Synchronous motor",
+        "explanation": "Synchronous motors maintain constant speed regardless of load variations.",
+        "options": [
+          "DC series motor",
+          "DC shunt motor",
+          "Induction motor",
+          "Synchronous motor"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "Which part of an induction motor rotates?",
+        "answer": "Rotor",
+        "explanation": "The rotor is the rotating part of an induction motor.",
+        "options": [
+          "Stator",
+          "Rotor",
+          "Commutator",
+          "Slip rings"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Medium",
+        "question": "Back EMF in a DC motor is:",
+        "answer": "Proportional to speed",
+        "explanation": "Back EMF is directly proportional to the motor speed and flux.",
+        "options": [
+          "Proportional to current",
+          "Proportional to speed",
+          "Inversely proportional to speed",
+          "Independent of speed"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "The frequency of EMF generated in a 4-pole alternator running at 1500 rpm is:",
+        "answer": "50 Hz",
+        "explanation": "f = (P × N) / 120 = (4 × 1500) / 120 = 50 Hz",
+        "options": [
+          "25 Hz",
+          "50 Hz",
+          "100 Hz",
+          "75 Hz"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Hard",
+        "question": "In a 3-phase induction motor, if the supply frequency is reduced while maintaining the same voltage, the motor will:",
+        "answer": "Draw more current",
+        "explanation": "Reducing frequency while keeping voltage constant increases the V/f ratio, leading to higher flux and more current.",
+        "options": [
+          "Run faster",
+          "Draw less current",
+          "Draw more current",
+          "Stop immediately"
+        ]
+      },
+      {
+        "type": "Descriptive",
+        "difficulty": "Medium",
+        "question": "Explain the working principle of a three-phase induction motor.",
+        "answer": "A three-phase induction motor works on the principle of electromagnetic induction. When three-phase AC supply is applied to the stator windings, it creates a rotating magnetic field. This rotating magnetic field cuts through the rotor conductors, inducing EMF and current in them according to Faraday's law. The interaction between the rotating stator field and rotor current produces torque, causing the rotor to rotate in the same direction as the magnetic field. The rotor speed is always less than the synchronous speed, creating slip which is necessary for torque production.",
+        "explanation": "Induction motors operate through electromagnetic induction between stator and rotor."
+      },
+      {
+        "type": "Descriptive",
+        "difficulty": "Medium",
+        "question": "Describe the construction and working of a single-phase transformer.",
+        "answer": "A single-phase transformer consists of two windings - primary and secondary - wound on a common magnetic core made of laminated silicon steel. When AC voltage is applied to the primary winding, it creates alternating magnetic flux in the core. This changing flux links with the secondary winding and induces EMF according to Faraday's law. The voltage transformation ratio depends on the turns ratio between primary and secondary windings. Step-up transformers have more secondary turns while step-down transformers have fewer secondary turns. The transformer operates on mutual inductance principle and provides electrical isolation between circuits.",
+        "explanation": "Transformers use electromagnetic induction to transfer energy between circuits through a magnetic core."
+      }
+    ]
+  }
+}
