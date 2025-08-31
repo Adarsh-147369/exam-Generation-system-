@@ -1,0 +1,1660 @@
+
+{
+  "ECE": {
+    "Signals and Systems": [
+      {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is a signal?",
+      "answer": "A function that conveys information",
+      "explanation": "Signals represent data or information through varying physical quantities.",
+      "options": [
+        "A storage device",
+        "A function that conveys information",
+        "A mathematical operator",
+        "An electric circuit"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "A continuous-time signal is defined for:",
+      "answer": "All real values of time",
+      "explanation": "Continuous-time signals exist at every instant of time.",
+      "options": [
+        "Discrete time instants",
+        "All real values of time",
+        "Only at samples",
+        "None of these"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the Laplace transform used for in system analysis?",
+      "answer": "Transforming differential equations into algebraic equations",
+      "explanation": "Laplace transform simplifies solving linear time-invariant systems.",
+      "options": [
+        "Time domain measurement",
+        "Transforming differential equations into algebraic equations",
+        "Signal sampling",
+        "Filtering noise"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does the convolution operation represent?",
+      "answer": "The output of an LTI system given an input and impulse response",
+      "explanation": "Convolution combines input with system’s impulse response to produce output.",
+      "options": [
+        "Adding two signals",
+        "Multiplying two signals",
+        "The output of an LTI system given an input and impulse response",
+        "Filtering noise"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is the Fourier transform used for?",
+      "answer": "Representing signals in the frequency domain",
+      "explanation": "Fourier transform converts time-domain signals into frequency components.",
+      "options": [
+        "Amplifying signals",
+        "Representing signals in the frequency domain",
+        "Sampling signals",
+        "Reducing noise"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which signal has finite energy?",
+      "answer": "Energy signal",
+      "explanation": "Energy signals have finite total energy, but zero average power.",
+      "options": [
+        "Energy signal",
+        "Power signal",
+        "Both",
+        "Neither"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the Z-transform useful for?",
+      "answer": "Analyzing discrete-time signals and systems",
+      "explanation": "Z-transform provides frequency domain representation of discrete signals.",
+      "options": [
+        "Continuous-time signals",
+        "Discrete-time signals and systems",
+        "Noise reduction",
+        "Sampling"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which property does a linear system satisfy?",
+      "answer": "Superposition",
+      "explanation": "Linear systems obey additivity and homogeneity principles.",
+      "options": [
+        "Superposition",
+        "Causality",
+        "Nonlinearity",
+        "Randomness"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does causality in a system mean?",
+      "answer": "Output depends only on current and past inputs",
+      "explanation": "Causal systems do not anticipate future inputs.",
+      "options": [
+        "Output depends on future inputs",
+        "Output depends only on current and past inputs",
+        "Output is random",
+        "Output is constant"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is an impulse signal?",
+      "answer": "A signal that is zero everywhere except at one point where it is infinitely large",
+      "explanation": "Impulse signals are idealized to model instantaneous changes.",
+      "options": [
+        "A constant signal",
+        "A zero signal",
+        "A signal zero everywhere except one point",
+        "A random noise"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the system response to an impulse called?",
+      "answer": "Impulse response",
+      "explanation": "Impulse response characterizes LTI systems fully.",
+      "options": [
+        "Step response",
+        "Impulse response",
+        "Frequency response",
+        "Transfer function"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the sampling theorem about?",
+      "answer": "Sampling rate must be at least twice the highest frequency to avoid aliasing",
+      "explanation": "It sets criteria for accurate digitization of analog signals.",
+      "options": [
+        "Signals must be in discrete time",
+        "Sampling rate must match signal amplitude",
+        "Sampling rate must be at least twice the highest frequency",
+        "Signals must be low power"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is the Nyquist frequency?",
+      "answer": "Half the sampling rate",
+      "explanation": "Nyquist frequency is the highest frequency that can be accurately represented.",
+      "options": [
+        "Full sampling rate",
+        "Half the sampling rate",
+        "Twice the sampling rate",
+        "The signal bandwidth"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is an LTI system?",
+      "answer": "A system linear and time-invariant",
+      "explanation": "Such systems are fundamental for analysis and have predictable responses.",
+      "options": [
+        "Nonlinear system",
+        "Linear and time-variant system",
+        "Linear and time-invariant system",
+        "Random system"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which of the following is not a signal operation?",
+      "answer": "Amplification",
+      "explanation": "Amplification is a system action, not a basic signal transformation.",
+      "options": [
+        "Time shifting",
+        "Scaling",
+        "Amplification",
+        "Reflection"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the effect of convolution on two signals?",
+      "answer": "It combines them to produce system output",
+      "explanation": "Convolution represents how input interacts with system impulse response.",
+      "options": [
+        "Adds signals",
+        "Multiplies signals",
+        "Combines them to produce system output",
+        "Differentiates signals"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the Fourier series used for?",
+      "answer": "Representing periodic signals as sums of sinusoids",
+      "explanation": "It decomposes signals into frequency components.",
+      "options": [
+        "Filtering signals",
+        "Transforming discrete signals",
+        "Representing periodic signals as sums of sinusoids",
+        "Sampling signals"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "A system is causal if:",
+      "answer": "The output depends only on present and past inputs",
+      "explanation": "Causal systems cannot anticipate future inputs.",
+      "options": [
+        "Output depends on future inputs",
+        "Output is independent of inputs",
+        "Output depends only on present and past inputs",
+        "Output is zero"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the transfer function of a system?",
+      "answer": "Ratio of output to input in Laplace domain",
+      "explanation": "Transfer functions are used to characterize system behavior mathematically.",
+      "options": [
+        "Difference of output and input",
+        "Sum of output and input",
+        "Ratio of output to input in Laplace domain",
+        "Product of input and noise"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What does the region of convergence (ROC) specify in Laplace transforms?",
+      "answer": "Values of complex frequency for which transform converges",
+      "explanation": "ROC defines where Laplace transform exists and system is stable.",
+      "options": [
+        "Range of frequencies with valid signals",
+        "Values of complex frequency for which transform converges",
+        "Physical system bandwidth",
+        "Sampling frequency range"
+      ]
+    },
+
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the properties of linear time-invariant (LTI) systems.",
+      "answer": "LTI systems satisfy linearity and time invariance, allowing superposition and predictable response.",
+      "explanation": "Makes analysis and design feasible and systematic."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Describe the concept of convolution and its importance.",
+      "answer": "Convolution combines input with impulse response to determine system output, fundamental in LTI analysis.",
+      "explanation": "It models how systems respond to inputs over time."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What is the significance of the Fourier Transform in signal processing?",
+      "answer": "It transforms signals from time domain to frequency domain for analysis and filtering.",
+      "explanation": "Enables frequency-based manipulation and understanding."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain the sampling theorem and aliasing effect.",
+      "answer": "Sampling theorem states minimum rate for signal sampling to avoid aliasing; aliasing causes different signals to become indistinguishable.",
+      "explanation": "Proper sampling preserves signal integrity."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "What is the difference between deterministic and random signals?",
+      "answer": "Deterministic signals are precisely defined; random signals have unpredictable variations.",
+      "explanation": "Classification guides analysis techniques."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Describe the Z-transform and its application in discrete-time systems.",
+      "answer": "Z-transform converts discrete-time signals into complex frequency domain, facilitating analysis.",
+      "explanation": "Used for stability and system function studies."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Explain the concept of system stability and criteria to determine it.",
+      "answer": "System is stable if bounded input leads to bounded output; criteria like BIBO and pole location assess stability.",
+      "explanation": "Stability ensures predictable and safe system operation."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What are the differences between continuous-time and discrete-time systems?",
+      "answer": "Continuous-time systems operate on continuous signals; discrete-time systems on sampled signals.",
+      "explanation": "Understanding is essential for implementation and analysis."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Describe impulse and step responses of LTI systems.",
+      "answer": "Impulse response reflects system behavior to a quick input; step response shows output to sudden sustained input.",
+      "explanation": "Core system characterizations for time-domain analysis."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Discuss the relationship between poles, zeros, and system behavior.",
+      "answer": "Poles determine system stability and response speed; zeros affect system frequency response.",
+      "explanation": "Pole-zero analysis is a foundation of system design."
+    }
+    ],
+    "Analog Electronics": [
+      {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which of the following is an active component in analog electronics?",
+      "answer": "Transistor",
+      "explanation": "Transistors can amplify signals and are considered active components.",
+      "options": [
+        "Resistor",
+        "Capacitor",
+        "Transistor",
+        "Inductor"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the unit of capacitance?",
+      "answer": "Farad",
+      "explanation": "Capacitance is measured in Farads (F).",
+      "options": [
+        "Henry",
+        "Farad",
+        "Ohm",
+        "Watt"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which device is used to convert AC to DC in analog circuits?",
+      "answer": "Diode",
+      "explanation": "Diodes allow current to flow only in one direction and are used in rectification.",
+      "options": [
+        "Transistor",
+        "Capacitor",
+        "Diode",
+        "Resistor"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Operational Amplifiers (Op-Amps) are primarily used for:",
+      "answer": "Signal amplification",
+      "explanation": "Op-Amps amplify voltage signals and are key components in analog circuits.",
+      "options": [
+        "Signal rectification",
+        "Signal amplification",
+        "Memory storage",
+        "Voltage regulation"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "The frequency response of an analog circuit describes:",
+      "answer": "How amplitude and phase vary with frequency",
+      "explanation": "Frequency response shows system behavior over frequency ranges.",
+      "options": [
+        "Noise levels",
+        "Signal distortion",
+        "How amplitude and phase vary with frequency",
+        "Power consumption"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which analog component stores energy in a magnetic field?",
+      "answer": "Inductor",
+      "explanation": "Inductors store energy in magnetic fields when current passes through them.",
+      "options": [
+        "Resistor",
+        "Inductor",
+        "Capacitor",
+        "Transformer"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the function of a resistor in a circuit?",
+      "answer": "To limit current flow",
+      "explanation": "Resistors oppose current flow to control voltage and current.",
+      "options": [
+        "Store charge",
+        "Limit current flow",
+        "Amplify signals",
+        "Rectify currents"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "A filter circuit that passes signals with frequencies below a cutoff frequency is called:",
+      "answer": "Low-pass filter",
+      "explanation": "Low-pass filters attenuate high-frequency signals, passing low frequencies.",
+      "options": [
+        "High-pass filter",
+        "Band-pass filter",
+        "Low-pass filter",
+        "Notch filter"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does the gain of an amplifier represent?",
+      "answer": "Ratio of output voltage to input voltage",
+      "explanation": "Gain indicates how much the input signal is amplified.",
+      "options": [
+        "Input power / output power",
+        "Output voltage / input voltage",
+        "Output current / input current",
+        "Input voltage / output voltage"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which component opposes changes in voltage?",
+      "answer": "Capacitor",
+      "explanation": "Capacitors resist instantaneous changes in voltage by storing charge.",
+      "options": [
+        "Resistor",
+        "Inductor",
+        "Capacitor",
+        "Transformer"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the role of feedback in an analog amplifier?",
+      "answer": "To control gain and improve stability",
+      "explanation": "Feedback reduces distortion and controls overall circuit behavior.",
+      "options": [
+        "Increase gain infinitely",
+        "Control gain and improve stability",
+        "Distort input signal",
+        "Block output"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Which parameter defines the bandwidth of an amplifier?",
+      "answer": "Frequency range where gain is within 3 dB of maximum",
+      "explanation": "Bandwidth determines frequency response limits of the amplifier.",
+      "options": [
+        "Input power",
+        "Output voltage",
+        "Frequency range where gain is within 3 dB of maximum",
+        "Input current"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the polarity of a forward-biased diode?",
+      "answer": "Positive voltage on anode relative to cathode",
+      "explanation": "Forward bias occurs when anode is higher potential than cathode.",
+      "options": [
+        "Positive voltage on cathode",
+        "Zero voltage",
+        "Positive voltage on anode relative to cathode",
+        "Negative voltage on anode"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is slew rate in operational amplifiers?",
+      "answer": "Maximum rate of change of output voltage per unit time",
+      "explanation": "Slew rate limits speed of response to rapid changes.",
+      "options": [
+        "Maximum output voltage",
+        "Minimum input voltage",
+        "Maximum rate of change of output voltage per unit time",
+        "Power dissipation"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the primary use of a transistor in analog circuits?",
+      "answer": "Amplification of signals",
+      "explanation": "Transistors serve as amplifiers and switches in analog circuits.",
+      "options": [
+        "Rectification",
+        "Amplification of signals",
+        "Signal storage",
+        "Oscillation"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "The input impedance of an operational amplifier is typically:",
+      "answer": "Very high",
+      "explanation": "High input impedance prevents loading of previous stages.",
+      "options": [
+        "Low",
+        "Medium",
+        "Very high",
+        "Zero"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the function of a voltage regulator in analog circuits?",
+      "answer": "To maintain a constant output voltage",
+      "explanation": "Voltage regulators ensure steady voltage supply despite input variations.",
+      "options": [
+        "Increase voltage",
+        "Maintain constant voltage",
+        "Reduce current",
+        "Store energy"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which component is used to store charge temporarily?",
+      "answer": "Capacitor",
+      "explanation": "Capacitors store electrical energy as electric charge.",
+      "options": [
+        "Resistor",
+        "Inductor",
+        "Capacitor",
+        "Diode"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is the function of a Zener diode in analog electronics?",
+      "answer": "Voltage regulation by breakdown at a specified voltage",
+      "explanation": "Zener diodes maintain voltage levels by controlled breakdown.",
+      "options": [
+        "Rectification",
+        "Amplification",
+        "Voltage regulation",
+        "Oscillation"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which material is commonly used in the manufacture of diodes for forward voltage drop of about 0.7V?",
+      "answer": "Silicon",
+      "explanation": "Silicon diodes typically have a forward voltage drop of approximately 0.7V.",
+      "options": [
+        "Silicon",
+        "Germanium",
+        "Gallium Arsenide",
+        "Copper"
+      ]
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the working principle of an operational amplifier.",
+      "answer": "An operational amplifier amplifies the voltage difference between its input terminals to provide a high-gain output.",
+      "explanation": "It's widely used in filtering, amplification, and mathematical operations."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Describe the difference between active and passive components.",
+      "answer": "Active components can amplify signals and require power (e.g., transistors), whereas passive components cannot amplify and do not require power (e.g., resistors, capacitors).",
+      "explanation": "Understanding component roles is essential for circuit design."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What is frequency response and why is it important in analog circuits?",
+      "answer": "Frequency response shows how a circuit responds to different frequencies, affecting signal integrity and bandwidth.",
+      "explanation": "High-fidelity circuits require controlled frequency response."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain the role of capacitors in filtering applications.",
+      "answer": "Capacitors block DC and allow AC signals to pass, making them useful in filters to remove unwanted frequencies.",
+      "explanation": "Filters shape signal spectra for communication and audio."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "What is a transistor and how does it work as a switch?",
+      "answer": "A transistor controls current flow between collector and emitter based on base input, acting as an electronic switch.",
+      "explanation": "Switching enables digital logic and power control."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Describe the concept of gain bandwidth product in amplifiers.",
+      "answer": "Gain bandwidth product is the frequency at which gain drops to unity; it indicates amplifier frequency performance.",
+      "explanation": "Important for designing wideband amplifiers."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Explain the working and applications of a differential amplifier.",
+      "answer": "Differential amplifiers amplify the difference between two input signals, widely used in audio and measurement systems.",
+      "explanation": "They provide high common-mode noise rejection."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Discuss the impact of temperature on transistor performance.",
+      "answer": "Temperature affects carrier mobility and saturation currents, influencing transistor gain and leakage.",
+      "explanation": "Thermal management is critical in analog circuit design."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What are various types of noise in analog electronics and their sources?",
+      "answer": "Thermal noise, shot noise, flicker noise, mainly from resistors, semiconductors, and external disturbances.",
+      "explanation": "Noise limits signal quality and must be minimized."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Analyze the operation of a transistor as an amplifier.",
+      "answer": "A transistor uses a small base current to regulate a larger collector current, amplifying input signals with voltage or current gain.",
+      "explanation": "Amplification arises from transistor's transistor characteristics."
+    }
+    ],
+    "Digital Electronics": [
+      {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the basic unit of digital electronics?",
+      "answer": "Logic gate",
+      "explanation": "Logic gates perform basic digital functions on binary inputs.",
+      "options": [
+        "Transistor",
+        "Logic gate",
+        "Capacitor",
+        "Resistor"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which logic gate outputs true only when all inputs are true?",
+      "answer": "AND gate",
+      "explanation": "AND gate outputs high only if all inputs are high.",
+      "options": [
+        "OR gate",
+        "AND gate",
+        "NOT gate",
+        "XOR gate"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the output of a NOT gate when the input is 1?",
+      "answer": "0",
+      "explanation": "NOT gate inverts input; thus, output is 0 for input 1.",
+      "options": [
+        "0",
+        "1",
+        "Depends on circuit",
+        "Undefined"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which of the following are universal logic gates?",
+      "answer": "NAND and NOR",
+      "explanation": "NAND and NOR gates can be used to implement any Boolean function.",
+      "options": [
+        "AND and OR",
+        "NAND and NOR",
+        "XOR and XNOR",
+        "NOT and AND"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What does a flip-flop do in digital circuits?",
+      "answer": "Stores one bit of data",
+      "explanation": "Flip-flops are memory elements for binary data storage.",
+      "options": [
+        "Amplifies signals",
+        "Stores one bit of data",
+        "Switches signals",
+        "Generates clocks"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What type of code prevents errors by ensuring only one bit changes at a time?",
+      "answer": "Gray code",
+      "explanation": "Gray code helps reduce errors in digital communication.",
+      "options": [
+        "Binary code",
+        "Gray code",
+        "ASCII",
+        "BCD"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "The Boolean expression A'B + AB' is the function of which gate?",
+      "answer": "Exclusive OR (XOR) gate",
+      "explanation": "XOR outputs high if inputs are different.",
+      "options": [
+        "AND gate",
+        "OR gate",
+        "XNOR gate",
+        "Exclusive OR (XOR) gate"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which device converts analog signals to digital signals?",
+      "answer": "Analog to Digital Converter (ADC)",
+      "explanation": "ADC samples and quantizes analog signals for digital processing.",
+      "options": [
+        "Digital to Analog Converter",
+        "Analog to Digital Converter",
+        "Multiplexer",
+        "Flip-flop"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "A decoder circuit is a:",
+      "answer": "Combinational logic circuit that converts binary data to a one-hot code",
+      "explanation": "Decoders activate exactly one output based on input combination.",
+      "options": [
+        "Sequential circuit",
+        "Combinational logic circuit",
+        "Memory device",
+        "Flip-flop"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the output of an OR gate with inputs 0 and 1?",
+      "answer": "1",
+      "explanation": "OR gate outputs high if any input is high.",
+      "options": [
+        "0",
+        "1",
+        "Undefined",
+        "Depends on inputs"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does a multiplexer do?",
+      "answer": "Selects one input from multiple inputs to output",
+      "explanation": "Multiplexers reduce wiring and select data lines efficiently.",
+      "options": [
+        "Amplifies signal",
+        "Stores data",
+        "Selects one input from multiple inputs to output",
+        "Generates clock"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Which IC family is known for high-speed switching and low power?",
+      "answer": "TTL (Transistor-Transistor Logic)",
+      "explanation": "TTL ICs combine transistors for fast digital logic circuits.",
+      "options": [
+        "CMOS",
+        "TTL",
+        "RTL",
+        "DTL"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which of the following is used for temporary data storage in digital systems?",
+      "answer": "Register",
+      "explanation": "Registers hold data for immediate processing.",
+      "options": [
+        "RAM",
+        "Register",
+        "ROM",
+        "Cache"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which number system is primarily used in digital electronics?",
+      "answer": "Binary",
+      "explanation": "Digital circuits operate with two states: 0 and 1.",
+      "options": [
+        "Decimal",
+        "Octal",
+        "Binary",
+        "Hexadecimal"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which concept helps in minimizing logic circuits to reduce cost and complexity?",
+      "answer": "Karnaugh Map",
+      "explanation": "K-map is a graphical tool to simplify boolean expressions.",
+      "options": [
+        "Truth table",
+        "Boolean algebra",
+        "Karnaugh Map",
+        "De Morgan’s theorem"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "A gated D flip-flop is a type of:",
+      "answer": "Sequential circuit",
+      "explanation": "Sequential circuits have memory and depend on input history.",
+      "options": [
+        "Combinational circuit",
+        "Sequential circuit",
+        "Combinational and sequential",
+        "None of these"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is a half adder able to compute?",
+      "answer": "Sum and carry of two binary bits",
+      "explanation": "Half adders provide basic binary addition outputs.",
+      "options": [
+        "Only sum",
+        "Only carry",
+        "Sum and carry",
+        "None of these"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which is a characteristic of CMOS logic families?",
+      "answer": "Low power consumption",
+      "explanation": "CMOS uses complementary transistors to reduce power usage.",
+      "options": [
+        "High power consumption",
+        "Low power consumption",
+        "Slow switching",
+        "High noise"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Which device is used to store multiple bits with ability to read/write?",
+      "answer": "RAM",
+      "explanation": "Random Access Memory allows random data access and modification.",
+      "options": [
+        "ROM",
+        "RAM",
+        "Register",
+        "Flip-flop"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which logic gate outputs 1 only when inputs are different?",
+      "answer": "Exclusive-OR (XOR)",
+      "explanation": "XOR outputs high when inputs differ.",
+      "options": [
+        "AND",
+        "OR",
+        "Exclusive-OR (XOR)",
+        "NAND"
+      ]
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the function and types of logic gates.",
+      "answer": "Logic gates perform Boolean functions on inputs to produce an output. Basic gates include AND, OR, NOT, and derived gates like NAND, NOR, XOR.",
+      "explanation": "Gates form the building blocks of digital circuits."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Describe the difference between combinational and sequential circuits.",
+      "answer": "Combinational circuits output solely depends on inputs. Sequential circuits also depend on past inputs and have memory elements.",
+      "explanation": "Memory differentiates sequential from combinational logic."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What is the purpose of a flip-flop in digital electronics?",
+      "answer": "To store individual bits of data and synchronize digital signals.",
+      "explanation": "Flip-flops form memory and registers in digital systems."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain how Karnaugh Maps simplify logical expressions.",
+      "answer": "Karnaugh Maps visualize boolean expressions to identify groups of ones for simplification.",
+      "explanation": "Simpler logic reduces cost and circuit complexity."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Describe binary number systems and their importance in digital electronics.",
+      "answer": "Binary numbering uses two symbols (0 and 1) to represent all data in digital systems.",
+      "explanation": "Binary form is the basis of digital circuitry and computations."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What is the significance of propagation delay in digital circuits?",
+      "answer": "It is the time taken for an input change to affect the output, critical for timing analysis.",
+      "explanation": "Delays affect performance and synchronization."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain the working of a multiplexer and its applications.",
+      "answer": "A multiplexer selects one input from many and forwards it as output, used for data routing and saving wiring.",
+      "explanation": "Essential in communication and processor design."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Discuss the design and working principles of a digital counter.",
+      "answer": "Digital counters use flip-flops to count pulses, implementing synchronous or asynchronous increments with reset capability.",
+      "explanation": "Widely used for event counting and timing."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Explain the concept of a flip-flop and its role in digital circuits.",
+      "answer": "A flip-flop is a bistable device that stores one bit of data used for memory and state retention.",
+      "explanation": "Flip-flops are fundamental building blocks for registers, counters, and memory in digital systems."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "What is the difference between combinational and sequential logic circuits?",
+      "answer": "Combinational circuits output based only on current inputs, while sequential circuits depend on past inputs (history).",
+      "explanation": "Sequential logic uses memory elements to maintain state, unlike combinational logic which has no memory."
+    }
+
+    ],
+    "Communication Systems": [
+      {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What are the basic elements of a communication system?",
+      "answer": "Transmitter, channel, and receiver",
+      "explanation": "A communication system mainly consists of a transmitter, a communication channel, and a receiver.",
+      "options": [
+        "Transmitter, channel, and receiver",
+        "Transmitter, storage, and output",
+        "Source, sensor, and antenna",
+        "Modulator, coder, and decoder"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which medium is used in wireless communication?",
+      "answer": "Air",
+      "explanation": "Wireless communication uses air or space as the transmission medium.",
+      "options": [
+        "Copper wire",
+        "Fiber optic cable",
+        "Air",
+        "Coaxial cable"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does modulation mean in communication systems?",
+      "answer": "Varying a carrier signal using the message signal",
+      "explanation": "Modulation is the process of imposing information on a high-frequency carrier wave.",
+      "options": [
+        "Amplifying the signal",
+        "Encoding the signal",
+        "Varying a carrier signal using the message signal",
+        "Demodulating the signal"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the purpose of a repeater in communication?",
+      "answer": "To amplify and regenerate signal to extend range",
+      "explanation": "Repeaters boost signals to compensate for attenuation over distances.",
+      "options": [
+        "To transmit signals",
+        "To amplify and regenerate signal to extend range",
+        "To compress data",
+        "To convert signals"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is bandwidth in communication systems?",
+      "answer": "Range of frequencies a communication channel can transmit",
+      "explanation": "Bandwidth defines the capacity and data rate of channels.",
+      "options": [
+        "Signal strength",
+        "Carrier frequency",
+        "Range of frequencies a communication channel can transmit",
+        "Transmission power"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "In digital communication, what does encoding do?",
+      "answer": "Converts data into signal format suitable for transmission",
+      "explanation": "Encoding converts digital data into signals to optimize transmission and reduce errors.",
+      "options": [
+        "Amplifies signal",
+        "Converts data into signal format suitable for transmission",
+        "Demodulates signal",
+        "Filters noise"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What type of noise commonly affects communication signals?",
+      "answer": "Thermal noise",
+      "explanation": "Thermal noise results from the random motion of electrons, causing signal disturbances.",
+      "options": [
+        "Thermal noise",
+        "Acoustic noise",
+        "Visual noise",
+        "Light noise"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the function of a demodulator?",
+      "answer": "To extract original message from modulated carrier",
+      "explanation": "Demodulators recover the original signal from a modulated waveform.",
+      "options": [
+        "To modulate signals",
+        "To amplify signals",
+        "To extract original message from modulated carrier",
+        "To store data"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is attenuation in communication?",
+      "answer": "Loss of signal strength during transmission",
+      "explanation": "Signals lose strength due to distance, medium, or obstacles.",
+      "options": [
+        "Signal amplification",
+        "Signal loss",
+        "Data encoding",
+        "Noise addition"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which device converts sound into electrical signals?",
+      "answer": "Microphone",
+      "explanation": "Microphones transform acoustic energy into electrical signals.",
+      "options": [
+        "Speaker",
+        "Antenna",
+        "Microphone",
+        "Amplifier"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What technique helps reduce errors in digital communication?",
+      "answer": "Error correction coding",
+      "explanation": "Error correction codes detect and fix errors in transmitted data.",
+      "options": [
+        "Modulation",
+        "Error correction coding",
+        "Encryption",
+        "Voltage regulation"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Which modulation technique varies amplitude of carrier signal?",
+      "answer": "Amplitude Modulation (AM)",
+      "explanation": "AM encodes information in the carrier's amplitude variations.",
+      "options": [
+        "Frequency Modulation",
+        "Phase Modulation",
+        "Amplitude Modulation",
+        "Pulse Modulation"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which layer in the communication model is responsible for error detection?",
+      "answer": "Data Link Layer",
+      "explanation": "Data link layer detects and sometimes corrects transmission errors.",
+      "options": [
+        "Physical Layer",
+        "Data Link Layer",
+        "Network Layer",
+        "Application Layer"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the role of a transmitter in communication?",
+      "answer": "To send the processed signal over the channel",
+      "explanation": "Transmitters convert message signals to suitable forms and send through channels.",
+      "options": [
+        "To receive signals",
+        "To send the processed signal over the channel",
+        "To process data",
+        "To amplify signals"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is multiplexing in communication?",
+      "answer": "Combining multiple signals into one channel",
+      "explanation": "Multiplexing allows efficient use of channel capacity.",
+      "options": [
+        "Splitting a signal",
+        "Combining multiple signals into one channel",
+        "Amplifying signals",
+        "Filtering noise"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which device amplifies weak signals in communication receivers?",
+      "answer": "Amplifier",
+      "explanation": "Amplifiers boost signals to detectable levels.",
+      "options": [
+        "Modulator",
+        "Amplifier",
+        "Demodulator",
+        "Microphone"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What does signal-to-noise ratio (SNR) indicate?",
+      "answer": "Ratio of signal power to noise power",
+      "explanation": "A higher SNR means better signal quality.",
+      "options": [
+        "Ratio of noise power to signal power",
+        "Signal strength",
+        "Ratio of signal power to noise power",
+        "Transmission speed"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What type of communication uses electromagnetic waves?",
+      "answer": "Wireless communication",
+      "explanation": "Wireless communication transmits data via EM waves, like radio.",
+      "options": [
+        "Wired communication",
+        "Wireless communication",
+        "Optical communication",
+        "Fiber optic communication"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which device converts optical signals to electrical signals?",
+      "answer": "Photodetector",
+      "explanation": "Photodetectors detect light and convert it into electrical signals.",
+      "options": [
+        "LED",
+        "Photodetector",
+        "Antenna",
+        "Transmitter"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the function of protocol in communication systems?",
+      "answer": "Set of rules for data transmission and reception",
+      "explanation": "Protocols ensure standard communication between devices.",
+      "options": [
+        "Physical connection",
+        "Data encryption",
+        "Set of rules for data transmission and reception",
+        "Error detection"
+      ]
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the key components of a communication system.",
+      "answer": "A communication system includes the source generating information, the transmitter, the communication channel, the receiver, and the destination.",
+      "explanation": "Each component plays a vital role in successful data transmission."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Describe the difference between analog and digital communication.",
+      "answer": "Analog communication uses continuous signals, whereas digital communication uses discrete signals for data representation.",
+      "explanation": "Digital communication is less prone to noise and provides higher fidelity."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What is the role of modulation in communication systems?",
+      "answer": "Modulation allows transmission of signals over long distances by varying carrier signal properties with the message signal.",
+      "explanation": "It helps in increasing transmission range and efficient frequency usage."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain the types and causes of noise in communication systems.",
+      "answer": "Noise types include thermal noise, intermodulation noise, crosstalk, and impulse noise caused by physical processes and interference.",
+      "explanation": "Noise affects signal clarity and needs to be minimized."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Discuss the importance of bandwidth in communication systems.",
+      "answer": "Bandwidth defines the data carrying capacity of a channel and determines transmission speed and quality.",
+      "explanation": "Higher bandwidth allows more information transmission."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Describe the process of error detection and correction in digital communication.",
+      "answer": "Error detection detects errors using parity bits, checksums, or CRC, while correction uses codes like Hamming to fix detected errors.",
+      "explanation": "Ensures data integrity despite transmission errors."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What are the advantages and disadvantages of wireless communication?",
+      "answer": "Advantages include mobility and ease of deployment; disadvantages include interference, security issues, and limited bandwidth.",
+      "explanation": "Trade-offs must be considered in system design."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain how a transmitter and receiver function in communication systems.",
+      "answer": "Transmitters encode and send signals over channels; receivers detect and decode signals for the destination.",
+      "explanation": "They enable the transfer of information between devices."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Analyze the significance of the Shannon-Hartley theorem in communication.",
+      "answer": "It defines the maximum data rate of a channel for a given bandwidth and noise level, fundamental for system design.",
+      "explanation": "Sets theoretical limits of channel capacity."
+    }
+    ],
+    "Electromagnetic Theory": [
+      {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Who formulated the set of equations that form the foundation of electromagnetic theory?",
+      "answer": "James Clerk Maxwell",
+      "explanation": "Maxwell's equations unify electricity and magnetism into a single theory.",
+      "options": [
+        "Isaac Newton",
+        "Michael Faraday",
+        "James Clerk Maxwell",
+        "Nikola Tesla"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which one of the following quantities is a vector?",
+      "answer": "Magnetic field intensity",
+      "explanation": "Magnetic field intensity has both magnitude and direction, making it a vector.",
+      "options": [
+        "Electric potential",
+        "Magnetic field intensity",
+        "Charge density",
+        "Electric potential energy"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does Gauss's law state about electric field lines?",
+      "answer": "Total electric flux through a closed surface equals enclosed charge divided by permittivity",
+      "explanation": "Gauss's law relates electric flux to source charge within a surface.",
+      "options": [
+        "Electric field lines are always straight",
+        "Electric field lines form closed loops",
+        "Total electric flux through a closed surface equals enclosed charge divided by permittivity",
+        "Electric field lines have no beginning or end"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What physical phenomenon does Faraday's law describe?",
+      "answer": "Induced electromotive force due to changing magnetic flux",
+      "explanation": "Faraday's law states that a time-varying magnetic field induces voltage in a circuit.",
+      "options": [
+        "Coulomb force between charges",
+        "Magnetic force on current carrying wire",
+        "Induced electromotive force due to changing magnetic flux",
+        "Energy stored in capacitors"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "The displacement current term was introduced in which equation?",
+      "answer": "Ampere-Maxwell’s law",
+      "explanation": "Displacement current accounts for changing electric fields in Maxwell's modification of Ampere's law.",
+      "options": [
+        "Faraday’s law",
+        "Gauss's law",
+        "Ampere-Maxwell’s law",
+        "Lorentz force equation"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the principle cause of electromagnetic wave propagation?",
+      "answer": "Time-varying electric and magnetic fields",
+      "explanation": "Changing electric fields generate magnetic fields and vice versa, leading to wave propagation.",
+      "options": [
+        "Static electric fields",
+        "Static magnetic fields",
+        "Time-varying electric and magnetic fields",
+        "Thermal energy"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which law explains the force between two current-carrying conductors?",
+      "answer": "Ampere’s force law",
+      "explanation": "Ampere's law quantifies magnetic force between conductors with current.",
+      "options": [
+        "Coulomb’s law",
+        "Faraday’s law",
+        "Ampere’s force law",
+        "Lenz’s law"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the unit of magnetic flux?",
+      "answer": "Weber",
+      "explanation": "Magnetic flux is measured in Webers (Wb).",
+      "options": [
+        "Tesla",
+        "Ampere",
+        "Volt",
+        "Weber"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "In an electromagnetic wave, the electric and magnetic fields are:",
+      "answer": "Perpendicular to each other and to the direction of wave propagation",
+      "explanation": "E and B fields are orthogonal in transverse electromagnetic waves.",
+      "options": [
+        "Parallel to each other",
+        "Perpendicular to each other and to wave direction",
+        "Randomly oriented",
+        "Opposite directions"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "The Poynting vector represents:",
+      "answer": "Power flow per unit area in an electromagnetic wave",
+      "explanation": "Poynting vector quantifies energy transfer by electromagnetic waves.",
+      "options": [
+        "Electric field intensity",
+        "Magnetic field intensity",
+        "Power flow per unit area",
+        "Electric charge density"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What mathematical tool is predominantly used to describe electromagnetic fields?",
+      "answer": "Vector calculus",
+      "explanation": "Vector calculus handles quantities with magnitude and direction in space.",
+      "options": [
+        "Differential equations",
+        "Vector calculus",
+        "Complex analysis",
+        "Linear algebra"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "The skin effect refers to:",
+      "answer": "Current crowding near the surface of conductors at high frequencies",
+      "explanation": "Skin effect increases resistance to AC at higher frequencies.",
+      "options": [
+        "Loss of magnetic field",
+        "Current crowding near surface",
+        "Voltage breakdown",
+        "Heat dissipation"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which wave type can travel through a vacuum?",
+      "answer": "Electromagnetic wave",
+      "explanation": "EM waves do not require a medium and can propagate in vacuum.",
+      "options": [
+        "Sound wave",
+        "Mechanical wave",
+        "Electromagnetic wave",
+        "Water wave"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which of the following is a scalar quantity?",
+      "answer": "Electric potential",
+      "explanation": "Electric potential has magnitude but no direction.",
+      "options": [
+        "Electric field",
+        "Magnetic field",
+        "Electric potential",
+        "Current density"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Boundary conditions in electromagnetic theory ensure:",
+      "answer": "Continuity of tangential and normal components of E and H fields at interfaces",
+      "explanation": "Boundary conditions govern how fields behave at material interfaces.",
+      "options": [
+        "Maximum field values",
+        "Discontinuity of fields",
+        "Continuity of E and H fields components at interfaces",
+        "No fields present"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Maxwell's displacement current term addresses:",
+      "answer": "Changing electric fields producing magnetic fields",
+      "explanation": "Displacement current extends Ampere's law to account for time-varying electric fields.",
+      "options": [
+        "Static currents",
+        "Magnetic monopoles",
+        "Changing electric fields",
+        "Electric charge conservation"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "The electric field intensity due to a point charge decreases with:",
+      "answer": "Square of the distance",
+      "explanation": "Electric field follows inverse square law.",
+      "options": [
+        "Distance",
+        "Square of the distance",
+        "Distance cubed",
+        "Logarithmic distance"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "In electromagnetic waves, polarization refers to:",
+      "answer": "Orientation of the electric field vector",
+      "explanation": "Polarization defines the direction of the E field oscillation.",
+      "options": [
+        "Frequency of wave",
+        "Orientation of the electric field vector",
+        "Magnetic field amplitude",
+        "Wave speed"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What governs electromagnetic force between charges?",
+      "answer": "Coulomb's Law",
+      "explanation": "Coulomb's law quantifies electrostatic force between point charges.",
+      "options": [
+        "Newton's law",
+        "Coulomb's Law",
+        "Faraday's law",
+        "Ohm's law"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which of the following is an application of electromagnetic theory?",
+      "answer": "Design of antennas",
+      "explanation": "Electromagnetic theory underpins antenna operation and wave propagation.",
+      "options": [
+        "Digital circuits",
+        "Electrical machines",
+        "Design of antennas",
+        "Battery technology"
+      ]
+    },
+    {
+    "type": "Descriptive",
+    "difficulty": "Basic",
+    "question": "Explain the fundamental principles of electromagnetism and their significance.",
+    "answer": "Electromagnetism unifies electric and magnetic fields, describing how they influence each other and how charges and currents produce electromagnetic forces.",
+    "explanation": "These principles form the basis for understanding electrical machines, communication systems, and many modern technologies."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Basic",
+    "question": "Describe Maxwell’s equations and their role in electromagnetic theory.",
+    "answer": "Maxwell’s equations are a set of four partial differential equations that govern electric and magnetic fields and their interactions.",
+    "explanation": "They provide a complete mathematical framework for classical electromagnetism, including the propagation of electromagnetic waves."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Medium",
+    "question": "What is electromagnetic wave propagation and how does it relate to Maxwell’s theory?",
+    "answer": "Electromagnetic waves are oscillations of electric and magnetic fields that propagate through space, as predicted by Maxwell’s equations.",
+    "explanation": "This principle underlies wireless communication, optics, and electromagnetic radiation."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Medium",
+    "question": "Explain the concept of electromagnetic induction and its applications.",
+    "answer": "Electromagnetic induction is the process of generating an electromotive force (emf) in a conductor by changing magnetic flux.",
+    "explanation": "It is the working principle behind generators, transformers, and inductors."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Medium",
+    "question": "Discuss the physical meaning of electric and magnetic fields in an electromagnetic system.",
+    "answer": "Electric fields exert forces on charged particles, while magnetic fields influence moving charges and magnetic materials.",
+    "explanation": "Fields represent the spatial distribution of electromagnetic forces acting on particles."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Medium",
+    "question": "What is Poynting vector and what does it represent in electromagnetic theory?",
+    "answer": "The Poynting vector represents the directional energy flux (power per unit area) of an electromagnetic field.",
+    "explanation": "It describes the flow of electromagnetic energy in space."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Explain how boundary conditions are applied in electromagnetic field problems.",
+    "answer": "Boundary conditions ensure continuity or discontinuity of field components at interfaces of different media, aiding in solving Maxwell’s equations.",
+    "explanation": "They are critical for determining fields in complex geometries such as waveguides and antennas."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Analyze the role of displacement current in modifying Ampere’s Law.",
+    "answer": "Displacement current accounts for time-varying electric fields in Maxwell’s extension of Ampere’s Law, allowing continuity of current in capacitive regions.",
+    "explanation": "This led to the prediction of electromagnetic waves and completed the symmetry of Maxwell’s equations."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Medium",
+    "question": "Describe the difference between electrostatics, magnetostatics, and electrodynamics.",
+    "answer": "Electrostatics deals with stationary charges and electric fields; magnetostatics involves steady currents and magnetic fields; electrodynamics studies time-varying electromagnetic fields.",
+    "explanation": "Each branch focuses on specific phenomena within electromagnetic theory."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Medium",
+    "question": "Explain the concept of skin effect and its impact on alternating current conductors.",
+    "answer": "The skin effect causes AC current to concentrate near the conductor surface, increasing effective resistance at higher frequencies.",
+    "explanation": "This phenomenon affects power losses and design of high-frequency conductors."
+  }
+    ]
+  }
+}

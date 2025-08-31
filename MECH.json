@@ -1,0 +1,1566 @@
+{
+  "Mechanical": 
+  {
+    "Thermodynamics": [
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the first law of thermodynamics also known as?",
+      "answer": "Law of energy conservation",
+      "explanation": "The first law states that energy cannot be created or destroyed, only transformed.",
+      "options": [
+        "Law of energy conservation",
+        "Law of entropy",
+        "Law of mass conservation",
+        "Law of action and reaction"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does entropy measure in a thermodynamic system?",
+      "answer": "Degree of disorder",
+      "explanation": "Entropy quantifies the randomness or disorder of a system.",
+      "options": [
+        "Energy content",
+        "Degree of disorder",
+        "Temperature",
+        "Pressure"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which law states that heat can never spontaneously flow from a colder body to a hotter body?",
+      "answer": "Second law of thermodynamics",
+      "explanation": "The second law defines the direction of heat flow and increasing entropy.",
+      "options": [
+        "First law of thermodynamics",
+        "Second law of thermodynamics",
+        "Zeroth law of thermodynamics",
+        "Third law of thermodynamics"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the state function in thermodynamics that describes the energy possessed by a system?",
+      "answer": "Internal energy",
+      "explanation": "Internal energy is the total energy contained within the system.",
+      "options": [
+        "Heat",
+        "Work",
+        "Internal energy",
+        "Entropy"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "The work done during an isobaric process is calculated by which formula?",
+      "answer": "W = PΔV",
+      "explanation": "For constant pressure process, work done is pressure multiplied by volume change.",
+      "options": [
+        "W = PΔV",
+        "W = ΔU",
+        "W = Q",
+        "W = mgh"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which thermodynamic process occurs at constant volume?",
+      "answer": "Isochoric",
+      "explanation": "In isochoric process, volume remains constant, so no work is done.",
+      "options": [
+        "Isobaric",
+        "Isochoric",
+        "Isothermal",
+        "Adiabatic"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the Carnot cycle primarily used?",
+      "answer": "Heat engine efficiency",
+      "explanation": "Carnot cycle represents an idealized engine with maximum efficiency.",
+      "options": [
+        "Heat engine efficiency",
+        "Refrigerator operation",
+        "Phase changes",
+        "Gas properties"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What remains constant in an isothermal process?",
+      "answer": "Temperature",
+      "explanation": "Isothermal means constant temperature during the process.",
+      "options": [
+        "Pressure",
+        "Volume",
+        "Temperature",
+        "Entropy"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the unit of specific heat capacity in SI units?",
+      "answer": "Joule per kilogram Kelvin",
+      "explanation": "Specific heat capacity represents energy required to raise 1 kg by 1 K.",
+      "options": [
+        "Joule",
+        "Joule per kilogram",
+        "Joule per kilogram Kelvin",
+        "Watt"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "In thermodynamics, what does adiabatic mean?",
+      "answer": "No heat exchange",
+      "explanation": "Adiabatic processes occur without heat transfer between system and surroundings.",
+      "options": [
+        "No heat exchange",
+        "No work done",
+        "Constant pressure",
+        "Constant volume"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does the Zeroth law of thermodynamics establish?",
+      "answer": "Definition of temperature",
+      "explanation": "It establishes the concept of temperature and thermal equilibrium.",
+      "options": [
+        "Energy conservation",
+        "Definition of temperature",
+        "Entropy increase",
+        "Heat transfer direction"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which process involves rapid expansion or compression without heat transfer?",
+      "answer": "Adiabatic",
+      "explanation": "Adiabatic processes are characterized by no heat exchange.",
+      "options": [
+        "Isothermal",
+        "Adiabatic",
+        "Isobaric",
+        "Isochoric"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Heat engines convert:",
+      "answer": "Heat energy into work",
+      "explanation": "Heat engines use thermal energy to perform mechanical work.",
+      "options": [
+        "Mechanical energy into heat",
+        "Heat energy into work",
+        "Electrical energy into heat",
+        "Work into electrical energy"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Entropy in a reversible process:",
+      "answer": "Remains constant",
+      "explanation": "Reversible processes have constant entropy.",
+      "options": [
+        "Increases",
+        "Remains constant",
+        "Decreases",
+        "Is unpredictable"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "The maximum efficiency of a heat engine depends on:",
+      "answer": "Temperatures of the heat source and sink",
+      "explanation": "Carnot efficiency depends on temperature differentials.",
+      "options": [
+        "Engine size",
+        "Process speed",
+        "Temperatures of the heat source and sink",
+        "Working fluid"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which property is independent of the amount of substance?",
+      "answer": "Intensive",
+      "explanation": "Intensive properties such as temperature and pressure do not depend on system size.",
+      "options": [
+        "Extensive",
+        "Intensive",
+        "Work",
+        "Heat"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "In thermodynamics, enthalpy is defined as:",
+      "answer": "Heat content at constant pressure",
+      "explanation": "Enthalpy is useful in processes occurring at constant pressure.",
+      "options": [
+        "Internal energy",
+        "Energy required to do work",
+        "Heat content at constant pressure",
+        "Heat transfer rate"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is a reversible process?",
+      "answer": "One that can be reversed without any net change",
+      "explanation": "Reversible processes are ideal processes with no entropy change.",
+      "options": [
+        "One that can be reversed without any net change",
+        "A process that occurs quickly",
+        "A spontaneous process",
+        "A process involving friction"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which gas law relates pressure, volume, and temperature?",
+      "answer": "Combined Gas Law",
+      "explanation": "Combined Gas Law relates pressure, volume, and temperature in a single equation.",
+      "options": [
+        "Boyle's Law",
+        "Charles Law",
+        "Combined Gas Law",
+        "Avogadro’s Law"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Heat capacity at constant volume is denoted by:",
+      "answer": "Cv",
+      "explanation": "Cv represents heat capacity when volume remains constant.",
+      "options": [
+        "Cv",
+        "Cp",
+        "C",
+        "Cw"
+      ]
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the first law of thermodynamics and its significance.",
+      "answer": "Energy within an isolated system is conserved and cannot be created or destroyed, only transformed.",
+      "explanation": "It emphasizes the principle of energy conservation in thermodynamic processes."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Describe the second law of thermodynamics and its implications.",
+      "answer": "The total entropy of an isolated system always increases or remains constant, indicating process irreversibility.",
+      "explanation": "It introduces entropy and directionality in spontaneous processes."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Discuss the different types of thermodynamic systems.",
+      "answer": "Systems can be open, closed, or isolated based on energy and matter exchange with surroundings.",
+      "explanation": "Classification helps analyze system interactions in thermodynamics."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the Carnot cycle and its importance in thermodynamics.",
+      "answer": "The Carnot cycle is an idealized cycle defining maximum efficiency of heat engines between two temperatures.",
+      "explanation": "It serves as a benchmark for real engine performances."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "What is entropy and why is it important?",
+      "answer": "Entropy measures disorder or randomness, predicting feasibility of thermodynamic processes.",
+      "explanation": "It governs the spontaneity and irreversibility of processes."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the concept of internal energy.",
+      "answer": "Internal energy is the total molecular kinetic and potential energy within a system.",
+      "explanation": "It changes with temperature, pressure, and volume variations."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Differentiate between isothermal, adiabatic, isobaric, and isochoric processes.",
+      "answer": "Isothermal is constant temperature, adiabatic no heat exchange, isobaric constant pressure, isochoric constant volume.",
+      "explanation": "Understanding these processes is key to analyzing thermodynamic behavior."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the distinction between intensive and extensive properties in thermodynamics.",
+      "answer": "Intensive properties do not depend on system size, while extensive properties do.",
+      "explanation": "This distinction is fundamental for material and energy transfer analysis."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Describe applications of thermodynamics in refrigeration and heat pumps.",
+      "answer": "Refrigeration and heat pumps transfer heat from cold to warm areas using work input.",
+      "explanation": "They rely on thermodynamic cycles for operation."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Discuss real-world applications of thermodynamics in engineering.",
+      "answer": "Thermodynamics is applied in engines, HVAC, power plants, and chemical processing.",
+      "explanation": "It improves energy efficiency and system design."
+    }
+  ],
+    "Fluid Mechanics": [
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "What is the definition of a fluid?",
+    "options": [
+      "A solid substance",
+      "Any substance that deforms continuously under shear stress",
+      "An object that does not flow",
+      "A rigid body"
+    ],
+    "answer": "Any substance that deforms continuously under shear stress",
+    "explanation": "Fluids are materials that continuously deform when a shear stress is applied."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "Which of the following is an example of a Newtonian fluid?",
+    "options": ["Air", "Honey", "Blood", "Ketchup"],
+    "answer": "Air",
+    "explanation": "Newtonian fluids have a constant viscosity independent of shear rate; air is one such fluid."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "What does the continuity equation in fluid mechanics represent?",
+    "options": [
+      "Conservation of energy",
+      "Conservation of mass",
+      "Momentum conservation",
+      "Fluid temperature variation"
+    ],
+    "answer": "Conservation of mass",
+    "explanation": "Continuity equation states that mass flow rate remains constant in steady flow."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "What is dynamic viscosity?",
+    "options": [
+      "Resistance to flow by fluid",
+      "Density of fluid",
+      "Fluid speed",
+      "Fluid pressure"
+    ],
+    "answer": "Resistance to flow by fluid",
+    "explanation": "Dynamic viscosity measures internal resistance to fluid motion."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "Which device is used to measure fluid pressure?",
+    "options": ["Manometer", "Thermometer", "Barometer", "Hydrometer"],
+    "answer": "Manometer",
+    "explanation": "Manometer measures fluid pressure by liquid column height differences."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "In fluid mechanics, what does the Reynolds number indicate?",
+    "options": ["Viscosity", "Flow regime", "Momentum conservation", "Fluid temperature variation"],
+    "answer": "Flow regime",
+    "explanation": "Reynolds number predicts whether the flow is laminar or turbulent."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "What is Bernoulli’s equation used for?",
+    "options": [
+      "Mass conservation",
+      "Energy conservation in flowing fluids",
+      "Momentum conservation",
+      "Fluid viscosity measurement"
+    ],
+    "answer": "Energy conservation in flowing fluids",
+    "explanation": "Bernoulli’s equation relates pressure, velocity, and elevation in fluid flow."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "What type of flow has a Reynolds number less than 2000?",
+    "options": ["Turbulent", "Laminar", "Transitional", "Compressible"],
+    "answer": "Laminar",
+    "explanation": "Low Reynolds number indicates smooth and orderly (laminar) flow."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "Which of the following is a property unique to fluids?",
+    "options": ["Shear strength", "Compressibility", "Rigidity", "None of the above"],
+    "answer": "Compressibility",
+    "explanation": "Fluids can change volume under pressure, showing compressibility; solids resist volume change."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "What does the term ‘head’ refer to in fluid mechanics?",
+    "options": ["Height of the fluid column", "Pressure", "Velocity", "Temperature"],
+    "answer": "Height of the fluid column",
+    "explanation": "Head represents energy per unit weight, related to fluid height."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "What is the main cause of fluid turbulence?",
+    "options": ["High velocity and low viscosity", "Low velocity and high viscosity", "Low temperature", "High pressure"],
+    "answer": "High velocity and low viscosity",
+    "explanation": "Turbulence occurs when inertial forces dominate viscous forces."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "Which principle explains buoyancy?",
+    "options": ["Pascal’s Law", "Archimedes’ Principle", "Newton’s First Law", "Bernoulli’s Theorem"],
+    "answer": "Archimedes’ Principle",
+    "explanation": "Archimedes’ principle describes buoyant force acting on submerged objects."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "What does hydrostatic pressure depend on?",
+    "options": ["Fluid density and depth", "Fluid velocity", "Fluid viscosity", "Surface tension"],
+    "answer": "Fluid density and depth",
+    "explanation": "Pressure at a point in a fluid increases with depth and fluid density."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "In fluid flow, what is laminar flow?",
+    "options": [
+      "Flow with eddies and swirls",
+      "Flow in straight parallel layers",
+      "Random chaotic flow",
+      "Flow with rapid mixing"
+    ],
+    "answer": "Flow in straight parallel layers",
+    "explanation": "Laminar flow involves smooth, orderly layers of fluid."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "What is Poiseuille’s law related to?",
+    "options": [
+      "Pressure drop in turbulent flow",
+      "Viscous flow rate in a pipe",
+      "Energy conservation",
+      "Fluid compressibility"
+    ],
+    "answer": "Viscous flow rate in a pipe",
+    "explanation": "Poiseuille’s law describes the volumetric flow rate of viscous fluids in cylindrical pipes."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "What is the SI unit of pressure?",
+    "options": ["Pascal", "Joule", "Watt", "Newton"],
+    "answer": "Pascal",
+    "explanation": "Pressure is force per unit area, measured in Pascals (Pa)."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "Which property measures internal resistance to flow in fluids?",
+    "options": ["Viscosity", "Density", "Pressure", "Temperature"],
+    "answer": "Viscosity",
+    "explanation": "Viscosity quantifies the fluid’s resistance to deformation and flow."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "What instrument measures acceleration in fluid flow?",
+    "options": ["Accelerometer", "Manometer", "Thermometer", "Barometer"],
+    "answer": "Accelerometer",
+    "explanation": "An accelerometer measures acceleration forces in fluid systems."
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Basic",
+    "question": "Which parameter defines resistance to gradual shear deformation in fluids?",
+    "options": ["Bulk modulus", "Viscosity", "Density", "Turbulence"],
+    "answer": "Viscosity",
+    "explanation": "Viscosity describes the shear resistance within a fluid."
+  },
+  {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the primary cause of drag force on an object moving through a fluid?",
+      "answer": "Viscous friction between fluid layers and the object’s surface",
+      "explanation": "Drag force arises due to friction and pressure differences caused by fluid flow around the object.",
+      "options": [
+        "Buoyant force",
+        "Viscous friction between fluid layers and the object’s surface",
+        "Gravitational force",
+        "Surface tension"
+      ]
+    },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Explain the concept of viscosity and its effect on fluid flow.",
+    "answer": "Viscosity is the measure of a fluid's resistance to flow, affecting the rate and nature of fluid movement.",
+    "explanation": "Higher viscosity means greater internal resistance, influencing laminar and turbulent flow regimes."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Describe the continuity equation and its significance in fluid dynamics.",
+    "answer": "The continuity equation expresses mass conservation for fluid flow, relating velocity and cross-sectional area.",
+    "explanation": "It ensures that the mass flow rate remains constant for incompressible fluids through varying pipe sections."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "What is Bernoulli’s theorem and how does it apply to fluid flow?",
+    "answer": "Bernoulli’s theorem states that the total mechanical energy along a streamline is constant.",
+    "explanation": "It relates pressure, velocity, and elevation in fluid flow, helping analyze fluid speed and pressure changes."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Explain the different types of fluid flow: laminar, turbulent, and transitional.",
+    "answer": "Laminar flow is smooth and ordered, turbulent flow is chaotic, transitional flow is intermediate between them.",
+    "explanation": "Flow type depends on Reynolds number, influencing energy loss and mixing behavior."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Discuss the Reynolds number and its role in characterizing fluid flow.",
+    "answer": "Reynolds number is a dimensionless quantity predicting whether flow is laminar or turbulent.",
+    "explanation": "It compares inertial forces to viscous forces, influencing flow stability."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Explain the principle of conservation of momentum in fluid dynamics.",
+    "answer": "It states that the total momentum change in a fluid equals the sum of forces applied.",
+    "explanation": "This principle forms the basis of the Navier–Stokes equations describing fluid motion."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "What is the significance of the Navier–Stokes equations in fluid dynamics?",
+    "answer": "They describe the motion of viscous fluid substances under various forces.",
+    "explanation": "These equations are fundamental for predicting fluid velocity, pressure, and turbulence."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Describe the phenomenon of boundary layer formation and its importance.",
+    "answer": "The boundary layer is a thin fluid layer near a surface where velocity changes from zero to free stream.",
+    "explanation": "It affects drag, heat transfer, and flow separation in fluid systems."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Explain the concept of fluid statics and the role of hydrostatic pressure.",
+    "answer": "Fluid statics studies fluids at rest, where pressure increases with depth due to fluid weight.",
+    "explanation": "Hydrostatic pressure is essential for designing dams, tanks, and underwater structures."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Discuss the factors affecting flow rate in a pipe and how they influence it.",
+    "answer": "Flow rate depends on pipe diameter, fluid velocity, viscosity, and pressure difference.",
+    "explanation": "Larger diameter and pressure increase flow rate; higher viscosity decreases it due to resistance."
+  }
+],
+    "Strength of Materials": [
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What does stress in a material refer to?",
+    "answer": "Force per unit area",
+    "explanation": "Stress measures the internal force per area within a material under load.",
+    "options": [
+      "Force per unit volume",
+      "Force per unit length",
+      "Force per unit area",
+      "Force per unit weight"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which law relates stress and strain in the elastic region?",
+    "answer": "Hooke’s Law",
+    "explanation": "Hooke’s Law states stress is proportional to strain within elastic limits.",
+    "options": [
+      "Newton’s Law",
+      "Hooke’s Law",
+      "Pascal’s Law",
+      "Bernoulli’s Principle"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is Young’s modulus a measure of?",
+    "answer": "Stiffness of a material",
+    "explanation": "Young’s modulus quantifies how much a material resists elongation under tension.",
+    "options": [
+      "Strength",
+      "Stiffness",
+      "Ductility",
+      "Toughness"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What type of stress occurs due to twisting forces?",
+    "answer": "Shear stress",
+    "explanation": "Twisting causes shear forces acting parallel to material cross-sections.",
+    "options": [
+      "Compressive stress",
+      "Tensile stress",
+      "Shear stress",
+      "Torsional stress"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which material property measures the ability to absorb energy before fracture?",
+    "answer": "Toughness",
+    "explanation": "Toughness indicates total energy a material can absorb before failure.",
+    "options": [
+      "Strength",
+      "Ductility",
+      "Toughness",
+      "Hardness"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is the unit of strain?",
+    "answer": "Dimensionless",
+    "explanation": "Strain is a ratio of lengths and thus dimensionless.",
+    "options": [
+      "Pascal",
+      "Newton",
+      "Dimensionless",
+      "Meter"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "In bending, where does maximum stress occur?",
+    "answer": "At the outermost fibers",
+    "explanation": "Stress is greatest farthest from the neutral axis in bending.",
+    "options": [
+      "At the neutral axis",
+      "At the outermost fibers",
+      "At the midpoint",
+      "At the center of gravity"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is Poisson’s ratio?",
+    "answer": "Ratio of lateral to axial strain",
+    "explanation": "It relates transverse contraction strain to longitudinal extension strain.",
+    "options": [
+      "Ratio of axial to lateral strain",
+      "Ratio of lateral to axial strain",
+      "Ratio of shear to axial strain",
+      "Ratio of tensile to compressive strain"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Shear force and bending moment diagrams are used to determine:",
+    "answer": "Internal forces in beams",
+    "explanation": "These diagrams depict how shear forces and moments vary through a beam’s length.",
+    "options": [
+      "External forces only",
+      "Deflection of beams",
+      "Internal forces in beams",
+      "Stress in columns"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "The maximum bending moment in a simply supported beam with a central load occurs:",
+    "answer": "At the midpoint",
+    "explanation": "For a centered load, bending moment peaks at the beam’s center.",
+    "options": [
+      "At the supports",
+      "At the midpoint",
+      "At one-quarter length",
+      "At three-quarter length"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is the primary cause of buckling in columns?",
+    "answer": "Compressive axial load",
+    "explanation": "Buckling occurs when compressive load causes lateral deflection.",
+    "options": [
+      "Tensile load",
+      "Compressive axial load",
+      "Shear load",
+      "Torsion"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Stress concentration occurs due to:",
+    "answer": "Abrupt changes in geometry",
+    "explanation": "Sharp corners or holes cause localized increases in stress.",
+    "options": [
+      "Uniform cross-section",
+      "Abrupt changes in geometry",
+      "Smooth surfaces",
+      "Low loading"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which of the following is a ductile material?",
+    "answer": "Mild steel",
+    "explanation": "Mild steel can undergo significant plastic deformation before fracture.",
+    "options": [
+      "Cast iron",
+      "Mild steel",
+      "Ceramic",
+      "Glass"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is the formula to calculate bending stress in a beam?",
+    "answer": "σ = My/I",
+    "explanation": "Stress is proportional to moment, distance from neutral axis, and inversely to moment of inertia.",
+    "options": [
+      "σ = My/I",
+      "σ = F/A",
+      "σ = P/A",
+      "σ = Eε"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Modulus of rigidity relates to which type of deformation?",
+    "answer": "Shear deformation",
+    "explanation": "It quantifies relation between shear stress and shear strain.",
+    "options": [
+      "Tensile deformation",
+      "Compressive deformation",
+      "Shear deformation",
+      "Bending deformation"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What does the term 'elastic limit' mean?",
+    "answer": "Maximum stress before permanent deformation",
+    "explanation": "It is the highest stress a material can sustain without plastic deformation.",
+    "options": [
+      "Stress at fracture",
+      "Maximum stress before permanent deformation",
+      "Yield stress",
+      "Ultimate tensile strength"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is the effect of increasing temperature on material strength?",
+    "answer": "Generally decreases strength",
+    "explanation": "Higher temperature typically reduces yield and tensile strength.",
+    "options": [
+      "Increases strength",
+      "Decreases strength",
+      "No effect",
+      "Increases ductility only"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What does the term 'fatigue' refer to in materials?",
+    "answer": "Failure under repeated cyclic loading",
+    "explanation": "Fatigue is weakening caused by fluctuating stresses over time.",
+    "options": [
+      "Instantaneous fracture",
+      "Failure under repeated cyclic loading",
+      "Corrosion",
+      "Creep deformation"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which testing method is used to determine hardness?",
+    "answer": "Brinell test",
+    "explanation": "Brinell test measures resistance to indentation by a hard ball.",
+    "options": [
+      "Tensile test",
+      "Brinell test",
+      "Impact test",
+      "Fatigue test"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which stress is dominant in a thin-walled pressure vessel subjected to internal pressure?",
+    "answer": "Hoop stress",
+    "explanation": "Hoop stress acts circumferentially and is usually the highest.",
+    "options": [
+      "Longitudinal stress",
+      "Hoop stress",
+      "Shear stress",
+      "Bearing stress"
+    ]
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Explain the difference between elastic and plastic deformation in materials.",
+    "answer": "Elastic deformation is reversible, while plastic deformation is permanent.",
+    "explanation": "Materials return to original shape after elastic deformation but not after plastic deformation."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Describe the concept of stress-strain curve and its key regions.",
+    "answer": "The curve shows material response under load with elastic, plastic, and failure regions.",
+    "explanation": "It includes proportional limit, yield point, ultimate strength, and fracture point."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "What factors influence the buckling load of slender columns?",
+    "answer": "Length, cross-section moment of inertia, material modulus, and end conditions.",
+    "explanation": "Buckling depends on geometry, material stiffness, and support types."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Explain how moment of inertia affects the bending resistance of beams.",
+    "answer": "Higher moment of inertia increases a beam’s resistance to bending.",
+    "explanation": "It depends on cross-sectional shape and size relative to neutral axis."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Discuss the role of Poisson’s ratio in material deformation under load.",
+    "answer": "Poisson’s ratio links lateral contraction to axial elongation in loaded materials.",
+    "explanation": "It affects volumetric changes during tension or compression."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "What is creep and how does it affect materials under long-term loading?",
+    "answer": "Creep is slow, progressive deformation over time under constant load.",
+    "explanation": "It can cause structural failure in components under sustained stress."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Describe the procedure for conducting a standard tensile test on a material sample.",
+    "answer": "Apply axial load gradually and record stress-strain until failure.",
+    "explanation": "Used to determine mechanical properties like ultimate strength, yield strength, and ductility."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Explain the significance of toughness in material selection for structural applications.",
+    "answer": "Toughness indicates energy absorption before fracture, important for safety.",
+    "explanation": "Materials must resist impact and sudden loading without brittle failure."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "How are shear force and bending moment diagrams used in beam analysis?",
+    "answer": "They graphically represent internal forces to design safe structural elements.",
+    "explanation": "Used to identify maximum stresses and critical points along beams."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Describe the difference between ductile and brittle fracture mechanisms.",
+    "answer": "Ductile fracture involves plastic deformation; brittle fracture occurs suddenly without warning.",
+    "explanation": "Ductile materials show necking, brittle materials fracture with little deformation."
+  }
+],
+    "Manufacturing Processes": [
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is the primary purpose of the casting process in manufacturing?",
+    "answer": "To shape molten material into a desired form",
+    "explanation": "Casting involves pouring liquid metal into a mold where it solidifies into the required shape.",
+    "options": [
+      "To join two materials",
+      "To shape molten material into a desired form",
+      "To remove material by cutting",
+      "To assemble parts"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which manufacturing process is typically used for mass production of plastic parts?",
+    "answer": "Injection molding",
+    "explanation": "Injection molding allows rapid production of complex plastic components in large quantities.",
+    "options": [
+      "Extrusion",
+      "Injection molding",
+      "Forging",
+      "Casting"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What distinguishes forging from casting?",
+    "answer": "Forging involves plastic deformation, casting involves melting and solidification",
+    "explanation": "Forging shapes metals by compressive forces, while casting uses molten metal solidification.",
+    "options": [
+      "Casting involves deformation, forging involves melting",
+      "Forging involves plastic deformation, casting involves melting and solidification",
+      "Both are the same",
+      "Forging uses molds"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which process removes material to achieve desired shape?",
+    "answer": "Machining",
+    "explanation": "Machining uses cutting and grinding to remove excess material.",
+    "options": [
+      "Casting",
+      "Forming",
+      "Machining",
+      "Welding"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which welding technique uses an electric arc to melt metals at the joint?",
+    "answer": "Arc welding",
+    "explanation": "Arc welding employs an electric arc to generate heat for joining metals.",
+    "options": [
+      "Arc welding",
+      "Gas welding",
+      "Laser welding",
+      "Resistance welding"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is the main advantage of additive manufacturing (3D printing)?",
+    "answer": "Ability to create complex geometries with minimal waste",
+    "explanation": "Additive manufacturing builds parts layer by layer, reducing material waste.",
+    "options": [
+      "Fast mass production",
+      "Ability to create complex geometries with minimal waste",
+      "Lower material costs",
+      "Better surface finish"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which sheet metal process involves bending a metal sheet to a desired angle?",
+    "answer": "Press braking",
+    "explanation": "Press brakes apply force to bend sheets accurately.",
+    "options": [
+      "Shearing",
+      "Press braking",
+      "Punching",
+      "Stamping"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "In which process is molten metal poured into reusable metal molds?",
+    "answer": "Die casting",
+    "explanation": "Die casting uses durable molds for high-volume production.",
+    "options": [
+      "Sand casting",
+      "Die casting",
+      "Investment casting",
+      "Continuous casting"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which process improves surface finish and dimensional accuracy after casting or forging?",
+    "answer": "Machining",
+    "explanation": "Machining removes excess material and smooths surfaces.",
+    "options": [
+      "Heat treatment",
+      "Machining",
+      "Welding",
+      "Forming"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What type of manufacturing process is extrusion?",
+    "answer": "Forming process that pushes material through a die",
+    "explanation": "Extrusion forces material through shaped openings to create cross-sectional profiles.",
+    "options": [
+      "Cutting process",
+      "Forming process that pushes material through a die",
+      "Joining process",
+      "Surface finishing process"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is meant by 'tolerance' in manufacturing?",
+    "answer": "Allowable variation in a dimension",
+    "explanation": "Tolerance specifies acceptable deviation from nominal size.",
+    "options": [
+      "Exact dimension required",
+      "Allowable variation in a dimension",
+      "Material hardness",
+      "Surface roughness"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which of the following is a non-traditional machining process?",
+    "answer": "Electrical discharge machining",
+    "explanation": "EDM uses electrical discharges to remove material, unlike conventional cutting.",
+    "options": [
+      "Turning",
+      "Milling",
+      "Electrical discharge machining",
+      "Drilling"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is the main limitation of casting processes?",
+    "answer": "Surface finish and dimensional accuracy may be poor",
+    "explanation": "Cast parts often require secondary operations for precise tolerance and finish.",
+    "options": [
+      "High material costs",
+      "Surface finish and dimensional accuracy may be poor",
+      "High energy consumption",
+      "Limited shapes possible"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which forming process is used to create thin-walled hollow shapes like pipes?",
+    "answer": "Drawing",
+    "explanation": "Drawing pulls metal through a die to reduce cross-section, forming tubes or wires.",
+    "options": [
+      "Forging",
+      "Drawing",
+      "Casting",
+      "Extrusion"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "In which process are objects built layer-by-layer based on digital models?",
+    "answer": "Additive manufacturing",
+    "explanation": "Additive manufacturing creates parts using sequential layering controlled by CAD data.",
+    "options": [
+      "Subtractive manufacturing",
+      "Additive manufacturing",
+      "Forming",
+      "Casting"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which manufacturing process uses sand as a mold material?",
+    "answer": "Sand casting",
+    "explanation": "Sand casting forms molds by compacting sand around the pattern and pouring molten metal.",
+    "options": [
+      "Die casting",
+      "Investment casting",
+      "Sand casting",
+      "Compression molding"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is the main purpose of heat treatment in manufacturing?",
+    "answer": "To alter mechanical properties of materials",
+    "explanation": "Heat treatment processes modify hardness, strength, or ductility.",
+    "options": [
+      "Surface finishing",
+      "Shape forming",
+      "To alter mechanical properties of materials",
+      "Joining parts"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which operation removes thin layers of material to improve surface finish?",
+    "answer": "Grinding",
+    "explanation": "Grinding uses abrasive wheels for fine finishing and dimensional control.",
+    "options": [
+      "Turning",
+      "Milling",
+      "Grinding",
+      "Casting"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which process joins metal parts by melting their interfaces?",
+    "answer": "Fusion welding",
+    "explanation": "Fusion welding melts and fuses metals to form strong joints.",
+    "options": [
+      "Adhesive bonding",
+      "Mechanical fastening",
+      "Fusion welding",
+      "Soldering"
+    ]
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Explain the differences between casting and forging processes.",
+    "answer": "Casting shapes metal by solidifying molten metal in molds; forging shapes metal by plastic deformation.",
+    "explanation": "Casting allows complex shapes but lower strength; forging produces stronger, refined grain structures."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Describe the principle and applications of additive manufacturing.",
+    "answer": "Additive manufacturing builds parts layer by layer using digital designs for complex geometries.",
+    "explanation": "It is used for prototyping, complex parts, and custom manufacturing with minimal waste."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "What are the advantages and limitations of machining processes?",
+    "answer": "Advantages include precision and surface finish; limitations include material waste and slower speed.",
+    "explanation": "Machining is versatile but costly for large volume mass production."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Explain the role of heat treatment in altering the properties of metals.",
+    "answer": "Heat treatment modifies hardness, strength, and ductility by controlled heating and cooling.",
+    "explanation": "Processes like annealing and quenching tailor mechanical performance for applications."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Discuss the key factors affecting quality in casting processes.",
+    "answer": "Mold material, pouring temperature, cooling rate, and impurities affect casting quality.",
+    "explanation": "Optimizing these factors reduces defects like porosity and shrinkage."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Describe the process and importance of weld quality inspection.",
+    "answer": "Weld inspection checks for defects to ensure strength and reliability of joints.",
+    "explanation": "Methods include visual, ultrasonic, and radiographic tests."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Explain the differences between subtractive and additive manufacturing.",
+    "answer": "Subtractive removes material from a block; additive builds parts by adding material layer-wise.",
+    "explanation": "Additive offers design freedom and less waste; subtractive provides superior surface finish."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "What are the basic steps involved in the sand casting process?",
+    "answer": "Pattern making, mold preparation, pouring, cooling, and cleaning.",
+    "explanation": "Each step is critical to produce quality castings with minimal defects."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Discuss how tooling design influences manufacturing efficiency and quality.",
+    "answer": "Good tooling ensures repeatability, precision, and faster production rates.",
+    "explanation": "Poor tooling can cause defects, downtime, and increased costs."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Explain the significance of tolerances and surface finish in manufacturing.",
+    "answer": "Tolerances define acceptable dimensional variation; surface finish affects function and appearance.",
+    "explanation": "Proper control ensures part fit, performance, and aesthetics."
+  }
+],
+    "Machine Design": [
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is the primary objective of machine design?",
+    "answer": "To create components that safely withstand loads",
+    "explanation": "Machine design aims to develop parts that endure stresses and function reliably.",
+    "options": [
+      "To minimize material usage",
+      "To create components that safely withstand loads",
+      "To maximize size of parts",
+      "To improve aesthetics"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What type of failure is caused by repeated fluctuations in load?",
+    "answer": "Fatigue failure",
+    "explanation": "Fatigue failure occurs due to cyclic stresses below the ultimate strength.",
+    "options": [
+      "Yield failure",
+      "Fatigue failure",
+      "Creep failure",
+      "Brittle fracture"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which factor of safety is generally used in machine design?",
+    "answer": "Between 1.5 and 3",
+    "explanation": "Designs incorporate safety factors to account for uncertainties in loads and materials.",
+    "options": [
+      "Less than 1",
+      "Between 1.5 and 3",
+      "Above 5",
+      "Exactly 1"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What does the term 'bearing stress' refer to?",
+    "answer": "Contact pressure between two surfaces",
+    "explanation": "Bearing stress is the localized pressure where two parts press against each other.",
+    "options": [
+      "Stress in the material bulk",
+      "Contact pressure between two surfaces",
+      "Shear stress",
+      "Tensile stress"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which of the following is a commonly used material for machine components requiring high strength?",
+    "answer": "Alloy steel",
+    "explanation": "Alloy steels offer improved strength and toughness over plain carbon steels.",
+    "options": [
+      "Cast iron",
+      "Alloy steel",
+      "Aluminum",
+      "Plastic"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "In machine design, what is meant by 'stress concentration'?",
+    "answer": "Localized increase of stress due to geometric discontinuities",
+    "explanation": "Stress concentration occurs at notches, holes, or sharp corners, raising local stresses.",
+    "options": [
+      "Uniform stress distribution",
+      "Localized increase of stress due to geometric discontinuities",
+      "Decrease in stress at joints",
+      "Stress due to thermal expansion"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is the purpose of using fillets in machine components?",
+    "answer": "To reduce stress concentration",
+    "explanation": "Fillets smooth sharp corners, thereby decreasing stress concentrations.",
+    "options": [
+      "Increase weight",
+      "Reduce stress concentration",
+      "Improve surface finish",
+      "Aid assembly"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is the common mode of failure in brittle materials under tensile load?",
+    "answer": "Sudden fracture",
+    "explanation": "Brittle materials fail without noticeable deformation by fracture under tension.",
+    "options": [
+      "Plastic deformation",
+      "Sudden fracture",
+      "Fatigue",
+      "Creep"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which design parameter is essential for components subjected to shock loads?",
+    "answer": "Impact strength",
+    "explanation": "Impact strength measures a material’s ability to resist sudden forces.",
+    "options": [
+      "Yield strength",
+      "Impact strength",
+      "Fatigue strength",
+      "Hardness"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What type of load causes torsional stress in machine parts?",
+    "answer": "Twisting or torque forces",
+    "explanation": "Torsional stress arises when parts experience twisting moments.",
+    "options": [
+      "Axial load",
+      "Twisting or torque forces",
+      "Bending load",
+      "Shear load"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which presentation tool is used to graphically represent varying stresses along a beam?",
+    "answer": "Bending moment diagram",
+    "explanation": "Bending moment diagrams show internal moments responsible for bending.",
+    "options": [
+      "Shear force diagram",
+      "Strain diagram",
+      "Bending moment diagram",
+      "Stress-strain curve"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What does the term 'creep' signify in machine design?",
+    "answer": "Slow, permanent deformation under constant load",
+    "explanation": "Creep happens especially at high temperatures affecting long-term reliability.",
+    "options": [
+      "Instantaneous failure",
+      "Slow, permanent deformation under constant load",
+      "Fatigue failure",
+      "Elastic deformation"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "In shaft design, which parameter is critical to avoid critical speeds?",
+    "answer": "Natural frequency",
+    "explanation": "Shafts must be designed to prevent resonant vibration at operating speeds.",
+    "options": [
+      "Tensile strength",
+      "Natural frequency",
+      "Shear strength",
+      "Young’s modulus"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which of the following is NOT a factor that affects fatigue life of a component?",
+    "answer": "Color of the material",
+    "explanation": "Factors include surface finish, size, stress concentration, but not color.",
+    "options": [
+      "Surface finish",
+      "Size",
+      "Stress concentration",
+      "Color of the material"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What type of load is considered in a 'reversing load' fatigue test?",
+    "answer": "Alternating tensile and compressive loads",
+    "explanation": "Reversing loads simulate cyclic stresses between tension and compression.",
+    "options": [
+      "Static load",
+      "Constant tensile load",
+      "Alternating tensile and compressive loads",
+      "Impact load"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which surface treatment improves resistance to wear and corrosion?",
+    "answer": "Hardening",
+    "explanation": "Surface hardening processes increase strength and durability on the outer layers.",
+    "options": [
+      "Annealing",
+      "Hardening",
+      "Tempering",
+      "Normalizing"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which mechanical property indicates a material's ability to deform plastically without fracture?",
+    "answer": "Ductility",
+    "explanation": "Ductility measures how much a material can stretch under tensile stress.",
+    "options": [
+      "Toughness",
+      "Hardness",
+      "Ductility",
+      "Elasticity"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is the meaning of 'yield point' in material stress-strain behavior?",
+    "answer": "Stress level where permanent deformation begins",
+    "explanation": "Yield point marks the limit of elastic behavior.",
+    "options": [
+      "Maximum stress before fracture",
+      "Stress level where permanent deformation begins",
+      "Elastic limit",
+      "Ultimate tensile strength"
+    ]
+  },
+  {
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which design consideration is crucial for components subject to temperature variations?",
+    "answer": "Thermal expansion",
+    "explanation": "Materials expand or contract with temperature, affecting fit and stresses.",
+    "options": [
+      "Creep",
+      "Thermal expansion",
+      "Fatigue",
+      "Corrosion"
+    ]
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Explain the importance of factor of safety in machine design.",
+    "answer": "Factor of safety ensures components operate safely beyond expected loads.",
+    "explanation": "It accounts for uncertainties in load, material properties, and environment."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Describe the types of stresses encountered in a shaft transmitting torque.",
+    "answer": "Shafts experience torsional shear stress and possibly bending or axial stress.",
+    "explanation": "Design must consider combined stresses to avoid failure."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Discuss how material selection impacts machine component design.",
+    "answer": "Material affects strength, weight, durability, and cost of components.",
+    "explanation": "Choosing right materials improves performance and lifespan."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Explain the phenomenon of fatigue failure and methods to improve fatigue life.",
+    "answer": "Fatigue results from cyclic loading causing cracks; improving surface finish and avoiding stress concentrators enhance fatigue life.",
+    "explanation": "Proper design reduces failure risks in dynamic conditions."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "What factors influence the choice between brittle and ductile materials in design?",
+    "answer": "Load type, impact resistance, and operating conditions determine material choice.",
+    "explanation": "Ductile materials are preferred for shock loads; brittle for hardness requirements."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Describe the role of surface treatments in enhancing machine part performance.",
+    "answer": "Surface treatments increase wear resistance, corrosion resistance, and fatigue strength.",
+    "explanation": "Processes like carburizing and nitriding extend part life."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Explain stress concentration and how it can be minimized in machine components.",
+    "answer": "Stress concentration occurs at abrupt geometry changes; using fillets and smooth transitions reduces it.",
+    "explanation": "Proper design prevents premature failure."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Discuss the impact of temperature on the mechanical properties of materials used in machine design.",
+    "answer": "Temperature changes can decrease strength and cause thermal stresses or creep.",
+    "explanation": "Design must accommodate thermal effects for reliability."
+  },
+  {
+    "type": "Descriptive",
+    "difficulty": "Hard",
+    "question": "Describe how bending moment and shear force diagrams assist in machine design.",
+    "answer": "These diagrams help locate maximum internal stresses and design components accordingly.",
+    "explanation": "They are essential tools for structural integrity analysis."
+  }
+]
+}}

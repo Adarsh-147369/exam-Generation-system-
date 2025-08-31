@@ -1,0 +1,1668 @@
+{
+  "CSE": {
+    "Programming Languages & Programming Fundamentals": [
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "Which of the following is the correct way to declare a variable in C++?",
+        "answer": "int variable2;",
+        "explanation": "Variable names cannot start with a digit in C++. They must start with a letter or underscore.",
+        "options": [
+          "int 2variable;",
+          "int variable2;",
+          "2int variable;",
+          "variable int;"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "What is the output of the following C code?\n```c\nint x = 5;\nprintf(\"%d\", ++x);\n```",
+        "answer": "6",
+        "explanation": "++x is pre-increment operator which increments x first then uses its value.",
+        "options": [
+          "5",
+          "6",
+          "Error",
+          "Undefined"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Medium",
+        "question": "What is the size of a pointer in a 64-bit system?",
+        "answer": "8 bytes",
+        "explanation": "In a 64-bit system, pointers are 8 bytes (64 bits) regardless of the data type they point to.",
+        "options": [
+          "4 bytes",
+          "8 bytes",
+          "16 bytes",
+          "Depends on data type"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Hard",
+        "question": "What is the time complexity of accessing an element in an array by index?",
+        "answer": "O(1)",
+        "explanation": "Array elements can be accessed directly using index calculation, making it constant time O(1).",
+        "options": [
+          "O(1)",
+          "O(n)",
+          "O(log n)",
+          "O(n²)"
+        ]
+      },
+      {
+        "type": "MCQ",
+        "difficulty": "Basic",
+        "question": "What does the term “syntax” refer to in programming?",
+        "answer": "The rules for writing code correctly",
+        "explanation": "Syntax defines the structure and rules for writing valid programs in a language.",
+        "options": [
+          "The style of programming",
+          "The rules for writing code correctly",
+          "The output of a program",
+          "The hardware on which code runs"
+        ]
+      }, 
+      {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the purpose of a compiler?",
+      "answer": "To convert source code into machine code",
+      "explanation": "A compiler translates human-readable source code into machine code.",
+      "options": [
+        "To execute the code directly",
+        "To convert source code into machine code",
+        "To debug programs",
+        "To store variables"
+      ]
+    },
+      {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which of these is a primitive data type in most languages?",
+      "answer": "Integer",
+      "explanation": "Integers are basic primitive data types representing whole numbers.",
+      "options": [
+        "String",
+        "List",
+        "Integer",
+        "Object"
+      ]
+    },
+      {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which loop executes at least once regardless of the condition?",
+      "answer": "do-while loop",
+      "explanation": "The do-while loop runs the loop body once before testing the condition.",
+      "options": [
+        "for loop",
+        "while loop",
+        "do-while loop",
+        "none of these"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does the term \"inheritance\" mean in object-oriented programming?",
+      "answer": "A new class deriving properties from another class",
+      "explanation": "Inheritance allows a class to inherit features of another class.",
+      "options": [
+        "Creating a new function",
+        "Passing data between functions",
+        "A new class deriving properties from another class",
+        "Encrypting data"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which of the following is NOT a loop structure?",
+      "answer": "if-else",
+      "explanation": "if-else is a conditional statement, not a loop.",
+      "options": [
+        "for",
+        "while",
+        "if-else",
+        "do-while"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which of the following languages is primarily used for web frontend development?",
+      "answer": "JavaScript",
+      "explanation": "JavaScript is predominantly used for client-side web development.",
+      "options": [
+        "Python",
+        "JavaScript",
+        "C++",
+        "Java"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does \"recursion\" mean in programming?",
+      "answer": "A function calling itself",
+      "explanation": "Recursion happens when a function calls itself to solve smaller instances of a problem.",
+      "options": [
+        "A function calling another function",
+        "A function calling itself",
+        "Looping over data",
+        "Using global variables"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which data structure uses FIFO (First In First Out) order?",
+      "answer": "Queue",
+      "explanation": "Queue follows FIFO principle.",
+      "options": [
+        "Stack",
+        "Queue",
+        "Array",
+        "Linked list"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which of the following is a high-level programming language?",
+      "answer": "Python",
+      "explanation": "Python is a high-level language, closer to human languages.",
+      "options": [
+        "Assembly",
+        "Machine code",
+        "Python",
+        "Binary code"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is a function prototype?",
+      "answer": "A declaration of function's name and parameters without body",
+      "explanation": "A prototype declares a function's interface before its definition.",
+      "options": [
+        "The actual function code",
+        "A declaration of function's name and parameters without body",
+        "The variable that stores a function",
+        "A language keyword"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "A pointer in programming is used to:",
+      "answer": "Store a memory address",
+      "explanation": "Pointers store addresses of other variables.",
+      "options": [
+        "Store a memory address",
+        "Store integer values only",
+        "Store only strings",
+        "None of these"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which operator is used for assignment in most programming languages?",
+      "answer": "=",
+      "explanation": "Single equals sign is used for assignment.",
+      "options": [
+        "==",
+        "=",
+        "===",
+        ":="
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What does IDE stand for?",
+      "answer": "Integrated Development Environment",
+      "explanation": "IDE is software that facilitates coding, testing, and debugging.",
+      "options": [
+        "Integrated Development Environment",
+        "Internal Device Error",
+        "Internet Development Engine",
+        "Interpreted Debug Environment"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which of the following is NOT a relational operator?",
+      "answer": "++",
+      "explanation": "++ is an increment operator.",
+      "options": [
+        "==",
+        "!=",
+        "<=",
+        "++"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which keyword is used to define a constant in C++?",
+      "answer": "const",
+      "explanation": "const defines constant variables.",
+      "options": [
+        "var",
+        "const",
+        "constant",
+        "static"
+      ]
+    },
+      {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the concept of variables in programming. Include their purpose, types, and scope with examples.",
+      "answer": "Variables are memory locations that hold data values. They have types such as int, float, or char that define the kind of data they store. Scopes are local or global indicating where variables can be accessed. For example, int x = 5; declares an integer variable x.",
+      "explanation": "Variables hold data with specific types and scopes to manage program state."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Describe the difference between compiled and interpreted programming languages. Provide examples.",
+      "answer": "Compiled languages like C++ transform source code to machine code before execution. Interpreted languages like Python execute code line-by-line at runtime. Compilation optimizes performance, while interpretation enables flexibility.",
+      "explanation": "Compiled languages produce machine code upfront; interpreted execute code dynamically."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "What are loops in programming? Describe different types with use cases.",
+      "answer": "Loops allow repeated execution of code blocks. Common types include for loops (count-controlled), while loops (condition-controlled), and do-while loops (executes at least once). For example, a for loop is used for iterating over arrays.",
+      "explanation": "Loops control repetition and avoid code duplication."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the concept of functions and how they promote code reuse and modularity.",
+      "answer": "Functions are named blocks of code that perform specific tasks and can be reused multiple times. This modularity enhances maintainability and readability. For example, a print function can be called wherever text output is needed.",
+      "explanation": "Functions encapsulate logic for reuse and clarity."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Discuss the basics of object-oriented programming including concepts of classes and objects.",
+      "answer": "OOP organizes code with classes that act as blueprints for creating objects. Classes encapsulate data and behaviors. Objects are instances of classes representing real-world entities. This enables abstraction and code reuse.",
+      "explanation": "OOP models real-world entities with data and behavior."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What is recursion? Provide an example where recursion is preferred over iterative methods.",
+      "answer": "Recursion is when a function calls itself to solve smaller instances of a problem. It is preferred in cases like tree traversal and factorial calculation for elegant, simple code.",
+      "explanation": "Recursion simplifies solutions for problems naturally defined recursively."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Describe the use of arrays and how they differ from linked lists.",
+      "answer": "Arrays hold elements in contiguous memory enabling fast indexed access. Linked lists store elements via pointers linking nodes, allowing dynamic size but slower index access.",
+      "explanation": "Arrays provide fast access; linked lists allow flexible size."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain data types and why they are important in programming languages.",
+      "answer": "Data types define the nature and size of data stored in variables, enabling type checking and optimization. They prevent errors by restricting inappropriate operations on data.",
+      "explanation": "Data types enforce correctness and efficient storage."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Discuss the role of operators in programming. Give examples of arithmetic, relational, and logical operators.",
+      "answer": "Operators act on operands to perform computations or comparisons. Examples: '+' (arithmetic), '==' (relational), '&&' (logical).",
+      "explanation": "Operators perform essential computations and decisions."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the concept of error handling and why it is crucial in software development.",
+      "answer": "Error handling manages unexpected conditions or exceptions during program execution to avoid crashes and provide meaningful feedback, improving software reliability.",
+      "explanation": "Proper error handling ensures graceful failure and user feedback."
+    }
+    ],
+    "Data Structures and Algorithms": [
+      {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which data structure uses LIFO (Last In First Out) principle?",
+      "answer": "Stack",
+      "explanation": "Stack follows Last In First Out ordering, where the last added element is accessed first.",
+      "options": [
+        "Queue",
+        "Stack",
+        "Array",
+        "Linked List"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the worst-case time complexity of searching an element in a balanced binary search tree (BST)?",
+      "answer": "O(log n)",
+      "explanation": "In a balanced BST, the height is log n, so search operation takes O(log n) time.",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(1)"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which data structure is used in Breadth First Search (BFS) traversal of a graph?",
+      "answer": "Queue",
+      "explanation": "BFS uses a queue to explore all neighbors level by level.",
+      "options": [
+        "Stack",
+        "Queue",
+        "Priority Queue",
+        "Hash Map"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which algorithm is efficient for sorting a large dataset that doesn’t fit into memory?",
+      "answer": "External Sort",
+      "explanation": "External sorting algorithms like merge sort are used when data is too large for main memory.",
+      "options": [
+        "Quick Sort",
+        "Bubble Sort",
+        "External Sort",
+        "Insertion Sort"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is the time complexity of accessing an element in a hash table?",
+      "answer": "O(1)",
+      "explanation": "Hash tables provide average constant time lookup by hashing keys.",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(1)",
+        "O(n^2)"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+      "answer": "Dijkstra's Algorithm",
+      "explanation": "Dijkstra's algorithm finds the shortest path from a source to all vertices in a weighted graph.",
+      "options": [
+        "DFS",
+        "BFS",
+        "Dijkstra's Algorithm",
+        "Prim's Algorithm"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which of the following is NOT a linear data structure?",
+      "answer": "Tree",
+      "explanation": "Trees are hierarchical, not linear, data structures.",
+      "options": [
+        "Array",
+        "Linked List",
+        "Stack",
+        "Tree"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which of the following sorting algorithms has the best average-case time complexity?",
+      "answer": "Merge Sort",
+      "explanation": "Merge sort has an average and worst-case complexity of O(n log n).",
+      "options": [
+        "Bubble Sort",
+        "Insertion Sort",
+        "Quick Sort",
+        "Merge Sort"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What technique is used to optimize recursive algorithms by storing intermediate results?",
+      "answer": "Memoization",
+      "explanation": "Memoization caches results to avoid redundant computations in recursion.",
+      "options": [
+        "Backtracking",
+        "Memoization",
+        "Divide and Conquer",
+        "Greedy"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Which data structure is best suited for implementing a priority queue?",
+      "answer": "Heap",
+      "explanation": "Heaps provide efficient insertion and removal of the highest priority element.",
+      "options": [
+        "Stack",
+        "Heap",
+        "Queue",
+        "Linked List"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which traversal technique visits the nodes of a binary tree in the order: Left, Root, Right?",
+      "answer": "Inorder Traversal",
+      "explanation": "Inorder traversal visits left subtree, root, then right subtree.",
+      "options": [
+        "Preorder Traversal",
+        "Postorder Traversal",
+        "Inorder Traversal",
+        "Level Order Traversal"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the structure of a linked list?",
+      "answer": "Nodes connected by pointers",
+      "explanation": "A linked list consists of nodes where each node contains data and a pointer to the next node.",
+      "options": [
+        "Continuous array in memory",
+        "Nodes connected by pointers",
+        "Hash map",
+        "Stack"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which algorithmic paradigm solves a problem by breaking it into subproblems, solving them independently, and combining the results?",
+      "answer": "Divide and Conquer",
+      "explanation": "Divide and conquer splits the problem into smaller parts to solve recursively.",
+      "options": [
+        "Greedy",
+        "Divide and Conquer",
+        "Dynamic Programming",
+        "Backtracking"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Which of the following is true about balanced binary search trees?",
+      "answer": "They maintain height balance to ensure O(log n) operations",
+      "explanation": "Balanced BSTs like AVL trees maintain balance for efficient operations.",
+      "options": [
+        "They allow duplicates without restriction",
+        "They do not maintain any order",
+        "They maintain height balance to ensure O(log n) operations",
+        "They are implemented using arrays"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which data structure can be used to implement recursion explicitly?",
+      "answer": "Stack",
+      "explanation": "The call stack supports function calls and recursion.",
+      "options": [
+        "Queue",
+        "Stack",
+        "Heap",
+        "Linked List"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the main advantage of a doubly linked list over a singly linked list?",
+      "answer": "Can traverse in both directions",
+      "explanation": "Doubly linked lists have pointers to both next and previous nodes.",
+      "options": [
+        "Uses less memory",
+        "Can traverse in both directions",
+        "Only stores unique elements",
+        "Faster insertion at the start"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which of the following algorithms is used for finding minimum spanning trees in graphs?",
+      "answer": "Kruskal's Algorithm",
+      "explanation": "Kruskal's algorithm finds a minimum spanning tree by selecting edges in increasing weight order.",
+      "options": [
+        "Dijkstra's Algorithm",
+        "Bellman-Ford Algorithm",
+        "Kruskal's Algorithm",
+        "Prim's Algorithm"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is the space complexity of depth-first search (DFS) on a graph with V vertices?",
+      "answer": "O(V)",
+      "explanation": "DFS requires space proportional to the depth of recursion or stack use, which can be O(V).",
+      "options": [
+        "O(1)",
+        "O(E)",
+        "O(V)",
+        "O(V+E)"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which data structure is used to implement breadth-first search (BFS)?",
+      "answer": "Queue",
+      "explanation": "BFS uses a queue to explore vertices level-wise.",
+      "options": [
+        "Stack",
+        "Queue",
+        "Linked List",
+        "Heap"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is dynamic programming?",
+      "answer": "A method to solve problems by storing solutions to subproblems",
+      "explanation": "Dynamic programming optimizes by avoiding repeated calculations with memoization or tabulation.",
+      "options": [
+        "Greedy algorithm approach",
+        "A method to solve problems by storing solutions to subproblems",
+        "Recursive brute force",
+        "Divide and conquer without storage"
+      ]
+    },
+
+      {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the concept of a stack and where it is used in algorithms.",
+      "answer": "A stack is a linear data structure that follows LIFO principle. It is used for function call management, recursion, and undo mechanisms.",
+      "explanation": "Stacks help manage order where last added is first removed."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Describe the difference between arrays and linked lists.",
+      "answer": "Arrays have fixed size and contiguous memory, allowing fast access; linked lists are dynamic but have slower access.",
+      "explanation": "Arrays offer constant time indexing; linked lists allow flexible size."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What is a binary search tree and how does it work?",
+      "answer": "A BST is a binary tree where left child is less than parent and right child is greater. It enables efficient search, insert, and delete operations.",
+      "explanation": "BST properties allow binary division for faster lookup."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain breadth-first search (BFS) and its practical applications.",
+      "answer": "BFS explores graph nodes level by level using a queue. It's used in shortest path finding and peer-to-peer networking.",
+      "explanation": "BFS guarantees shortest path in unweighted graphs."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "What is recursion and what is an example application?",
+      "answer": "Recursion is a function calling itself to solve smaller parts. Example: computing factorial.",
+      "explanation": "Recursion breaks problems into simpler subproblems."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Discuss the advantages of using hash tables.",
+      "answer": "Hash tables provide average O(1) time complexity for insertion, deletion, and searching due to direct index computation.",
+      "explanation": "Efficient key-value storage with hashing."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain how graphs can be represented in a computer.",
+      "answer": "Graphs can be represented by adjacency lists or adjacency matrices depending on edge density.",
+      "explanation": "Adjacency lists are space-efficient for sparse graphs; matrices allow fast edge lookup."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Describe dynamic programming and provide an example problem it solves.",
+      "answer": "Dynamic programming solves problems by breaking them down and storing results. Example: Fibonacci sequence computation.",
+      "explanation": "DP avoids re-computation by memoization or tabulation."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What is the difference between a greedy algorithm and dynamic programming?",
+      "answer": "Greedy algorithms build a solution piece by piece, optimal locally, while DP solves overlapping subproblems optimally globally.",
+      "explanation": "DP often used when greedy fails due to constraints."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "What is the function of a queue data structure?",
+      "answer": "A queue is a linear data structure following FIFO order, used in scheduling and BFS traversal.",
+      "explanation": "Queues maintain order of operations logically."
+    }
+    ],
+    "Operating Systems": [
+      {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which part of the operating system manages hardware resources?",
+      "answer": "Kernel",
+      "explanation": "The kernel acts as a bridge between hardware and software, managing hardware resources.",
+      "options": [
+        "Shell",
+        "Kernel",
+        "File system",
+        "Process manager"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What does the process state 'Ready' indicate?",
+      "answer": "Process is ready to execute but waiting for CPU allocation",
+      "explanation": "'Ready' means the process is loaded in memory and waiting for CPU time.",
+      "options": [
+        "Process is running",
+        "Process is waiting for I/O",
+        "Process is ready to execute but waiting for CPU allocation",
+        "Process is terminated"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which scheduling algorithm is non-preemptive?",
+      "answer": "First-Come, First-Served (FCFS)",
+      "explanation": "FCFS runs tasks in order of arrival without interruption.",
+      "options": [
+        "Round Robin",
+        "Shortest Job Next",
+        "First-Come, First-Served (FCFS)",
+        "Multilevel Queue"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the primary purpose of virtual memory?",
+      "answer": "To extend physical memory by using disk space",
+      "explanation": "Virtual memory allows exceeding physical RAM by mapping disk storage as an extension.",
+      "options": [
+        "To increase CPU speed",
+        "To increase physical memory size",
+        "To extend physical memory by using disk space",
+        "To prioritize processes"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Which condition can lead to deadlock in operating systems?",
+      "answer": "Circular wait",
+      "explanation": "Deadlock happens when a circular chain of processes waits for each other’s resources.",
+      "options": [
+        "Mutual exclusion",
+        "Atomicity",
+        "Circular wait",
+        "Starvation"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which system call in Unix/Linux is used to create a new process?",
+      "answer": "fork()",
+      "explanation": "fork() creates a child process duplicating the parent.",
+      "options": [
+        "exec()",
+        "fork()",
+        "wait()",
+        "exit()"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which file system type is commonly used in Windows operating systems?",
+      "answer": "NTFS",
+      "explanation": "NTFS is the standard Windows file system.",
+      "options": [
+        "FAT32",
+        "ext4",
+        "NTFS",
+        "HFS+"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is a 'context switch' in an OS?",
+      "answer": "Saving and loading process states to switch CPU between processes",
+      "explanation": "Context switch involves saving current process’s state and loading another’s state.",
+      "options": [
+        "Creating new processes",
+        "Saving and loading process states to switch CPU between processes",
+        "Allocating memory",
+        "Installing updates"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the main feature of a microkernel OS design?",
+      "answer": "Minimizing kernel functions for better modularity",
+      "explanation": "Microkernel reduces kernel functions, moving many services to user space.",
+      "options": [
+        "Monolithic design",
+        "Minimizing kernel functions for better modularity",
+        "Using a single process",
+        "Real-time processing"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which command is used to list running processes in Linux?",
+      "answer": "ps",
+      "explanation": "ps command lists active processes in Linux.",
+      "options": [
+        "ls",
+        "ps",
+        "top",
+        "kill"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is 'paging' in memory management?",
+      "answer": "Dividing memory into fixed-size blocks called pages",
+      "explanation": "Paging manages memory by splitting it into pages that can be swapped with disk.",
+      "options": [
+        "Allocating contiguous memory blocks",
+        "Dividing memory into fixed-size blocks called pages",
+        "Running multiple programs simultaneously",
+        "Managing file access"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which of the following is NOT a classic scheduling criterion?",
+      "answer": "Throughput",
+      "explanation": "Throughput is a performance measure, not a scheduling criterion like fairness or response time.",
+      "options": [
+        "Fairness",
+        "Response Time",
+        "Throughput",
+        "Turnaround Time"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which method is used by OS to prevent race conditions?",
+      "answer": "Mutex locks",
+      "explanation": "Mutex locks ensure one process at a time accesses critical regions to prevent races.",
+      "options": [
+        "Polling",
+        "Interrupts",
+        "Mutex locks",
+        "Deadlocks"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "In an OS, what is the function of the file system?",
+      "answer": "Managing how data is stored and retrieved",
+      "explanation": "File system organizes and manages data storage on disk.",
+      "options": [
+        "Running processes",
+        "Managing memory",
+        "Managing how data is stored and retrieved",
+        "Handling user input"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Which algorithm helps in deadlock prevention by avoiding unsafe states?",
+      "answer": "Banker’s Algorithm",
+      "explanation": "Banker’s algorithm ensures resource allocation leads to safe states avoiding deadlock.",
+      "options": [
+        "First Come First Serve",
+        "Round Robin",
+        "Banker’s Algorithm",
+        "Shortest Job Next"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the use of semaphores in operating systems?",
+      "answer": "To synchronize processes and avoid race conditions",
+      "explanation": "Semaphores provide signaling mechanisms for process synchronization.",
+      "options": [
+        "To increase CPU speed",
+        "To store data",
+        "To synchronize processes and avoid race conditions",
+        "To schedule processes"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which OS component interacts directly with the user?",
+      "answer": "Shell",
+      "explanation": "Shell interprets user commands and provides the interface.",
+      "options": [
+        "Kernel",
+        "Shell",
+        "File System",
+        "Memory Manager"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What type of OS scheduling method allocates time slices to each process?",
+      "answer": "Round Robin",
+      "explanation": "Round Robin distributes CPU time fairly by giving fixed time slices.",
+      "options": [
+        "First-Come, First-Served",
+        "Shortest Job Next",
+        "Round Robin",
+        "Priority Scheduling"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What does 'thrashing' refer to in virtual memory systems?",
+      "answer": "Excessive paging causing performance degradation",
+      "explanation": "Thrashing occurs when the system spends more time swapping pages than executing processes.",
+      "options": [
+        "Frequent context switching",
+        "Excessive paging causing performance degradation",
+        "Memory leaks",
+        "High CPU usage"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which is a characteristic of a real-time operating system?",
+      "answer": "Processes meet strict timing constraints",
+      "explanation": "Real-time OS guarantees response within specified timing.",
+      "options": [
+        "High throughput",
+        "Processes meet strict timing constraints",
+        "User-friendly interface",
+        "Multitasking support"
+      ]
+    },
+     {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the primary functions of an operating system.",
+      "answer": "An OS manages hardware resources, provides user interface, manages files and memory, and facilitates process and device management.",
+      "explanation": "Operating system is fundamental software managing all computer operations."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Discuss process states and transitions in an operating system.",
+      "answer": "Processes move between new, ready, running, waiting, and terminated states based on execution and resource availability.",
+      "explanation": "Understanding process lifecycle is key to OS scheduling."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Describe different CPU scheduling algorithms and their pros and cons.",
+      "answer": "Scheduling algorithms include FCFS, Round Robin, Priority Scheduling and their trade-offs involve fairness, response time, and complexity.",
+      "explanation": "Choosing scheduling affects system efficiency and responsiveness."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "What is virtual memory and how does it benefit an operating system?",
+      "answer": "Virtual memory extends physical memory using disk space, allowing programs to use more memory than physically available.",
+      "explanation": "It enables multitasking and memory protection."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain deadlock conditions and methods to handle deadlocks.",
+      "answer": "Deadlocks require mutual exclusion, hold and wait, no preemption, and circular wait. Strategies include prevention, avoidance, detection, and recovery.",
+      "explanation": "Preventing deadlocks is essential for system stability."
+    },
+     {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the role of I/O management in operating systems.",
+      "answer": "I/O management controls communication between software and hardware devices, buffering, caching, and device drivers.",
+      "explanation": "Efficient I/O management improves performance and resource utilization."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What is file system management and how does an OS implement it?",
+      "answer": "File system management organizes data storage, file access, directories, permissions, and protection mechanisms.",
+      "explanation": "It provides user-friendly data organization and security."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Discuss the difference between monolithic and microkernel OS architectures.",
+      "answer": "Monolithic OS has all essential services in kernel space while microkernel minimizes kernel functions, improving modularity and stability.",
+      "explanation": "Architecture choice impacts system design and fault tolerance."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Explain how paging and segmentation differ in memory management.",
+      "answer": "Paging divides memory into fixed-size blocks whereas segmentation divides memory into logical segments of variable sizes.",
+      "explanation": "Both techniques manage memory efficiently but differ in addressing."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Analyze the concept of context switching and its costs in modern operating systems.",
+      "answer": "Context switch involves saving and loading process state, incurring CPU overhead that affects multitasking efficiency.",
+      "explanation": "Reducing context switch overhead optimizes system performance."
+    }
+    ],
+    "Database Management Systems": [
+      {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What does DBMS stand for?",
+      "answer": "Database Management System",
+      "explanation": "DBMS is software that manages databases and provides an interface between the database and users.",
+      "options": [
+        "Database Management System",
+        "Data Binary Management System",
+        "Database Machine System",
+        "Data Block Management System"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which of the following is a key feature of a DBMS?",
+      "answer": "Data Independence",
+      "explanation": "Data Independence allows changes in physical schema without affecting logical schema.",
+      "options": [
+        "Data Independence",
+        "Data Dependence",
+        "Data Redundancy",
+        "Data Anomaly"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which language is used to interact with a database?",
+      "answer": "SQL",
+      "explanation": "Structured Query Language (SQL) is used to query and manipulate databases.",
+      "options": [
+        "HTML",
+        "CSS",
+        "SQL",
+        "Java"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is normalization in DBMS?",
+      "answer": "Process of organizing data to reduce redundancy",
+      "explanation": "Normalization structures database tables to minimize duplication and inconsistencies.",
+      "options": [
+        "Process of organizing data to reduce redundancy",
+        "Process of backup data",
+        "Process of encrypting data",
+        "Process of deleting outdated data"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Which normal form eliminates transitive dependencies?",
+      "answer": "Third Normal Form (3NF)",
+      "explanation": "3NF ensures that non-key attributes do not depend on other non-key attributes.",
+      "options": [
+        "First Normal Form (1NF)",
+        "Second Normal Form (2NF)",
+        "Third Normal Form (3NF)",
+        "Boyce-Codd Normal Form (BCNF)"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does ACID stand for in DBMS?",
+      "answer": "Atomicity, Consistency, Isolation, Durability",
+      "explanation": "ACID properties ensure reliable transaction processing in databases.",
+      "options": [
+        "Atomicity, Consistency, Isolation, Durability",
+        "Access, Control, Integrity, Durability",
+        "Atomicity, Control, Isolation, Duplicity",
+        "Access, Consistency, Isolation, Durability"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which of the following is NOT a type of DBMS?",
+      "answer": "Computer Database Management System",
+      "explanation": "No such DBMS type exists named 'Computer Database Management System'.",
+      "options": [
+        "Hierarchical DBMS",
+        "Network DBMS",
+        "Relational DBMS",
+        "Computer Database Management System"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is a primary key?",
+      "answer": "A unique identifier for records in a table",
+      "explanation": "Primary key uniquely identifies each row in a table.",
+      "options": [
+        "A non-unique attribute",
+        "An identifier for database schema",
+        "A unique identifier for records in a table",
+        "A foreign key constraint"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which command is used to remove a record from a table?",
+      "answer": "DELETE",
+      "explanation": "DELETE command removes records in SQL.",
+      "options": [
+        "REMOVE",
+        "ERASE",
+        "DELETE",
+        "DROP"
+      ]
+    },
+     {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is data redundancy?",
+      "answer": "Storing the same data in multiple places",
+      "explanation": "Redundancy can cause inconsistencies and waste storage.",
+      "options": [
+        "Storing data securely",
+        "Storing the same data in multiple places",
+        "Removing duplicate data",
+        "Normalizing data"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the purpose of an index in a database?",
+      "answer": "To speed up data retrieval",
+      "explanation": "Indexing allows faster searches by creating a data structure for quick lookups.",
+      "options": [
+        "To slow down queries",
+        "To enforce data integrity",
+        "To speed up data retrieval",
+        "To backup data"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which SQL keyword is used to sort the result set?",
+      "answer": "ORDER BY",
+      "explanation": "ORDER BY sorts data in ascending or descending order.",
+      "options": [
+        "SORT",
+        "GROUP BY",
+        "ORDER BY",
+        "FILTER"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Which technique prevents SQL injection attacks?",
+      "answer": "Use of prepared statements and parameterized queries",
+      "explanation": "Prepared statements separate query structure from user data, preventing injection.",
+      "options": [
+        "Sanitizing outputs",
+        "Disabling database logs",
+        "Use of prepared statements and parameterized queries",
+        "Increasing database cache"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is a foreign key?",
+      "answer": "A field in one table that refers to primary key in another",
+      "explanation": "Foreign keys establish relationships between tables.",
+      "options": [
+        "A unique identifier within a table",
+        "A field in one table that refers to primary key in another",
+        "A constant value",
+        "A data type"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which of these is used to create a new table in SQL?",
+      "answer": "CREATE TABLE",
+      "explanation": "CREATE TABLE command defines a new table structure.",
+      "options": [
+        "NEW TABLE",
+        "MAKE TABLE",
+        "CREATE TABLE",
+        "ADD TABLE"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is the difference between clustered and non-clustered indexes?",
+      "answer": "Clustered indexes sort and store data rows, non-clustered create a separate structure",
+      "explanation": "Clustered index defines data order; non-clustered index references data locations.",
+      "options": [
+        "Clustered indexes are slower",
+        "Non-clustered indexes store data rows",
+        "Clustered indexes sort and store data rows, non-clustered create a separate structure",
+        "No difference"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is a transaction in DBMS?",
+      "answer": "A unit of work performed within a database management system",
+      "explanation": "Transactions ensure data integrity by executing as all-or-nothing units.",
+      "options": [
+        "A database backup",
+        "A unit of work performed within a database management system",
+        "User authentication",
+        "A table in the database"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which normalization form eliminates duplicate columns?",
+      "answer": "First Normal Form (1NF)",
+      "explanation": "1NF requires that columns contain atomic values with no repeating groups.",
+      "options": [
+        "First Normal Form (1NF)",
+        "Second Normal Form (2NF)",
+        "Third Normal Form (3NF)",
+        "Boyce-Codd Normal Form (BCNF)"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is SQL injection?",
+      "answer": "An attack to execute malicious SQL code",
+      "explanation": "SQL Injection exploits vulnerabilities to manipulate database queries.",
+      "options": [
+        "A method of data backup",
+        "An attack to execute malicious SQL code",
+        "A technique for optimizing queries",
+        "A data encryption method"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which command is used to modify data in a database?",
+      "answer": "UPDATE",
+      "explanation": "UPDATE command changes existing records in a table.",
+      "options": [
+        "INSERT",
+        "MODIFY",
+        "UPDATE",
+        "ALTER"
+      ]
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the concept of normalization and its importance in database design.",
+      "answer": "Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves dividing tables into smaller tables and defining relationships between them.",
+      "explanation": "Normalization ensures efficient storage and consistency by minimizing data duplication."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Describe ACID properties in database transactions.",
+      "answer": "ACID stands for Atomicity, Consistency, Isolation, and Durability. These properties ensure reliable transaction processing by guaranteeing all-or-nothing execution, data validity, isolated transactions, and persistence of changes.",
+      "explanation": "ACID properties maintain database integrity even in case of failures."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "What is the role of indexing in a database?",
+      "answer": "Indexing improves query performance by creating data structures that allow faster search and retrieval of records. It works like an index in a book to quickly locate information.",
+      "explanation": "Indexes reduce data scan time, enhancing database efficiency."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain the differences between primary key and foreign key.",
+      "answer": "A primary key uniquely identifies each row in a table, while a foreign key is a field in one table that references the primary key in another table, establishing relationships.",
+      "explanation": "Keys maintain data uniqueness and relational integrity."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Discuss deadlock and its prevention techniques in DBMS.",
+      "answer": "Deadlock occurs when transactions wait indefinitely for resources held by each other. Prevention techniques include removing one of the four necessary conditions: Mutual exclusion, Hold and wait, No preemption, and Circular wait.",
+      "explanation": "Avoiding deadlocks ensures smooth transaction execution."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What is a transaction log and its purpose?",
+      "answer": "A transaction log records all changes made to the database, enabling recovery by replaying or undoing transactions during failures.",
+      "explanation": "Logs provide fault tolerance and data recovery."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Describe different types of database models.",
+      "answer": "Database models include hierarchical, network, relational, and object-oriented. Each model organizes data differently based on relationships and structure.",
+      "explanation": "The model determines data storage and query approach."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain how concurrency control is implemented in DBMS.",
+      "answer": "Concurrency control manages simultaneous operations to prevent conflicts using techniques like locking, timestamp ordering, and optimistic concurrency.",
+      "explanation": "Controls ensure data consistency during concurrent access."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "What are triggers in a database?",
+      "answer": "Triggers are procedural codes executed automatically in response to certain events like insertions, updates, or deletions.",
+      "explanation": "Triggers enforce business rules and automate responses."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Discuss the role of metadata in a database management system.",
+      "answer": "Metadata describes data attributes, structure, constraints, and relationships, enabling the DBMS to manage and interpret the stored data effectively.",
+      "explanation": "Metadata acts as data about data, essential for data governance."
+    }
+    ],
+    "Computer Networks": [
+      {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the main function of the OSI model?",
+      "answer": "To standardize network functions across different systems",
+      "explanation": "The OSI model provides a conceptual framework to understand and design interoperable network systems.",
+      "options": [
+        "To provide physical connection",
+        "To standardize network functions across different systems",
+        "To provide IP addresses",
+        "To encrypt data"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which device operates at the Data Link layer of the OSI model?",
+      "answer": "Switch",
+      "explanation": "Switches operate at Layer 2, forwarding frames based on MAC addresses.",
+      "options": [
+        "Router",
+        "Switch",
+        "Hub",
+        "Repeater"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What protocol is used to assign IP addresses dynamically?",
+      "answer": "DHCP",
+      "explanation": "Dynamic Host Configuration Protocol (DHCP) automates IP address assignment.",
+      "options": [
+        "DNS",
+        "FTP",
+        "HTTP",
+        "DHCP"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which protocol ensures reliable data transmission over the Internet?",
+      "answer": "TCP",
+      "explanation": "Transmission Control Protocol (TCP) provides connection-oriented and reliable data delivery.",
+      "options": [
+        "UDP",
+        "TCP",
+        "IP",
+        "ICMP"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is the purpose of subnetting in IP networking?",
+      "answer": "To divide a larger network into smaller subnetworks",
+      "explanation": "Subnetting allows better management and efficient use of IP addresses.",
+      "options": [
+        "To increase bandwidth",
+        "To divide a larger network into smaller subnetworks",
+        "To route data faster",
+        "To encrypt data"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which of the following is NOT a routing protocol?",
+      "answer": "HTTP",
+      "explanation": "HTTP is an application protocol, not involved in routing.",
+      "options": [
+        "OSPF",
+        "BGP",
+        "RIP",
+        "HTTP"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What does IP stand for?",
+      "answer": "Internet Protocol",
+      "explanation": "IP is the primary protocol for routing packets across networks.",
+      "options": [
+        "Internet Packet",
+        "Internal Protocol",
+        "Internet Protocol",
+        "Internal Packet"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Which layer is responsible for end-to-end communication and error recovery?",
+      "answer": "Transport Layer",
+      "explanation": "The transport layer manages data transfer, error checking, and flow control.",
+      "options": [
+        "Physical Layer",
+        "Network Layer",
+        "Transport Layer",
+        "Application Layer"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does MAC address uniquely identify?",
+      "answer": "A network interface card (NIC)",
+      "explanation": "MAC addresses are hardware addresses unique to each NIC.",
+      "options": [
+        "A router",
+        "A computer",
+        "A network interface card (NIC)",
+        "An IP address"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which protocol translates domain names to IP addresses?",
+      "answer": "DNS",
+      "explanation": "Domain Name System (DNS) resolves human-readable hostnames to IP addresses.",
+      "options": [
+        "IP",
+        "DNS",
+        "TCP",
+        "FTP"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which device amplifies a signal for transmission over long distances?",
+      "answer": "Repeater",
+      "explanation": "Repeaters regenerate and amplify signals to extend transmission range.",
+      "options": [
+        "Router",
+        "Switch",
+        "Repeater",
+        "Hub"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the primary purpose of NAT in networking?",
+      "answer": "To translate private IP addresses to a public IP address",
+      "explanation": "Network Address Translation (NAT) enables multiple devices to share a single public IP.",
+      "options": [
+        "To encrypt data",
+        "To translate private IP addresses to a public IP address",
+        "To route data",
+        "To assign IP addresses"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which protocol is used for secure communication over a network?",
+      "answer": "HTTPS",
+      "explanation": "Hypertext Transfer Protocol Secure (HTTPS) encrypts data exchanged over HTTP.",
+      "options": [
+        "HTTP",
+        "FTP",
+        "HTTPS",
+        "SMTP"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is the function of the ARP protocol?",
+      "answer": "To map IP addresses to MAC addresses",
+      "explanation": "Address Resolution Protocol (ARP) resolves IP addresses to MAC addresses in a LAN.",
+      "options": [
+        "To translate domain names",
+        "To map IP addresses to MAC addresses",
+        "To encrypt data",
+        "To manage routing"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What does DHCP provide in a network?",
+      "answer": "Dynamic IP address allocation",
+      "explanation": "Dynamic Host Configuration Protocol (DHCP) assigns IP addresses to devices automatically.",
+      "options": [
+        "Static IP configuration",
+        "Dynamic IP address allocation",
+        "DNS resolution",
+        "Routing"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which of the following is a characteristic of TCP?",
+      "answer": "Connection-oriented communication",
+      "explanation": "TCP establishes a connection before data transfer for reliability.",
+      "options": [
+        "Connectionless communication",
+        "Connection-oriented communication",
+        "Unreliable delivery",
+        "No error checking"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which topology connects all devices in a closed loop?",
+      "answer": "Ring topology",
+      "explanation": "In ring topology, each node connects to exactly two others forming a circle.",
+      "options": [
+        "Bus topology",
+        "Star topology",
+        "Ring topology",
+        "Mesh topology"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is the bandwidth-delay product?",
+      "answer": "The amount of data that can be in transit in the network",
+      "explanation": "Bandwidth-delay product measures the maximum data on the network link at any time.",
+      "options": [
+        "The network speed",
+        "The delay in the network",
+        "The amount of data that can be in transit in the network",
+        "The packet size"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which protocol is primarily used for sending emails?",
+      "answer": "SMTP",
+      "explanation": "Simple Mail Transfer Protocol (SMTP) is used to send emails.",
+      "options": [
+        "FTP",
+        "SMTP",
+        "HTTP",
+        "POP3"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which layer of the OSI model is responsible for routing packets?",
+      "answer": "Network layer",
+      "explanation": "The network layer determines the path for data from source to destination.",
+      "options": [
+        "Physical layer",
+        "Transport layer",
+        "Network layer",
+        "Data link layer"
+      ]
+    },
+    
+   
+    
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the concept and layers of the OSI model.",
+      "answer": "The OSI model has seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application. Each layer performs specific functions to standardize communication.",
+      "explanation": "Layered approach simplifies network design and troubleshooting."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What are the differences between TCP and UDP?",
+      "answer": "TCP is connection-oriented, provides reliable data transfer, flow control, and error checking. UDP is connectionless, faster but does not guarantee reliability.",
+      "explanation": "Protocol choice depends on application needs for reliability and speed."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Describe how IP addressing works.",
+      "answer": "IP addressing assigns unique identifiers to devices on a network, enabling routing of data packets to correct destinations.",
+      "explanation": "IP addresses are essential for network communication."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain the role of routers in a network.",
+      "answer": "Routers connect different networks and forward data packets based on IP addresses, determining optimal paths for data transmission.",
+      "explanation": "Routers enable internetworking and routing."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Discuss subnetting and its advantages.",
+      "answer": "Subnetting divides a larger network into smaller subnetworks to improve management, security, and efficient IP address utilization.",
+      "explanation": "Subnetting reduces broadcast traffic and enhances organization."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What is the function of DNS in networks?",
+      "answer": "DNS translates domain names into IP addresses, allowing users to access websites using human-readable names.",
+      "explanation": "DNS is key for user-friendly network navigation."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the difference between wired and wireless networks.",
+      "answer": "Wired networks use physical cables for data transmission, offering stability and speed. Wireless networks use radio waves, enabling mobility but prone to interference.",
+      "explanation": "Each has trade-offs in performance and convenience."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Describe the concept of network topologies.",
+      "answer": "Network topology refers to the arrangement of nodes and connections in a network, such as star, bus, ring, mesh.",
+      "explanation": "Topology affects performance, scalability, and fault tolerance."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "What are packets in networking?",
+      "answer": "Packets are small units of data transmitted over networks containing payload and control information like headers.",
+      "explanation": "Packet-switching enables efficient and flexible data transfer."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Explain how VPN works and its benefits.",
+      "answer": "VPN creates secure, encrypted tunnels over public networks, enabling private communication and access control.",
+      "explanation": "VPNs enhance security and privacy for remote networking."
+    }
+    ]
+  }
+}

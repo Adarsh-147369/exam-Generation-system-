@@ -1,0 +1,1668 @@
+
+{ 
+  "EEE": 
+  {
+    "Circuit Theory": [
+        {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is a closed circuit?",
+      "answer": "A circuit where current has a complete path to flow",
+      "explanation": "In a closed circuit, the current flows uninterruptedly through a continuous loop.",
+      "options": [
+        "A circuit with no current",
+        "A circuit where current has a complete path to flow",
+        "A broken circuit",
+        "An open circuit"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Ohm's law states that:",
+      "answer": "Voltage is proportional to current",
+      "explanation": "Ohm's law defines V = IR where voltage is directly proportional to current.",
+      "options": [
+        "Current is proportional to resistance",
+        "Voltage equals current times resistance",
+        "Voltage is proportional to current",
+        "Power is voltage times current"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the equivalent resistance of two resistors 4Ω and 6Ω in series?",
+      "answer": "10Ω",
+      "explanation": "In series, resistances add: 4 + 6 = 10Ω.",
+      "options": [
+        "2.4Ω",
+        "10Ω",
+        "24Ω",
+        "0.6Ω"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which law states that the algebraic sum of currents entering a node is zero?",
+      "answer": "Kirchhoff's Current Law",
+      "explanation": "KCL defines conservation of charge at junctions.",
+      "options": [
+        "Kirchhoff's Voltage Law",
+        "Ohm's Law",
+        "Kirchhoff's Current Law",
+        "Faraday's Law"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is the time constant of an RC circuit?",
+      "answer": "τ = RC",
+      "explanation": "Time constant τ determines the charging/discharging rate of capacitor.",
+      "options": [
+        "R + C",
+        "RC",
+        "R/C",
+        "C/R"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "In an AC circuit, the current leads the voltage in a:",
+      "answer": "Capacitive circuit",
+      "explanation": "In capacitive circuits, current leads voltage due to capacitive reactance.",
+      "options": [
+        "Resistive circuit",
+        "Inductive circuit",
+        "Capacitive circuit",
+        "None of these"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What unit is used to measure resistance?",
+      "answer": "Ohm",
+      "explanation": "Resistance is measured in ohms (Ω).",
+      "options": [
+        "Volt",
+        "Ohm",
+        "Ampere",
+        "Watt"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "The power factor of an ideal resistive circuit is:",
+      "answer": "1",
+      "explanation": "In resistive circuits voltage and current are in phase, so power factor is 1.",
+      "options": [
+        "0",
+        "0.5",
+        "1",
+        "-1"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the unit of inductance?",
+      "answer": "Henry",
+      "explanation": "Inductance is measured in Henry (H).",
+      "options": [
+        "Farad",
+        "Henry",
+        "Ohm",
+        "Watt"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which component stores energy in the electric field?",
+      "answer": "Capacitor",
+      "explanation": "Capacitors store energy electrostatically.",
+      "options": [
+        "Resistor",
+        "Inductor",
+        "Capacitor",
+        "Battery"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Kirchhoff’s Voltage Law states that:",
+      "answer": "Sum of voltages in a closed loop is zero",
+      "explanation": "KVL states the algebraic sum of all voltages is zero around a loop.",
+      "options": [
+        "Sum of currents at a node is zero",
+        "Sum of voltages in a closed loop is zero",
+        "Voltage equals current times resistance",
+        "Current leads voltage"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Capacitive reactance decreases with:",
+      "answer": "Increase in frequency",
+      "explanation": "Capacitive reactance Xc = 1/(2πfC), thus decreases as frequency increases.",
+      "options": [
+        "Increase in capacitance",
+        "Decrease in frequency",
+        "Increase in frequency",
+        "Increase in resistance"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Current is measured in:",
+      "answer": "Amperes",
+      "explanation": "Current is measured in Amperes (A).",
+      "options": [
+        "Volts",
+        "Ohms",
+        "Watts",
+        "Amperes"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Transformer works on the principle of:",
+      "answer": "Mutual Induction",
+      "explanation": "Transformer transfers energy between circuits using mutual induction.",
+      "options": [
+        "Self induction",
+        "Mutual Induction",
+        "Electrostatics",
+        "Faraday’s Law"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Which of the following is used to analyze circuits with sinusoidal sources?",
+      "answer": "Phasor analysis",
+      "explanation": "Phasor analysis converts sinusoidal signals to complex numbers simplifying circuit analysis.",
+      "options": [
+        "Kirchhoff’s Laws",
+        "Phasor analysis",
+        "Nodal analysis",
+        "Mesh analysis"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "The resonance frequency in an RLC circuit is given by:",
+      "answer": "1/(2π√(LC))",
+      "explanation": "At resonance, inductive and capacitive reactances cancel out at this frequency.",
+      "options": [
+        "2π√(LC)",
+        "1/(2π√(LC))",
+        "√(L/C)",
+        "L*C"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What does RMS stand for?",
+      "answer": "Root Mean Square",
+      "explanation": "RMS is a statistical measure of the magnitude of a varying quantity.",
+      "options": [
+        "Random Mean Square",
+        "Root Mean Square",
+        "Rated Mean Standard",
+        "Range Mean Sum"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "The effect of inductance in AC circuits is called:",
+      "answer": "Inductive reactance",
+      "explanation": "Inductive reactance opposes changes in current.",
+      "options": [
+        "Resistive reactance",
+        "Inductive reactance",
+        "Capacitive reactance",
+        "Resistance"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the function of a resistor in a circuit?",
+      "answer": "To limit current flow",
+      "explanation": "Resistors control the amount of current in a circuit.",
+      "options": [
+        "Store energy",
+        "Limit current flow",
+        "Increase voltage",
+        "Amplify signals"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Wheatstone bridge is used for measuring:",
+      "answer": "Unknown resistance",
+      "explanation": "Wheatstone bridge accurately measures an unknown resistance by balancing two legs.",
+      "options": [
+        "Voltage",
+        "Current",
+        "Resistance",
+        "Capacitance"
+      ]
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain Kirchhoff’s Current Law and its application.",
+      "answer": "Kirchhoff’s Current Law states that total current entering a node equals total current leaving. It conserves charge and is used to analyze complex circuits.",
+      "explanation": "KCL allows solving current distributions in networks."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "What is the difference between series and parallel circuits?",
+      "answer": "In series, components are connected end-to-end with same current; in parallel, components share same voltage across them.",
+      "explanation": "Circuit configuration affects voltage, current, and resistance."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Describe the function and working of a capacitor in an AC circuit.",
+      "answer": "A capacitor stores and releases energy in an electric field, causing current to lead voltage in AC circuits due to capacitive reactance.",
+      "explanation": "Capacitors affect phase and amplitude in AC analysis."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain the concept of resonance in RLC circuits.",
+      "answer": "Resonance occurs when inductive and capacitive reactances are equal and cancel, leading to maximum circuit current.",
+      "explanation": "Resonant frequency is vital for tuning and filtering applications."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Explain Thevenin’s theorem and its importance in circuit analysis.",
+      "answer": "Thevenin’s theorem simplifies a complex circuit to a single voltage source and series resistance, making analysis easier.",
+      "explanation": "It helps in analyzing power systems and load effects."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Discuss the impact of inductance and capacitance on AC circuit behavior.",
+      "answer": "Inductance causes current lag, capacitance causes current lead; together they determine circuit impedance and phase angle.",
+      "explanation": "Understanding reactive elements is key to AC design."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "What is the significance of RMS values in AC measurements?",
+      "answer": "RMS values represent the equivalent DC value that would produce the same heating effect, important for power calculations.",
+      "explanation": "Accurate power evaluation relies on RMS measurements."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain Superposition theorem with an example.",
+      "answer": "Superposition theorem states response in linear circuits equals sum of responses from individual sources acting alone. It simplifies analysis of multiple source circuits.",
+      "explanation": "Simplifies circuit calculation enabling partial analysis."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "What is nodal analysis and how is it applied in circuit theory?",
+      "answer": "Nodal analysis solves circuit voltages at nodes using Kirchhoff’s current law and system equations, often applied to complex circuits numerically.",
+      "explanation": "Numerical method for systematic circuit solving."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Explain Thevenin’s theorem and describe the step-by-step procedure to reduce a complex circuit into its Thevenin equivalent form.",
+      "answer": "Thevenin’s theorem reduces a complex network to a single voltage source and a series resistance.",
+      "explanation": "It simplifies circuits by replacing them with an equivalent model for easier load analysis."
+    }
+    ],
+    "Electrical Machines": [
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the primary function of an electrical machine?",
+      "answer": "To convert between mechanical and electrical energy",
+      "explanation": "Electrical machines convert mechanical energy to electrical energy and vice versa.",
+      "options": [
+        "To store electrical energy",
+        "To convert electrical energy to heat",
+        "To convert between mechanical and electrical energy",
+        "To amplify electrical signals"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which machine converts mechanical energy to electrical energy?",
+      "answer": "Generator",
+      "explanation": "Generators convert mechanical energy into electrical energy by electromagnetic induction.",
+      "options": [
+        "Motor",
+        "Transformer",
+        "Generator",
+        "Rectifier"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which law explains the operation of most electrical machines?",
+      "answer": "Faraday's law of electromagnetic induction",
+      "explanation": "Faraday's law states that a changing magnetic field induces an electromotive force.",
+      "options": [
+        "Ohm’s law",
+        "Faraday's law of electromagnetic induction",
+        "Kirchhoff’s law",
+        "Coulomb’s law"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "A transformer works on which principle?",
+      "answer": "Mutual induction",
+      "explanation": "A transformer transfers electrical energy via mutual induction between coils.",
+      "options": [
+        "Self induction",
+        "Mutual induction",
+        "Electrostatics",
+        "Magnetic hysteresis"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What does the efficiency of an electrical machine represent?",
+      "answer": "Ratio of output power to input power",
+      "explanation": "Efficiency measures how well a machine converts input power to output without losses.",
+      "options": [
+        "Input power/output power",
+        "Output power/input power",
+        "Input voltage/output voltage",
+        "Output current/input current"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which component in DC machines reverses current direction in the armature winding?",
+      "answer": "Commutator",
+      "explanation": "The commutator switches current in the armature to keep torque in the same direction.",
+      "options": [
+        "Brushes",
+        "Commutator",
+        "Field winding",
+        "Armature core"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which electrical machine is used mainly for constant speed applications?",
+      "answer": "Synchronous motor",
+      "explanation": "Synchronous motors run at a constant speed synchronized with supply frequency.",
+      "options": [
+        "Induction motor",
+        "Synchronous motor",
+        "DC motor",
+        "Stepper motor"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "The torque produced in an electrical machine depends on:",
+      "answer": "Interaction of magnetic fields",
+      "explanation": "Torque results from forces between magnetic fields in stator and rotor.",
+      "options": [
+        "Voltage and current",
+        "Magnetic flux and coil resistance",
+        "Interaction of magnetic fields",
+        "Speed and voltage"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "In an induction motor, the rotor depends on what to induce current?",
+      "answer": "Rotating magnetic field produced by stator",
+      "explanation": "Rotor currents are induced by relative motion of the stator magnetic field.",
+      "options": [
+        "Direct current supply",
+        "Rotating magnetic field produced by stator",
+        "Permanent magnets",
+        "Battery power"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What type of machine can operate as both motor and generator?",
+      "answer": "DC machine",
+      "explanation": "Most DC machines can function as motors or generators depending on operation.",
+      "options": [
+        "Transformer",
+        "DC machine",
+        "Relay",
+        "Rectifier"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "The magnetic core of an electrical machine is usually made of:",
+      "answer": "Silicon steel",
+      "explanation": "Silicon steel reduces hysteresis and eddy current losses.",
+      "options": [
+        "Copper",
+        "Silicon steel",
+        "Aluminum",
+        "Plastic"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which loss occurs due to hysteresis in magnetic circuits?",
+      "answer": "Hysteresis loss",
+      "explanation": "Energy lost due to reversal of magnetic domains is hysteresis loss.",
+      "options": [
+        "Copper loss",
+        "Hysteresis loss",
+        "Eddy current loss",
+        "Friction loss"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Synchronous speed of an AC motor depends upon:",
+      "answer": "Supply frequency and number of poles",
+      "explanation": "Synchronous speed = (120 × frequency) / number of poles.",
+      "options": [
+        "Voltage and current",
+        "Supply frequency and number of poles",
+        "Power and torque",
+        "Resistance and inductance"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which device converts AC to DC in motor drives?",
+      "answer": "Rectifier",
+      "explanation": "Rectifiers convert alternating current to direct current.",
+      "options": [
+        "Inverter",
+        "Rectifier",
+        "Transformer",
+        "Throttle"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which parameter affects the starting torque of DC motors?",
+      "answer": "Armature current",
+      "explanation": "Torque is proportional to armature current in DC motors.",
+      "options": [
+        "Voltage",
+        "Armature current",
+        "Magnetic flux",
+        "Speed"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is slip in an induction motor?",
+      "answer": "Difference between synchronous speed and rotor speed",
+      "explanation": "Slip allows relative motion inducing rotor current for torque.",
+      "options": [
+        "Rotor speed",
+        "Synchronous speed",
+        "Difference between synchronous speed and rotor speed",
+        "Rotor torque"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "The emf induced in a conductor moving through magnetic field is described by:",
+      "answer": "Faraday's law",
+      "explanation": "Faraday's law relates induced emf to rate of magnetic flux change.",
+      "options": [
+        "Lenz's law",
+        "Ohm's law",
+        "Faraday's law",
+        "Kirchhoff's law"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "In a transformer, the ratio of primary voltage to secondary voltage is equal to:",
+      "answer": "Turns ratio",
+      "explanation": "Voltage ratio is proportional to turns in primary and secondary coils.",
+      "options": [
+        "Current ratio",
+        "Turns ratio",
+        "Power ratio",
+        "Resistance ratio"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which loss increases with load in electrical machines?",
+      "answer": "Copper loss",
+      "explanation": "Copper loss increases due to resistance in windings with more current.",
+      "options": [
+        "Core loss",
+        "Copper loss",
+        "Hysteresis loss",
+        "Mechanical loss"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which loss increases with load in electrical machines?",
+      "answer": "Copper loss",
+      "explanation": "Copper loss increases with load current because it depends on I²R in the windings.",
+      "options": [
+        "Core loss",
+        "Copper loss",
+        "Hysteresis loss",
+        "Mechanical loss"
+      ]
+    },
+
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the working principle of a DC motor.",
+      "answer": "A DC motor converts electrical energy into mechanical energy using a magnetic field and current-carrying conductors producing torque.",
+      "explanation": "Current in armature conductors experiences force in magnetic field causing rotation."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Describe the construction and function of a transformer.",
+      "answer": "A transformer consists of primary and secondary coils wound on a magnetic core. It transfers electrical energy through magnetic induction, changing voltage levels.",
+      "explanation": "Construction enables magnetic flux linkage between coils to transfer energy efficiently."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What is meant by slip in an induction motor and why is it important?",
+      "answer": "Slip is the difference between synchronous and rotor speed, necessary for inducing current to produce torque.",
+      "explanation": "Slip enables rotor current generation, fundamental to induction motor operation."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain what is meant by ‘back emf’ in motors.",
+      "answer": "Back emf is the voltage induced in armature opposing applied voltage, regulating motor speed.",
+      "explanation": "It prevents motor from drawing excessive current under load."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Discuss losses in electrical machines and their significance.",
+      "answer": "Losses include copper losses, core losses, mechanical losses, and stray losses impacting efficiency and heat generation.",
+      "explanation": "Understanding losses helps in machine design and improving performance."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "What is the role of commutator in DC machines?",
+      "answer": "The commutator reverses current direction in armature to maintain unidirectional torque.",
+      "explanation": "Enables smooth rotation by alternating current direction correctly."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Explain the principle of operation of synchronous motors.",
+      "answer": "Synchronous motors operate at a constant speed synchronized with supply frequency, using a rotating magnetic field and rotor excitation.",
+      "explanation": "Their speed is locked to supply frequency, providing precise control."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Describe the construction and working of an induction motor.",
+      "answer": "An induction motor has stator windings creating a rotating magnetic field inducing current in the rotor to produce torque.",
+      "explanation": "Its simple construction and robustness make it widely used."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Analyze the effect of load on the performance of transformers.",
+      "answer": "Load changes affect voltage regulation, efficiency, and losses in transformers.",
+      "explanation": "Performance varies with load conditions affecting output quality."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Explain the basic principle of operation of an electrical machine.",
+      "answer": "An electrical machine converts energy from electrical to mechanical or vice versa using electromagnetic induction.",
+      "explanation": "Electromagnetic induction enables the conversion process in motors and generators."
+    }
+
+    ],
+    "Power Systems": [
+      {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What are the main components of a power system?",
+      "answer": "Generation, transmission, and distribution",
+      "explanation": "A power system consists of power plants (generation), transmission lines, and distribution networks.",
+      "options": [
+        "Generation, transmission, and distribution",
+        "Motors and transformers",
+        "Switches and circuit breakers",
+        "Batteries and capacitors"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does the per unit system simplify in power systems?",
+      "answer": "Calculation of electrical quantities",
+      "explanation": "Per unit system normalizes quantities relative to base values, simplifying analysis.",
+      "options": [
+        "Physical measurements",
+        "Power plant design",
+        "Load calculation",
+        "Calculation of electrical quantities"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which fault type is most common in power systems?",
+      "answer": "Single line-to-ground fault",
+      "explanation": "Single line-to-ground faults occur frequently due to insulation failures.",
+      "options": [
+        "Line-to-line fault",
+        "Double line-to-ground fault",
+        "Single line-to-ground fault",
+        "Three-phase fault"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What does symmetrical components method help analyze?",
+      "answer": "Unbalanced fault conditions",
+      "explanation": "It decomposes unbalanced phasors into balanced sets for fault analysis.",
+      "options": [
+        "Balanced loads",
+        "Power flow",
+        "Unbalanced fault conditions",
+        "Voltage regulation"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the function of a circuit breaker in power systems?",
+      "answer": "To interrupt fault current",
+      "explanation": "Circuit breakers protect power systems by isolating faulty parts.",
+      "options": [
+        "To generate power",
+        "To interrupt fault current",
+        "To measure voltage",
+        "To boost voltage"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which type of power flow does the term 'steady state' refer to?",
+      "answer": "Constant and unchanged over time",
+      "explanation": "Steady state power flow indicates system stability under normal conditions.",
+      "options": [
+        "Variable",
+        "Constant and unchanged over time",
+        "Transitory",
+        "Faulted"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the effect of corona in high-voltage transmission lines?",
+      "answer": "Power loss and audible noise",
+      "explanation": "Corona discharge causes energy loss and noise around conductors.",
+      "options": [
+        "Increased voltage",
+        "Power loss and audible noise",
+        "Voltage regulation improvement",
+        "Reduced current"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does the abbreviation HVDC stand for?",
+      "answer": "High Voltage Direct Current",
+      "explanation": "HVDC transmission uses DC voltage at high levels for efficient long-distance power transfer.",
+      "options": [
+        "High Voltage Direct Current",
+        "High Volt Differential Current",
+        "Heavy Voltage Direct Circuit",
+        "High Value Duty Cycle"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is a power transformer used for?",
+      "answer": "Voltage level conversion in power systems",
+      "explanation": "Transformers adjust voltage for efficient transmission and distribution.",
+      "options": [
+        "Energy storage",
+        "Voltage level conversion in power systems",
+        "Current measurement",
+        "Frequency adjustment"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Which parameter indicates the capacity of a transmission line to carry power?",
+      "answer": "Thermal rating",
+      "explanation": "Thermal rating defines maximum current a line can carry without overheating.",
+      "options": [
+        "Voltage rating",
+        "Thermal rating",
+        "Resistance",
+        "Reactance"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the unit of power in power systems?",
+      "answer": "Watt",
+      "explanation": "Power is measured in watts (W).",
+      "options": [
+        "Volt",
+        "Watt",
+        "Ohm",
+        "Ampere"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which system enhances voltage stability in power systems?",
+      "answer": "Automatic Voltage Regulator",
+      "explanation": "AVR maintains voltage levels by adjusting excitation to generators.",
+      "options": [
+        "Circuit breaker",
+        "Load flow",
+        "Automatic Voltage Regulator",
+        "Relays"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does 'load flow study' analyze?",
+      "answer": "Steady state operation of power system networks",
+      "explanation": "Load flow studies balance generation and consumption, voltage, and power flows.",
+      "options": [
+        "Fault response",
+        "Transient behavior",
+        "Steady state operation of power system networks",
+        "Switching operations"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is 'fault current' in power systems?",
+      "answer": "Excessive current due to abnormal circuit conditions",
+      "explanation": "Fault currents occur during short circuits or equipment failures.",
+      "options": [
+        "Normal operating current",
+        "Battery current",
+        "Excessive current due to abnormal circuit conditions",
+        "Charging current"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which device limits short circuit current to protect equipment?",
+      "answer": "Current Limiting Reactor",
+      "explanation": "Reactors add inductive impedance, reducing fault currents.",
+      "options": [
+        "Transformer",
+        "Current Limiting Reactor",
+        "Circuit breaker",
+        "Relay"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the frequency of standard power grids in many countries?",
+      "answer": "50 or 60 Hz",
+      "explanation": "Power grid frequency is mostly standardized to either 50 or 60 Hz.",
+      "options": [
+        "40 Hz",
+        "50 or 60 Hz",
+        "100 Hz",
+        "400 Hz"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "The stability of a power system is its ability to:",
+      "answer": "Return to normal operation after disturbance",
+      "explanation": "Stability ensures power supply continuity after faults or changes.",
+      "options": [
+        "Maintain voltage",
+        "Increase power output",
+        "Return to normal operation after disturbance",
+        "Reduce power loss"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Which method is commonly used for fault detection in power systems?",
+      "answer": "Sequence components method",
+      "explanation": "Sequence component theory analyzes unbalanced faults using symmetrical components.",
+      "options": [
+        "Load flow method",
+        "Sequence components method",
+        "State estimation",
+        "Relay coordination"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Power factor is the ratio of:",
+      "answer": "Real power to apparent power",
+      "explanation": "Power factor indicates efficiency of power use.",
+      "options": [
+        "Apparent power to real power",
+        "Real power to apparent power",
+        "Voltage to current",
+        "Load to generation"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which equipment protects the power system against overload?",
+      "answer": "Relay",
+      "explanation": "Relays detect faults and trigger protective devices like circuit breakers.",
+      "options": [
+        "Transformer",
+        "Relay",
+        "Generator",
+        "Capacitor"
+      ]
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the structure and components of a power system.",
+      "answer": "A power system consists of generation plants, transmission lines, substations, and distribution networks that deliver electrical power to consumers.",
+      "explanation": "Understanding structure helps in planning and operation."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Describe the function of transformers in power systems.",
+      "answer": "Transformers step up or step down voltage levels for efficient power transmission and distribution.",
+      "explanation": "Voltage conversion reduces losses in transmission."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What is load flow analysis and why is it important?",
+      "answer": "Load flow analysis calculates voltage, current, active and reactive power in power system networks for steady state operation.",
+      "explanation": "It ensures balanced and efficient network operation."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain the causes and effects of faults in power systems.",
+      "answer": "Faults are abnormal connections causing excessive currents, potentially damaging equipment and disrupting supply.",
+      "explanation": "Fault analysis is essential for protection system design."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Discuss the concept of power factor and its correction methods.",
+      "answer": "Power factor indicates how effectively power is used. Correction methods include capacitors and synchronous condensers to reduce reactive power effects.",
+      "explanation": "Correcting power factor improves efficiency and reduces costs."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Describe the stability issues in power systems and how they are addressed.",
+      "answer": "Stability involves maintaining synchronized operation despite disturbances; addressed by control systems, protective relays, and system design.",
+      "explanation": "Stability is critical for continuous and reliable power supply."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "What is the importance of grounding in power systems?",
+      "answer": "Grounding provides a reference point for system voltages and a path for fault currents to ensure safety and equipment protection.",
+      "explanation": "Effective grounding reduces risk of shock and equipment damage."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain the role of protective relays in power systems.",
+      "answer": "Protective relays detect abnormal conditions and trip circuit breakers to isolate faults and prevent damage.",
+      "explanation": "Relays enhance system reliability and safety."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What is economic load dispatch in power systems?",
+      "answer": "It optimizes generation cost by allocating required load among generators efficiently.",
+      "explanation": "Load dispatch balances economy and performance."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Discuss symmetrical components and their application in fault analysis.",
+      "answer": "Symmetrical components decompose unbalanced phasors into balanced sets, simplifying fault calculations and system protection.",
+      "explanation": "Used extensively in power system fault diagnostics."
+    }
+    ],
+    "Control Systems": [
+      {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is a control system?",
+      "answer": "A system that manages, commands, directs or regulates the behavior of other devices using control loops",
+      "explanation": "A control system regulates other systems or devices to achieve the desired output.",
+      "options": [
+        "A system that generates power",
+        "A system that manages, commands, directs or regulates the behavior of other devices using control loops",
+        "A system that stores data",
+        "A system that filters signals"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which of the following is an example of an open-loop control system?",
+      "answer": "Stroboscope",
+      "explanation": "Open-loop control systems do not use feedback to adjust output.",
+      "options": [
+        "Stroboscope",
+        "Thermostat",
+        "Cruise control",
+        "Automatic voltage regulator"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the function of a feedback system?",
+      "answer": "To compare output with input and reduce error",
+      "explanation": "Feedback helps maintain system stability and accuracy by correcting errors.",
+      "options": [
+        "To increase input power",
+        "To compare output with input and reduce error",
+        "To stop system operation",
+        "To enhance noise"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the characteristic equation of a control system used for?",
+      "answer": "Determining system stability",
+      "explanation": "Roots of the characteristic equation indicate system dynamic response and stability.",
+      "options": [
+        "Designing controllers",
+        "Determining system stability",
+        "Calculating input",
+        "Measuring output"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is the Routh-Hurwitz criterion used for?",
+      "answer": "Checking stability of a system by analyzing characteristic polynomial coefficients",
+      "explanation": "It provides necessary and sufficient conditions to determine stability.",
+      "options": [
+        "Designing encoders",
+        "Checking stability of a system by analyzing characteristic polynomial coefficients",
+        "Measuring response time",
+        "Calculating frequency response"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which element is not part of an automatic control system?",
+      "answer": "Manual switches",
+      "explanation": "Automatic systems generally exclude manual components.",
+      "options": [
+        "Sensors",
+        "Controllers",
+        "Actuators",
+        "Manual switches"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which type of control system does not use feedback?",
+      "answer": "Open-loop system",
+      "explanation": "Open-loop systems operate without feedback to correct output.",
+      "options": [
+        "Closed-loop system",
+        "Open-loop system",
+        "Servo system",
+        "Feedback system"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the Laplace transform used for in control systems?",
+      "answer": "Converting differential equations into algebraic equations",
+      "explanation": "Laplace transforms simplify system analysis and design.",
+      "options": [
+        "Signal amplification",
+        "Data storage",
+        "Converting differential equations into algebraic equations",
+        "Measuring voltage"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which component provides controlled output in a system?",
+      "answer": "Actuator",
+      "explanation": "Actuators convert control signals into physical action.",
+      "options": [
+        "Sensor",
+        "Actuator",
+        "Controller",
+        "Transmitter"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which signal type is used as input to control systems?",
+      "answer": "Reference input",
+      "explanation": "Reference inputs set desired values for systems to follow.",
+      "options": [
+        "Disturbance",
+        "Reference input",
+        "Noise",
+        "Error signal"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is an integrator in control systems?",
+      "answer": "Component that sums input over time",
+      "explanation": "An integrator output accumulates input signals, important in steady-state error analysis.",
+      "options": [
+        "Component that differentiates input",
+        "Component that sums input over time",
+        "Component that multiplies input",
+        "Component that filters noise"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is Bode plot used for?",
+      "answer": "Frequency response analysis of control systems",
+      "explanation": "Bode plots show gain and phase over a range of frequencies.",
+      "options": [
+        "Time domain analysis",
+        "Frequency response analysis of control systems",
+        "Differential equation solving",
+        "State variable plotting"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does stability mean in control systems?",
+      "answer": "System output remains bounded for bounded input",
+      "explanation": "Stability ensures control system behaves predictably without unbounded outputs.",
+      "options": [
+        "System outputs zero",
+        "System output remains bounded for bounded input",
+        "System input increases",
+        "System fails"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which of the following is a feedback controller?",
+      "answer": "PID controller",
+      "explanation": "PID controllers use proportional, integral, and derivative actions to control systems.",
+      "options": [
+        "Manual controller",
+        "PID controller",
+        "On-off controller",
+        "Open loop controller"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "In a closed loop system, what is the error signal?",
+      "answer": "Difference between reference input and output",
+      "explanation": "Error signal drives the corrective action in feedback systems.",
+      "options": [
+        "Sum of input and output",
+        "Difference between reference input and output",
+        "Product of input and output",
+        "Output signal"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What does a root locus plot illustrate?",
+      "answer": "Movement of system poles with varying gain",
+      "explanation": "Root locus tracks poles location in s-plane as gain changes, indicating stability.",
+      "options": [
+        "Frequency response",
+        "Pole-zero cancellation",
+        "Movement of system poles with varying gain",
+        "System error"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "In a system, what causes steady-state error?",
+      "answer": "Persistence of error under constant input",
+      "explanation": "Steady-state error measures deviation from desired output over time.",
+      "options": [
+        "Noise",
+        "Disturbances",
+        "Persistence of error under constant input",
+        "Controller dead zone"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "Which control strategy can eliminate steady-state error completely?",
+      "answer": "Integral control",
+      "explanation": "Integral control accumulates error and adjusts control to zero steady-state error.",
+      "options": [
+        "Proportional control",
+        "Derivative control",
+        "Integral control",
+        "Feedforward control"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which block diagram reduction technique simplifies system analysis?",
+      "answer": "Block diagram algebra",
+      "explanation": "Block diagram algebra uses mathematical operations to reduce complex systems.",
+      "options": [
+        "Root locus",
+        "Block diagram algebra",
+        "Bode plot",
+        "Nyquist plot"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "The response of a first-order system to a step input is:",
+      "answer": "Exponential rise to a steady value",
+      "explanation": "First-order systems asymptotically reach output based on time constant.",
+      "options": [
+        "Instantaneous change",
+        "Oscillations",
+        "Exponential rise to a steady value",
+        "Constant zero output"
+      ]
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "What is negative feedback and what are its benefits?",
+      "answer": "Negative feedback subtracts part of output from input, enhancing stability, reducing sensitivity, and improving bandwidth.",
+      "explanation": "It makes control systems more robust and accurate."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the difference between open-loop and closed-loop control systems.",
+      "answer": "Open-loop systems operate without feedback; closed-loop systems use feedback to adjust output.",
+      "explanation": "Feedback improves accuracy and performance."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Describe the effects of proportional, integral, and derivative terms in a PID controller.",
+      "answer": "Proportional responds to current error, integral to accumulated error, derivative to rate of change; balancing gives optimal response.",
+      "explanation": "PID control combines effects for precise system management."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What is the significance of the transfer function in a control system?",
+      "answer": "It relates system output to input in Laplace domain, enabling system analysis and design.",
+      "explanation": "Transfer function characterizes system dynamics mathematically."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Describe the purpose of stability analysis in control systems.",
+      "answer": "To ensure the system output remains bounded and predictable in response to inputs.",
+      "explanation": "Stable systems avoid oscillations and unbounded outputs."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain the Nyquist stability criterion.",
+      "answer": "A graphical test using frequency response to determine closed-loop stability by encirclements of -1 point.",
+      "explanation": "Used in design and analysis of feedback systems."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What is the purpose of root locus plots?",
+      "answer": "To analyze how system poles move with varying feedback gain affecting stability and transient response.",
+      "explanation": "Root locus helps in control system design."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Discuss the concept of controllability and observability in control systems.",
+      "answer": "Controllability measures the ability to move system states via input; observability measures the ability to infer states via output.",
+      "explanation": "Both are fundamental for modern control design and system monitoring."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain the use of state-space representation in control systems.",
+      "answer": "State-space models represent multiple input-output systems with matrices, useful for multi-variable and nonlinear systems.",
+      "explanation": "Offers a unified framework for control design."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "What are the advantages and disadvantages of digital control systems?",
+      "answer": "Advantages include flexibility and precision; disadvantages include sampling errors and quantization noise.",
+      "explanation": "Digital control allows complex algorithms but demands computational resources."
+    }
+    ],
+    "Power Electronics": [
+      {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the primary function of power electronics?",
+      "answer": "To convert and control electrical power efficiently",
+      "explanation": "Power electronics deals with controlling electrical power using electronic devices to improve efficiency.",
+      "options": [
+        "Processing audio signals",
+        "Converting and controlling electrical power efficiently",
+        "Storing electrical energy",
+        "Measuring electrical parameters"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which device is commonly used as a controlled rectifier in power electronics?",
+      "answer": "Silicon Controlled Rectifier (SCR)",
+      "explanation": "SCRs are widely used to control power in AC and DC circuits.",
+      "options": [
+        "Diode",
+        "Transistor",
+        "Silicon Controlled Rectifier (SCR)",
+        "Thyristor"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "What is the purpose of a chopper circuit?",
+      "answer": "To convert fixed DC input to variable DC output",
+      "explanation": "Choppers control voltage and current supplied to DC motors and other loads.",
+      "options": [
+        "AC to DC conversion",
+        "DC to AC conversion",
+        "Fixed DC to variable DC conversion",
+        "AC voltage regulation"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which power converter converts DC to AC?",
+      "answer": "Inverter",
+      "explanation": "Inverters produce AC output from a DC source.",
+      "options": [
+        "Rectifier",
+        "Inverter",
+        "Chopper",
+        "Cycloconverter"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is the resulting output of a full-wave controlled rectifier?",
+      "answer": "Pulsating DC with controllable voltage",
+      "explanation": "Full-wave controlled rectifiers provide DC output whose average voltage can be varied by control.",
+      "options": [
+        "Pure DC voltage",
+        "AC voltage",
+        "Pulsating DC with controllable voltage",
+        "Zero voltage"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which semiconductor device is used for switching in power converters?",
+      "answer": "Power MOSFET",
+      "explanation": "Power MOSFETs offer high-speed switching with efficiency.",
+      "options": [
+        "Diode",
+        "Power MOSFET",
+        "BJT",
+        "Thyristor"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "Which of the following is an uncontrolled rectifier?",
+      "answer": "Diode bridge rectifier",
+      "explanation": "Diode rectifiers convert AC to DC without control during conduction.",
+      "options": [
+        "Diode bridge rectifier",
+        "Fully controlled rectifier",
+        "Chopper",
+        "Inverter"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "In power electronics, what is the 'duty cycle'?",
+      "answer": "Ratio of ON time to total switching period",
+      "explanation": "Duty cycle determines power delivered to load by varying switch ON duration.",
+      "options": [
+        "Switching frequency",
+        "Ratio of ON time to total switching period",
+        "Voltage amplitude",
+        "Power factor"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which converter is used to vary AC voltage frequency?",
+      "answer": "Cycloconverter",
+      "explanation": "Cycloconverters convert fixed frequency AC to variable frequency AC.",
+      "options": [
+        "Rectifier",
+        "Inverter",
+        "Chopper",
+        "Cycloconverter"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the primary loss in semiconductor devices in power electronics?",
+      "answer": "Conduction loss",
+      "explanation": "Conduction loss occurs due to resistance when devices conduct current.",
+      "options": [
+        "Switching loss",
+        "Conduction loss",
+        "Magnetic loss",
+        "Thermal loss"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which power electronics device can operate as both switch and amplifier?",
+      "answer": "Transistor",
+      "explanation": "Transistors are versatile devices used for switching and amplification.",
+      "options": [
+        "Diode",
+        "Thyristor",
+        "Transistor",
+        "Triac"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What mode of operation is called discontinuous conduction mode (DCM)?",
+      "answer": "When current through the inductor falls to zero during switching cycle",
+      "explanation": "In DCM, inductor current is zero for part of the switching period.",
+      "options": [
+        "Continuous current flow",
+        "Current exceeds rated value",
+        "When current through the inductor falls to zero during switching cycle",
+        "Short circuit mode"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which parameter affects switching losses in power devices?",
+      "answer": "Switching frequency",
+      "explanation": "Higher switching frequencies increase losses due to finite turn-on/off times.",
+      "options": [
+        "Voltage amplitude",
+        "Conduction current",
+        "Switching frequency",
+        "Power factor"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "The main advantage of switching regulators is:",
+      "answer": "High efficiency",
+      "explanation": "Switching regulators reduce power loss by switching operation, unlike linear regulators.",
+      "options": [
+        "Low cost",
+        "Simple design",
+        "High efficiency",
+        "Low noise"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which device provides isolation in power electronics circuits?",
+      "answer": "Transformer",
+      "explanation": "Transformers provide galvanic isolation and voltage transformation.",
+      "options": [
+        "Isolator switch",
+        "Fuse",
+        "Transformer",
+        "Inductor"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Hard",
+      "question": "What is the effect of snubber circuits in power electronic converters?",
+      "answer": "Reduce voltage and current spikes during switching",
+      "explanation": "Snubbers protect devices from damaging transients and improve reliability.",
+      "options": [
+        "Increase switching speed",
+        "Regulate output voltage",
+        "Reduce voltage and current spikes during switching",
+        "Store energy"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which method is used for power factor correction in power electronics?",
+      "answer": "Boost converter based active PFC",
+      "explanation": "Boost converters adjust input current waveform to improve power factor.",
+      "options": [
+        "Buck converter",
+        "Buck-boost converter",
+        "Boost converter based active PFC",
+        "Switched capacitor"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Basic",
+      "question": "What is the name of the circuit that converts AC to DC?",
+      "answer": "Rectifier",
+      "explanation": "Rectifiers convert alternating current to direct current.",
+      "options": [
+        "Inverter",
+        "Rectifier",
+        "Chopper",
+        "Oscillator"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which power semiconductor device is triggered by a gate signal and can turn off only by reducing current below holding current?",
+      "answer": "Thyristor",
+      "explanation": "Thyristors latch on when gate triggered and require current interruption to turn off.",
+      "options": [
+        "BJT",
+        "MOSFET",
+        "Thyristor",
+        "IGBT"
+      ]
+    },
+    {
+      "type": "MCQ",
+      "difficulty": "Medium",
+      "question": "Which type of inverter produces an output voltage with variable amplitude and frequency?",
+      "answer": "Voltage source inverter (VSI)",
+      "explanation": "VSIs are commonly used for motor drives with variable speed control.",
+      "options": [
+        "Current source inverter",
+        "Voltage source inverter",
+        "Cycloconverter",
+        "Rectifier"
+      ]
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Explain the basic working of a power electronic converter.",
+      "answer": "Power electronic converters use semiconductor devices to convert electrical power from one form to another efficiently through switching actions.",
+      "explanation": "They enable voltage, current, and frequency control in power applications."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "Describe the operation of a silicon controlled rectifier (SCR).",
+      "answer": "SCR is a four-layer semiconductor device that acts as a switch controlled by a gate signal for DC power control applications.",
+      "explanation": "It can remain on after gate activation until current drops below holding value."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "What are the advantages of switch mode power supplies over linear power supplies?",
+      "answer": "Switch mode supplies offer higher efficiency, smaller size, better heat dissipation, and wider input voltage ranges.",
+      "explanation": "Due to rapid switching, they reduce power loss and size."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain the difference between buck and boost converters.",
+      "answer": "Buck converters step down voltage while boost converters step up voltage, both using switching elements and inductors.",
+      "explanation": "They are fundamental in DC-DC power conversion."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Discuss power factor correction techniques in power electronic systems.",
+      "answer": "Active and passive methods are used to improve power factor, reducing reactive power and improving efficiency.",
+      "explanation": "PFC reduces losses and complies with grid regulations."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "What is the role of snubber circuits in protecting power electronic devices?",
+      "answer": "Snubber circuits absorb voltage and current transients that occur during switching to prevent device damage.",
+      "explanation": "They increase reliability and longevity of power devices."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Explain how PWM (Pulse Width Modulation) controls voltage and current in power electronics.",
+      "answer": "PWM controls power by switching devices on and off rapidly with varying duty cycle to adjust average voltage/current output.",
+      "explanation": "It provides efficient and precise control in converters."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Basic",
+      "question": "What is an inverter and where is it commonly used?",
+      "answer": "An inverter converts DC to AC and is commonly used in renewable energy systems and motor drives.",
+      "explanation": "Inverters provide AC power from batteries, solar panels, or DC sources."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Medium",
+      "question": "Discuss the significance of semiconductor devices in power electronics.",
+      "answer": "Semiconductor switching devices like thyristors, MOSFETs, and IGBTs enable efficient power conversion and control.",
+      "explanation": "They form the backbone of modern power electronic systems."
+    },
+    {
+      "type": "Descriptive",
+      "difficulty": "Hard",
+      "question": "Analyze the impact of switching frequency on the efficiency and size of power electronic converters.",
+      "answer": "Higher switching frequencies reduce size of passive components but increase switching losses, requiring a trade-off.",
+      "explanation": "Optimizing switching frequency balances efficiency, cost, and size."
+    }
+    ]
+  }
+}
