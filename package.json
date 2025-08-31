@@ -1,31 +1,108 @@
 {
-  "name": "engineering-exam-system-sbert-fixed",
-  "version": "2.1.0",
-  "description": "Engineering examination platform with SBERT AI evaluation and manual evaluation fallback",
-  "main": "app.js",
+  "name": "5-stream-engineering-exam-system",
+  "version": "4.0.0",
+  "description": "Complete AI-powered examination system for 5 engineering streams with SBERT evaluation",
+  "main": "index.html",
   "scripts": {
-    "start": "python -m http.server 8000",
-    "serve": "python3 -m http.server 8000",
-    "dev": "python3 -m http.server 8000"
-  },
-  "dependencies": {
-    "@tensorflow/tfjs": "^4.10.0",
-    "@tensorflow-models/universal-sentence-encoder": "^1.3.3"
+    "start": "python -m http.server 8080",
+    "start-alt": "python3 -m http.server 8080",
+    "verify": "node verify.js",
+    "test": "echo \"Navigate to http://localhost:8080 after starting server\"",
+    "build": "echo \"Static files - no build required\"",
+    "lint": "echo \"Linting not configured - production ready\"",
+    "serve-dev": "python -m http.server 3000",
+    "serve-prod": "python -m http.server 8080"
   },
   "keywords": [
-    "examination-system",
-    "sbert",
-    "manual-evaluation",
-    "semantic-similarity",
-    "nlp",
-    "tensorflow-js",
     "education",
-    "ai-evaluation",
-    "descriptive-answers"
+    "examination",
+    "engineering",
+    "ai",
+    "sbert",
+    "assessment",
+    "tensorflow",
+    "machine-learning",
+    "semantic-similarity",
+    "web-application",
+    "javascript",
+    "html5",
+    "css3",
+    "responsive",
+    "PWA"
   ],
-  "author": "Engineering Exam System Team",
+  "author": {
+    "name": "AI Engineering Education Team",
+    "email": "support@engineeringexams.ai",
+    "url": "https://engineeringexams.ai"
+  },
   "license": "MIT",
   "engines": {
+    "python": ">=3.8.0",
     "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/engineering-ai/5-stream-exam-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/engineering-ai/5-stream-exam-system/issues"
+  },
+  "homepage": "https://github.com/engineering-ai/5-stream-exam-system#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.20.0",
+    "@tensorflow-models/universal-sentence-encoder": "^1.3.3"
+  },
+  "devDependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "configuration": {
+    "defaultPort": 8080,
+    "supportedStreams": [
+      "CSE",
+      "EEE", 
+      "ECE",
+      "CIVIL",
+      "Mechanical"
+    ],
+    "features": {
+      "sbertEvaluation": true,
+      "manualFallback": true,
+      "fullscreenExam": true,
+      "resultAnalytics": true,
+      "multiStreamSupport": true,
+      "responsiveDesign": true,
+      "offlineCapable": false
+    }
+  },
+  "system": {
+    "requirements": {
+      "browser": "Modern browser with ES6 support and WebGL",
+      "python": "Python 3.8+ for local server",
+      "memory": "Minimum 4GB RAM recommended for SBERT model",
+      "storage": "50MB free space",
+      "network": "Internet connection required for SBERT model download (first run)"
+    },
+    "files": {
+      "required": [
+        "index.html",
+        "app.js", 
+        "sbert-evaluator.js",
+        "style.css",
+        "CSE.json",
+        "EEE.json",
+        "ECE.json", 
+        "CIVIL.json",
+        "MECH.json"
+      ],
+      "optional": [
+        "package.json",
+        "README.md",
+        "verify.js"
+      ]
+    }
   }
 }
