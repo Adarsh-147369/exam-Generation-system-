@@ -3,97 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Engineering Exam System with SBERT</title>
+    <title>5-Stream Engineering Exam System - Complete Platform</title>
     <link rel="stylesheet" href="style.css">
-
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.10.0/dist/tf.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder@1.3.3/dist/universal-sentence-encoder.min.js"></script>
+    <!-- TensorFlow.js and Universal Sentence Encoder -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.20.0/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder@1.3.3/dist/use.min.js"></script>
 </head>
 <body>
-
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <h2>Engineering Exam System</h2>
+                <h2>🎓 5-Stream Engineering Exam System</h2>
             </div>
             <div class="nav-links">
-                <button id="homeBtn" class="btn btn--outline">Home</button>
-                <button id="loginBtn" class="btn btn--primary">Login</button>
-                <button id="logoutBtn" class="btn btn--secondary hidden">Logout</button>
+                <button id="homeBtn" class="btn btn--outline">🏠 Home</button>
+                <button id="loginBtn" class="btn btn--primary">🔐 Login</button>
+                <button id="logoutBtn" class="btn btn--outline hidden">🚪 Logout</button>
             </div>
         </div>
     </nav>
 
-
-    <div id="sbertLoadingStatus" class="hidden"></div>
-    <div id="sbertStatus"></div>
-
+    <!-- Home Screen -->
     <div id="homeScreen" class="screen">
         <div class="container">
             <div class="hero-section">
-                <h1>Comprehensive Engineering Examination Platform</h1>
-                <p>Advanced assessment system with AI-powered descriptive answer evaluation using SBERT</p>
-                <div class="hero-actions">
-                    <button id="adminLoginBtn" class="btn btn--primary btn--lg">Admin Login</button>
-                    <button id="studentLoginBtn" class="btn btn--primary btn--lg">Student Login</button>
-                </div>
-            </div>
+                <h1>🚀 Complete 5-Stream Engineering Assessment</h1>
+                <p>AI-powered evaluation across CSE, EEE, ECE, CIVIL, and MECHANICAL engineering with comprehensive question banks and SBERT semantic analysis.</p>
 
-            <div class="features-grid stats-grid">
-                <div class="card">
-                    <div class="card__body">
-                        <h3>750+ Questions</h3>
-                        <p>Comprehensive question bank across core engineering subjects covering CSE, EEE, ECE, Civil, and Mechanical Engineering</p>
+                <div class="streams-showcase">
+                    <div class="stream-badge cse">💻 CSE</div>
+                    <div class="stream-badge eee">⚡ EEE</div>
+                    <div class="stream-badge ece">📡 ECE</div>
+                    <div class="stream-badge civil">🏗️ CIVIL</div>
+                    <div class="stream-badge mech">⚙️ MECH</div>
+                </div>
+
+                <div class="hero-actions">
+                    <button id="adminLoginBtn" class="btn btn--primary btn--lg">👨‍💼 Admin Portal</button>
+                    <button id="studentLoginBtn" class="btn btn--secondary btn--lg">👨‍🎓 Student Portal</button>
+                </div>
+
+                <!-- Features Overview -->
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3>AI-Powered SBERT Evaluation</h3>
+                        <p>Advanced semantic similarity analysis for descriptive answers across all 5 engineering streams</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📚</div>
+                        <h3>Complete 5-Stream Coverage</h3>
+                        <p>Comprehensive question banks across CSE, EEE, ECE, CIVIL, and MECHANICAL engineering</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Instant Results & Analytics</h3>
+                        <p>Real-time evaluation with detailed performance analytics and progress tracking</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Secure Exam Environment</h3>
+                        <p>Fullscreen mode with comprehensive monitoring and anti-cheating measures</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card__body">
-                        <h3>🤖 AI-Powered Evaluation</h3>
-                        <p>Automatic evaluation of descriptive answers using SBERT semantic similarity analysis with manual fallback</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__body">
-                        <h3>📝 Manual Evaluation</h3>
-                        <p>Keyword-based manual evaluation system ensures all answers are scored even when AI is unavailable</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__body">
-                        <h3>🔒 Secure Environment</h3>
-                        <p>Distraction-free examination environment with fullscreen mode and browser monitoring</p>
+
+                <!-- System Status -->
+                <div id="systemStatus" class="system-status">
+                    <h3>🔧 System Status</h3>
+                    <div id="statusIndicators" class="status-indicators">
+                        <div class="status-item" id="streamsStatus">
+                            <span class="status-icon">⏳</span>
+                            <span class="status-text">Loading 5-Stream Question Banks...</span>
+                        </div>
+                        <div class="status-item" id="sbertStatus">
+                            <span class="status-icon">⏳</span>
+                            <span class="status-text">Initializing AI Evaluation System...</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Login Screen -->
     <div id="loginScreen" class="screen hidden">
         <div class="container">
             <div class="login-container">
                 <div class="card">
                     <div class="card__body">
-                        <h2 id="loginTitle" class="text-center">Login</h2>
+                        <div class="text-center">
+                            <h2 id="loginTitle">🔐 Access Portal</h2>
+                            <p>Enter your credentials to access the 5-stream engineering platform</p>
+                        </div>
                         <form id="loginForm">
                             <div class="form-group">
-                                <label class="form-label" for="loginEmail">Email</label>
-                                <input type="email" id="loginEmail" class="form-control" required>
+                                <label class="form-label">📧 Email Address</label>
+                                <input type="email" id="loginEmail" class="form-control" required placeholder="Enter your email">
                             </div>
                             <div class="form-group">
-                                <label class="form-label" for="loginPassword">Password</label>
-                                <input type="password" id="loginPassword" class="form-control" required>
+                                <label class="form-label">🔑 Password</label>
+                                <input type="password" id="loginPassword" class="form-control" required placeholder="Enter your password">
                             </div>
                             <div class="form-group">
                                 <label class="checkbox-label">
                                     <input type="checkbox" id="rememberMe">
-                                    Remember me
+                                    Remember me for 30 days
                                 </label>
                             </div>
-                            <button type="submit" class="btn btn--primary btn--full-width">Login</button>
+                            <button type="submit" class="btn btn--primary btn--full-width btn--lg">
+                                🚀 Access Platform
+                            </button>
                         </form>
-                        <div id="registerLink" class="text-center mt-16">
-                            <p>Don't have an account? <a href="#" id="showRegister">Register here</a></p>
+                        <div class="text-center mt-16" id="registerLink">
+                            <p>New to the platform? <a href="#" id="showRegister">Create account →</a></p>
                         </div>
                     </div>
                 </div>
@@ -101,30 +124,35 @@
         </div>
     </div>
 
-
+    <!-- Register Screen -->
     <div id="registerScreen" class="screen hidden">
         <div class="container">
             <div class="login-container">
                 <div class="card">
                     <div class="card__body">
-                        <h2 class="text-center">Register</h2>
+                        <div class="text-center">
+                            <h2>✨ Join 5-Stream Platform</h2>
+                            <p>Create your account to access all engineering subjects</p>
+                        </div>
                         <form id="registerForm">
                             <div class="form-group">
-                                <label class="form-label" for="registerName">Full Name</label>
-                                <input type="text" id="registerName" class="form-control" required>
+                                <label class="form-label">👤 Full Name</label>
+                                <input type="text" id="registerName" class="form-control" required placeholder="Enter your full name">
                             </div>
                             <div class="form-group">
-                                <label class="form-label" for="registerEmail">Email</label>
-                                <input type="email" id="registerEmail" class="form-control" required>
+                                <label class="form-label">📧 Email Address</label>
+                                <input type="email" id="registerEmail" class="form-control" required placeholder="Enter your email">
                             </div>
                             <div class="form-group">
-                                <label class="form-label" for="registerPassword">Password</label>
-                                <input type="password" id="registerPassword" class="form-control" required>
+                                <label class="form-label">🔑 Password</label>
+                                <input type="password" id="registerPassword" class="form-control" required placeholder="Create a strong password">
                             </div>
-                            <button type="submit" class="btn btn--primary btn--full-width">Register</button>
+                            <button type="submit" class="btn btn--primary btn--full-width btn--lg">
+                                ✨ Create Account
+                            </button>
                         </form>
                         <div class="text-center mt-16">
-                            <p>Already have an account? <a href="#" id="showLogin">Login here</a></p>
+                            <p>Already registered? <a href="#" id="showLogin">Sign in →</a></p>
                         </div>
                     </div>
                 </div>
@@ -132,175 +160,345 @@
         </div>
     </div>
 
-
+    <!-- Admin Dashboard -->
     <div id="adminDashboard" class="screen hidden">
         <div class="container">
             <div class="dashboard-header">
-                <h1 id="adminWelcome">Welcome, Admin</h1>
-                <nav class="admin-nav">
-                    <button id="adminStatsTabBtn" class="btn btn--primary">Statistics</button>
-                    <button id="adminQuestionsTabBtn" class="btn btn--secondary">Questions</button>
-                    <button id="adminResultsTabBtn" class="btn btn--secondary">Results</button>
-                    <button id="adminUsersTabBtn" class="btn btn--secondary">Users</button>
-                    <button id="adminSBERTTabBtn" class="btn btn--secondary">SBERT Config</button>
-                </nav>
+                <div>
+                    <h1 id="adminWelcome">Welcome, Administrator</h1>
+                    <p>Comprehensive 5-stream engineering platform management</p>
+                </div>
+                <div class="admin-nav">
+                    <button id="adminStatsTabBtn" class="btn btn--primary">📊 Dashboard</button>
+                    <button id="adminResultsTabBtn" class="btn btn--secondary">📋 All Results</button>
+                    <button id="adminUsersTabBtn" class="btn btn--secondary">👥 Users</button>
+                    <button id="adminSettingsTabBtn" class="btn btn--secondary">⚙️ Settings</button>
+                </div>
             </div>
 
-
+            <!-- Statistics Tab -->
             <div id="adminStatsTab" class="tab-content">
-                <div class="stats-grid">
-                    <div class="stat-card card">
-                        <div class="card__body">
-                            <h3>Total Questions</h3>
-                            <div id="totalQuestionsCount" class="stat-number">750</div>
-                        </div>
-                    </div>
-                    <div class="stat-card card">
-                        <div class="card__body">
-                            <h3>Registered Students</h3>
-                            <div id="totalStudentsCount" class="stat-number">0</div>
-                        </div>
-                    </div>
-                    <div class="stat-card card">
-                        <div class="card__body">
-                            <h3>Exams Taken</h3>
-                            <div id="totalExamsCount" class="stat-number">0</div>
-                        </div>
-                    </div>
-                    <div class="stat-card card">
-                        <div class="card__body">
-                            <h3>Average Score</h3>
-                            <div id="averageScorePercent" class="stat-number">N/A</div>
-                        </div>
-                    </div>
-                </div>
-                <div id="disciplineBreakdown"></div>
-            </div>
-
-
-            <div id="adminQuestionsTab" class="tab-content hidden">
                 <div class="section-header">
-                    <h2>Question Bank Management</h2>
+                    <h2>📊 Platform Analytics</h2>
+                    <p>Comprehensive overview of 5-stream engineering platform performance</p>
                 </div>
-                <div id="questionsList"></div>
+
+                <div class="stats-grid">
+                    <div class="stat-card card gradient-cse">
+                        <div class="card__body">
+                            <h3>💻 CSE Stream</h3>
+                            <div class="stat-number" id="cseSubjectsCount">5</div>
+                            <p>Computer Science subjects</p>
+                        </div>
+                    </div>
+                    <div class="stat-card card gradient-eee">
+                        <div class="card__body">
+                            <h3>⚡ EEE Stream</h3>
+                            <div class="stat-number" id="eeeSubjectsCount">5</div>
+                            <p>Electrical & Electronics subjects</p>
+                        </div>
+                    </div>
+                    <div class="stat-card card gradient-ece">
+                        <div class="card__body">
+                            <h3>📡 ECE Stream</h3>
+                            <div class="stat-number" id="eceSubjectsCount">5</div>
+                            <p>Electronics & Communication subjects</p>
+                        </div>
+                    </div>
+                    <div class="stat-card card gradient-civil">
+                        <div class="card__body">
+                            <h3>🏗️ CIVIL Stream</h3>
+                            <div class="stat-number" id="civilSubjectsCount">5</div>
+                            <p>Civil Engineering subjects</p>
+                        </div>
+                    </div>
+                    <div class="stat-card card gradient-mech">
+                        <div class="card__body">
+                            <h3>⚙️ MECH Stream</h3>
+                            <div class="stat-number" id="mechSubjectsCount">5</div>
+                            <p>Mechanical Engineering subjects</p>
+                        </div>
+                    </div>
+                    <div class="stat-card card">
+                        <div class="card__body">
+                            <h3>👥 Total Students</h3>
+                            <div class="stat-number" id="totalStudentsCount">0</div>
+                            <p>Registered users</p>
+                        </div>
+                    </div>
+                    <div class="stat-card card">
+                        <div class="card__body">
+                            <h3>📝 Total Exams</h3>
+                            <div class="stat-number" id="totalExamsCount">0</div>
+                            <p>Completed assessments</p>
+                        </div>
+                    </div>
+                    <div class="stat-card card">
+                        <div class="card__body">
+                            <h3>🤖 AI Evaluations</h3>
+                            <div class="stat-number" id="aiEvaluationsCount">0</div>
+                            <p>SBERT processed</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+            <!-- Results Tab -->
             <div id="adminResultsTab" class="tab-content hidden">
                 <div class="section-header">
-                    <h2>Exam Results</h2>
+                    <h2>📋 All Student Results</h2>
+                    <p>Comprehensive view of student performance across all 5 engineering streams</p>
                 </div>
-                <div id="allResultsList"></div>
+                <div id="allResultsList">
+                    <!-- Results content will be loaded here -->
+                </div>
             </div>
 
+            <!-- Users Tab -->
             <div id="adminUsersTab" class="tab-content hidden">
                 <div class="section-header">
-                    <h2>User Management</h2>
+                    <h2>👥 User Management</h2>
+                    <p>Manage all users across the 5-stream platform</p>
                 </div>
-                <div id="usersList"></div>
+                <div id="usersManagementContainer">
+                    <!-- Users content will be loaded here -->
+                </div>
             </div>
 
-            <div id="adminSBERTTab" class="tab-content hidden">
+            <!-- Settings Tab -->
+            <div id="adminSettingsTab" class="tab-content hidden">
                 <div class="section-header">
-                    <h2>SBERT Auto-Evaluation Configuration</h2>
-                    <p>Configure AI and manual evaluation settings for descriptive answers</p>
+                    <h2>⚙️ System Settings</h2>
+                    <p>Configure AI evaluation and system parameters</p>
                 </div>
-                <div id="sbertConfigContainer"></div>
+                <div id="systemSettingsContainer">
+                    <!-- Settings content will be loaded here -->
+                </div>
             </div>
         </div>
     </div>
 
+    <!-- Student Dashboard -->
     <div id="studentDashboard" class="screen hidden">
         <div class="container">
             <div class="dashboard-header">
-                <h1 id="studentWelcome">Welcome, Student</h1>
-                <nav class="student-nav">
-                    <button id="examTabBtn" class="btn btn--primary">Take Exam</button>
-                    <button id="myResultsTabBtn" class="btn btn--secondary">My Results</button>
-                </nav>
+                <div>
+                    <h1 id="studentWelcome">Welcome to 5-Stream Platform</h1>
+                    <p>Access comprehensive engineering assessments across all streams</p>
+                </div>
+                <div class="student-nav">
+                    <button id="examTabBtn" class="btn btn--primary">📝 Take Exam</button>
+                    <button id="myResultsTabBtn" class="btn btn--secondary">📊 My Results</button>
+                </div>
             </div>
 
-
+            <!-- Exam Tab -->
             <div id="examTab" class="tab-content">
                 <div class="section-header">
-                    <h2>Available Subjects</h2>
-                    <p>Select a subject to begin your examination. Each exam contains 8 MCQs + 2 descriptive questions.</p>
+                    <h2>🎯 Select Your Engineering Stream</h2>
+                    <p>Choose from 5 major engineering streams with comprehensive question banks</p>
                 </div>
-                <div id="availableSubjects" class="subjects-grid"></div>
+
+                <!-- Stream Selection Cards -->
+                <div class="streams-selection">
+                    <div class="stream-card cse-stream" data-stream="CSE">
+                        <div class="stream-header">
+                            <span class="stream-icon">💻</span>
+                            <h3>Computer Science Engineering</h3>
+                        </div>
+                        <div class="stream-details">
+                            <p>Core CS subjects with programming, algorithms, and system design</p>
+                            <div class="stream-badge">AI Evaluation Ready</div>
+                        </div>
+                    </div>
+
+                    <div class="stream-card eee-stream" data-stream="EEE">
+                        <div class="stream-header">
+                            <span class="stream-icon">⚡</span>
+                            <h3>Electrical & Electronics Engineering</h3>
+                        </div>
+                        <div class="stream-details">
+                            <p>Circuit theory, power systems, control systems, and electronics</p>
+                            <div class="stream-badge">AI Evaluation Ready</div>
+                        </div>
+                    </div>
+
+                    <div class="stream-card ece-stream" data-stream="ECE">
+                        <div class="stream-header">
+                            <span class="stream-icon">📡</span>
+                            <h3>Electronics & Communication</h3>
+                        </div>
+                        <div class="stream-details">
+                            <p>Signals, communication systems, digital electronics, and networking</p>
+                            <div class="stream-badge">AI Evaluation Ready</div>
+                        </div>
+                    </div>
+
+                    <div class="stream-card civil-stream" data-stream="CIVIL">
+                        <div class="stream-header">
+                            <span class="stream-icon">🏗️</span>
+                            <h3>Civil Engineering</h3>
+                        </div>
+                        <div class="stream-details">
+                            <p>Structural analysis, concrete technology, surveying, and construction</p>
+                            <div class="stream-badge">AI Evaluation Ready</div>
+                        </div>
+                    </div>
+
+                    <div class="stream-card mech-stream" data-stream="Mechanical">
+                        <div class="stream-header">
+                            <span class="stream-icon">⚙️</span>
+                            <h3>Mechanical Engineering</h3>
+                        </div>
+                        <div class="stream-details">
+                            <p>Thermodynamics, fluid mechanics, machine design, and manufacturing</p>
+                            <div class="stream-badge">AI Evaluation Ready</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Selected Stream Subjects -->
+                <div id="streamSubjects" class="subjects-container hidden">
+                    <div class="section-header">
+                        <div>
+                            <h3 id="selectedStreamTitle">Stream Subjects</h3>
+                            <button id="backToStreams" class="btn btn--outline">← Back to Streams</button>
+                        </div>
+                    </div>
+                    <div class="subjects-grid" id="availableSubjects">
+                        <!-- Subject cards will be loaded here -->
+                    </div>
+                </div>
             </div>
 
+            <!-- Results Tab -->
             <div id="myResultsTab" class="tab-content hidden">
                 <div class="section-header">
-                    <h2>My Exam Results</h2>
-                    <p>View your examination history and detailed performance analysis</p>
+                    <h2>📊 My Performance</h2>
+                    <p>Track your progress across all 5 engineering streams</p>
                 </div>
-                <div id="studentResultsList"></div>
+                <div id="studentResultsContainer">
+                    <!-- Student results will be loaded here -->
+                </div>
             </div>
         </div>
     </div>
 
+    <!-- Exam Screen -->
     <div id="examScreen" class="screen hidden">
         <div class="exam-header">
             <div class="container">
                 <div class="exam-info">
-                    <div>
-                        <h3 id="examSubjectName">Subject Name</h3>
+                    <div class="exam-details">
+                        <h3 id="examSubjectName">Subject Assessment</h3>
                         <div class="exam-progress">
                             Question <span id="currentQuestionNum">1</span> of <span id="totalQuestions">10</span>
+                            <span id="examStreamBadge" class="stream-badge-small"></span>
                         </div>
                     </div>
                     <div class="exam-timer" id="examTimer">30:00</div>
-                    <button id="exitFullscreenBtn" class="btn btn--secondary btn--sm">Exit Fullscreen</button>
                 </div>
             </div>
         </div>
 
         <div class="exam-content">
             <div class="container">
-                <div id="questionContainer" class="question-container"></div>
+                <div class="question-container" id="questionContainer">
+                    <!-- Question content will be loaded here -->
+                </div>
+
                 <div class="exam-navigation">
-                    <button id="prevQuestionBtn" class="btn btn--secondary">Previous</button>
-                    <div class="flex gap-16">
-                        <button id="submitExamBtn" class="btn btn--primary">Submit Exam</button>
-                    </div>
-                    <button id="nextQuestionBtn" class="btn btn--secondary">Next</button>
+                    <button id="prevQuestionBtn" class="btn btn--outline">← Previous</button>
+                    <button id="submitExamBtn" class="btn btn--warning">🚀 Submit Exam</button>
+                    <button id="nextQuestionBtn" class="btn btn--primary">Next →</button>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Results Screen -->
     <div id="resultsScreen" class="screen hidden">
         <div class="container">
-            <div id="resultsContent"></div>
-            <div class="text-center mt-16">
-                <button id="backToDashboardBtn" class="btn btn--primary">Back to Dashboard</button>
+            <div class="results-container">
+                <div class="results-summary">
+                    <h1>🎉 Assessment Completed!</h1>
+                    <div id="resultStreamBadge" class="stream-badge-large"></div>
+                    <div class="score-display" id="finalScore">0/10</div>
+                    <div class="percentage-display">
+                        <span id="finalPercentage">0%</span>
+                    </div>
+                    <div class="grade-display">
+                        <span class="grade-badge" id="finalGrade">F</span>
+                    </div>
+
+                    <div class="result-stats-summary">
+                        <div class="stat-item">
+                            <span class="stat-label">Stream:</span>
+                            <span class="stat-value" id="resultStream">Engineering</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Subject:</span>
+                            <span class="stat-value" id="resultSubject">Subject Name</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Time Taken:</span>
+                            <span class="stat-value" id="examDuration">00:00</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">MCQ Score:</span>
+                            <span class="stat-value" id="mcqScoreResult">0/8</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Descriptive Score:</span>
+                            <span class="stat-value" id="descriptiveScoreResult">0/20</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-section">
+                    <h2>📋 Detailed Performance Review</h2>
+                    <div id="examReview">
+                        <!-- Review content will be loaded here -->
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <button id="backToDashboardBtn" class="btn btn--primary btn--lg">
+                        🏠 Return to Dashboard
+                    </button>
+                </div>
             </div>
         </div>
     </div>
 
+    <!-- Loading Modal -->
     <div id="loadingModal" class="modal hidden">
         <div class="modal-content">
             <div class="modal-body text-center">
                 <div class="loading-spinner"></div>
-                <p>Loading question bank...</p>
+                <h3 id="loadingTitle">Loading System...</h3>
+                <p id="loadingDescription">Please wait while the system initializes...</p>
             </div>
         </div>
     </div>
 
-    <div id="fullscreenWarningModal" class="modal hidden">
+    <!-- Custom Modal -->
+    <div id="customModal" class="modal hidden">
         <div class="modal-content">
             <div class="modal-header">
-                <h3>Fullscreen Required</h3>
+                <h3 id="modalTitle">Modal Title</h3>
+                <button id="closeModal" class="close-button">×</button>
             </div>
-            <div class="modal-body">
-                <p>You have exited fullscreen mode. Please return to fullscreen to continue your exam.</p>
-                <div class="modal-actions">
-                    <button id="returnFullscreenBtn" class="btn btn--primary">Return to Fullscreen</button>
-                    <button id="exitExamBtn" class="btn btn--secondary">Exit Exam</button>
-                </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Dynamic content -->
+            </div>
+            <div class="modal-actions" id="modalActions">
+                <!-- Dynamic actions -->
             </div>
         </div>
     </div>
 
+    <!-- Scripts -->
     <script src="sbert-evaluator.js"></script>
     <script src="app.js"></script>
 </body>
